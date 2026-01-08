@@ -48,152 +48,86 @@ markup:
       xhtml: false
 
 params:
-  author: Nusser Studios
+  author: European Dream
   authorimage: ../assets/images/global/author.webp
-  og_image: /images/tailbliss-cover.png
-  moto: "Super Fast, and Flexible"
-  description: "A Hugo theme built with love, using TailwindCSS, Alpine.JS, and Hugo Pipes. Images are optimized for use with Hugo Pipes for WebP format."
+  og_image: /images/european-dream-og.png
+  moto: "Exploring non-transactional cooperation"
+  description: "An experimental initiative exploring whether human cooperation can function with reduced dependence on currency-based relations, within the EU legal framework."
   disable_theme_toggle: false
-  newsletter_signup: true
+  newsletter_signup: false
 
   p1:
-    heading: "Our mission"
+    heading: "Our purpose"
     image: "images/pages/our-mission.png"
     content:
-      - text: "Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc nisl netus morbi vl porttitor vitae ut. Amet vitae fames senectus vitae."
-      - text: "Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna. Sollicitudin tristique eroserat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna."
-      - text: "Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt vel ultricies. Vulputate aliquet velit faucibus semper. Pellentesque in venenatis vestibulum consectetur nibh id. In id ut tempus egestas. Enim sit aliquam nec, a. Morbi enim fermentum lacus in. Viverra."
+      - text: "European Dream is an experimental initiative exploring whether and how human cooperation can function with a reduced dependence on currency-based, transactional relations, within the legal, social, and cultural framework of the European Union."
+      - text: "The project does not propose a ready-made alternative system. Its purpose is to test, document, and evaluate possibilities that do not yet have a stable or agreed form."
+      - text: "Modern societies are structurally organised around currency as the primary coordination mechanism. European Dream starts from the assumption that this model, while efficient, may be insufficient to address long-term social cohesion, ecological limits, and human well-being. This assumption is treated as a hypothesis to be examined through practice, not as a truth."
+
   p2:
-    heading: "Just in time for Hacktoberfest with JIT Tailwind."
-    image: "images/pages/hacktoberfest.jpg"
+    heading: "An experimental approach"
+    image: "images/pages/our-mission.png"
     content:
-      - text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at purus non enim commodo tincidunt vel in nulla. Aenean pretium dolor non ultricies bibendum. Etiam quis blandit enim. Nunc condimentum ut lorem in faucibus. Phasellus varius ligula et commodo tristique. Nunc sodales nisl nec laoreet vehicula. Donec velit nibh, sollicitudin at nulla a, egestas dignissim eros. Sed lacinia hendrerit interdum. Vestibulum pellentesque sem venenatis nisl tempor accumsan sit amet tempus felis. Mauris leo diam, porttitor nec bibendum id, tempus ac nulla. Etiam congue ornare erat at convallis. Donec in nisi dapibus, mattis risus vel, imperdiet enim. Donec fermentum sit amet tortor nec tincidunt. Nam nec lectus tortor. Nunc sit amet laoreet orci, porta ornare massa. Phasellus eget lorem mi. Nam eleifend ultricies sapien, quis mollis leo bibendum at. Quisque viverra lorem sit amet magna aliquet, et dignissim arcu eleifend."
-      - type: "table"
-        columns:
-          - heading: "Column 1"
-            items:
-              - "Bullet point 1"
-              - "Bullet point 2"
-              - "Bullet point 3"
-          - heading: "Column 2"
-            items:
-              - "Bullet point 4"
-              - "Bullet point 5"
-              - "Bullet point 6"
-  p3:
-    heading: "Backed by world-renowned investors"
-    content:
-      - text: "Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc nisl netus morbi vel porttitor vitae ut. Amet vitae fames senectus vitae."
-    links:
-      - text: Meet our investors and advisors
-        url: "#"
-    logos:
-      - identifier: a
-        image: "images/global/sample-logo.svg"
-        alt: "a"
-      - identifier: b
-      - identifier: c
-      - identifier: d
-      - identifier: e
-      - identifier: f
+      - text: "The initiative explores paths away from purely transactional logic, potentially involving partial de-monetisation of certain activities, non-monetary forms of contribution and reciprocity, shared responsibility over shared ownership, and trust-based or commons-oriented coordination models. No specific model is privileged. Failure is an acceptable and expected outcome."
+
   p4:
-    heading: "From the blog"
+    heading: "Latest updates"
     content:
-      - text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa libero labore natus atque, ducimus sed."
-  p5:
-    heading: "Stay Up to Date"
-    content:
-      - text: "Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque."
-    action: "#"
-    label: "Email address"
-    placeholder: "Enter your email"
-    button: "Notify me"
+      - text: "Follow the progress of our experimental journey."
 
   social_media:
     github:
       enabled: true
       url: 'https://github.com/European-Dream'
     facebook:
-      enabled: true
-      url: 'https://facebook.com/nusserstudios'
+      enabled: false
+      url: ''
     instagram:
-      enabled: true
-      url: 'https://instagram.com/nusserstudios'
+      enabled: false
+      url: ''
     twitter:
-      enabled: true
-      url: 'https://twitter.com/nusserstudios'
+      enabled: false
+      url: ''
 
 
 menu:
   main:
-    - identifier: prose
-      name: Prose
-      url: /prose/
+    - identifier: why
+      name: Why?
+      url: /why/
       weight: 10
-    - identifier: about
-      name: About
-      url: /about/
+    - identifier: goals
+      name: Our Goals
+      url: /goals/
       weight: 20
-    - identifier: categories
-      pre: dropdown
-      name: Categories
+    - identifier: roadmap
+      name: Roadmap
+      url: /roadmap/
       weight: 30
-    - identifier: dropdown
-      pre: complexdropdown
-      name: Dropdown
-      weight: 40
     - identifier: contact
       name: Contact
       url: /contact/
-      weight: 50
-  categories:
-    - identifier: prose
-      name: Prose
-      url: /prose/
-      weight: 10
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 20
-  dropdown:
-    - identifier: appearance
-      pre: stars # can be stars, comments or piechart
-      name: Appearance
-      post: "Easy customization"
-      url: "#"
-      weight: 10
-    - identifier: comments
-      pre: comments # can be stars, comments or piechart
-      name: Comments
-      post: "Check your latest comments"
-      url: "#"
-      weight: 20
-    - identifier: analytics
-      pre: piechart # can be stars, comments or piechart
-      name: Analytics
-      post: "Take a look at your statistics"
-      url: "#"
-      weight: 30
+      weight: 40
   footer:
-    - identifier: about
-      name: About
-      url: /about/
+    - identifier: why
+      name: Why?
+      url: /why/
       weight: 10
-    - identifier: blog
-      name: Blog
-      url: /categories/blog/
+    - identifier: goals
+      name: Our Goals
+      url: /goals/
       weight: 20
-    - identifier: news
-      name: News
-      url: /categories/news/
+    - identifier: roadmap
+      name: Roadmap
+      url: /roadmap/
       weight: 30
-    - identifier: prose
-      name: Prose
-      url: /prose/
-      weight: 40
     - identifier: contact
       name: Contact
       url: /contact/
+      weight: 40
+    - identifier: identity
+      name: Identity
+      url: /identity/
       weight: 50
 
 taxonomies:

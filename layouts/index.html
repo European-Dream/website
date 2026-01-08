@@ -16,28 +16,26 @@
                 </div>
                 <div class="col-span-6">
                     <div class="mx-auto w-full max-w-sm sm:max-w-md lg:max-w-lg hero-container">
-                        {{/* Use Hugo's image processing for optimized responsive images */}}
-                        {{ $heroImage := resources.Get "images/pages/tailbliss-rocket-indigo.png" }}
+                        {{ $heroImage := resources.Get "images/pages/hero-logo.png" }}
                         {{ if $heroImage }}
                             {{ $heroWebP := $heroImage.Resize "576x576 webp q85" }}
                             {{ $heroWebPSmall := $heroImage.Resize "320x320 webp q85" }}
-                            <img 
-                                src="{{ $heroWebP.RelPermalink }}" 
+                            <img
+                                src="{{ $heroWebP.RelPermalink }}"
                                 srcset="{{ $heroWebPSmall.RelPermalink }} 320w, {{ $heroWebP.RelPermalink }} 576w"
                                 sizes="(max-width: 640px) 320px, 576px"
-                                alt="TailBliss Hero" 
-                                class="overflow-hidden mx-auto rounded-2xl shadow-xl hero-image"
-                                width="576" 
+                                alt="European Dream"
+                                class="overflow-hidden mx-auto rounded-2xl hero-image"
+                                width="576"
                                 height="576"
                                 loading="eager"
                                 fetchpriority="high" />
                         {{ else }}
-                            {{/* Fallback to static image */}}
-                            <img 
-                                src="/images/tailbliss-rocket-indigo.webp" 
-                                alt="TailBliss Hero" 
-                                class="overflow-hidden mx-auto rounded-2xl shadow-xl hero-image"
-                                width="576" 
+                            <img
+                                src="/images/hero-logo.png"
+                                alt="European Dream"
+                                class="overflow-hidden mx-auto rounded-2xl hero-image"
+                                width="576"
                                 height="576"
                                 loading="eager"
                                 fetchpriority="high" />
@@ -137,46 +135,8 @@
     </div>
 
 
-    <!-- Sponsors section -->
-    <div class="px-4 mx-auto max-w-md md:pt-24 md:pb-16 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
-        <div class="lg:grid lg:grid-cols-2 lg:items-center lg:gap-24">
-            <div class="grid grid-cols-2 gap-0.5 mt-12 md:grid-cols-3 lg:mt-0 lg:grid-cols-2">
-                {{ range .Site.Params.P3.Logos }}
-                <div class="flex col-span-1 justify-center px-8 py-8 bg-gray-50 dark:bg-gray-900/10">
-                    {{ if .image }}
-                    {{ $sponsor := resources.Get .image }}
-                    {{ if eq $sponsor.MediaType.SubType "svg" }}
-                    <img src="{{ $sponsor.RelPermalink }}" width="138" height="48" class="max-h-12 dark:invert" alt="{{ .alt }}" loading="lazy" />
-                    {{ else }}
-                    <img src="{{ $sponsor.RelPermalink }}" width="{{ $sponsor.Width }}" height="{{ $sponsor.Height }}" class="max-h-12 dark:invert" alt="{{ .alt }}" loading="lazy" />
-                    {{ end }}
-                    {{ else }}
-                    {{ $sponsor := resources.Get "images/global/sample-logo.svg" }}
-                    <img src="{{ $sponsor.RelPermalink }}" width="138" height="48" class="max-h-12 dark:invert" alt="{{ .alt }}" loading="lazy" />
-                    {{ end }}
-                </div>
-                {{ end }}
-            </div>
-            <div>
-                <h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl">
-                    {{ .Site.Params.P3.Heading }}
-                </h2>
-                {{ range .Site.Params.P3.Content }}
-                <p class="mt-6 max-w-3xl text-lg leading-7 text-gray-900 dark:text-white">
-                    {{ .text }}
-                </p>
-                {{ end }}
-                {{ range .Site.Params.P3.Links }}
-                <div class="my-6">
-                    <a href="{{ .url }}" class="text-base font-medium text-primary-400 dark:text-primary-100">
-                        {{ .text }}&nbsp&rarr;
-                    </a>
-                </div>
-                {{ end }}
-            </div>
-        </div>
-    </div>
-
+    {{ $posts := where .Site.RegularPages "Section" "posts" }}
+    {{ if gt (len $posts) 0 }}
     <!-- Blog section -->
     <div class="relative px-1 pt-8 pb-4 bg-transparent lg:px-8 lg:pt-12 lg:mb-4 md:mt-12">
         <div class="absolute inset-0">
@@ -197,7 +157,7 @@
             <div class="mx-auto max-w-7xl text-gray-900 dark:text-gray-50 md:px-1.5">
                 <div class="px-4 text-gray-900 dark:text-white not-prose dark:text-zinc-200">
                     <div class="grid gap-4 mx-auto mt-12 mb-4 lg:max-w-none md:grid-cols-3">
-                        {{ range (.Paginator 3).Pages }}
+                        {{ range first 3 $posts }}
                             {{ partial "post-tile.html" . }}
                         {{ end }}
                     </div>
@@ -205,9 +165,7 @@
             </div>
         </div>
     </div>
-
-    {{/* Newsletter signup section */}}
-    {{ partial "newsletter.html" . }}
+    {{ end }}
 
 </main>
 {{ end }}
