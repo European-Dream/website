@@ -10,6 +10,7 @@
 - [Licensing](#licensing)
   - [Website Code](#website-code)
   - [Website Content](#website-content)
+  - [Name, Logo and Visual Identity](#name-logo-and-visual-identity)
 
 ---
 
@@ -75,3 +76,16 @@ CC-BY-SA-4.0
 ```
 
 Attribution must be given to **European Dream**.
+
+### Name, Logo and Visual Identity
+
+The name **European Dream**, its logo(s), and associated visual identity elements (collectively, the “European Dream Identity”) are **not** covered by the licences
+above.
+
+They are **not licensed** under the EUPL-1.2 nor under CC BY-SA 4.0.
+
+The European Dream Identity may not be used in a manner that suggests official affiliation, endorsement, or representation without prior authorisation.
+
+Nominative use (i.e. factual reference to the project) is permitted.
+
+Forks, derivative works, or independent initiatives based on the licensed code or content must use a **different name and visual identity**.
