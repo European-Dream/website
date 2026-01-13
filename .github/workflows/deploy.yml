@@ -80,8 +80,8 @@ jobs:
         with:
           path: ./public
 
-  deploy:
-    name: Deploy
+  deployment:
+    name: Deployment
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
