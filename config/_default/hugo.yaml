@@ -1,7 +1,6 @@
 baseURL: 'https://european-dream.eu/'
 title: 'European Dream'
 languageCode: en
-# theme: tailbliss
 DefaultContentLanguage: en
 enableEmoji: true
 enableGitInfo: false
@@ -9,8 +8,6 @@ enableRobotsTXT: true
 canonifyURLs: false
 pagination:
   pagerSize: 9
-darkmode_js:
-  - assets/js/darkmode.js
 enableInlineShortcodes: true
 
 markup:
@@ -47,50 +44,7 @@ markup:
       unsafe: true
       xhtml: false
 
-params:
-  author: European Dream
-  authorimage: ../assets/images/global/author.webp
-  og_image: /images/european-dream-og.png
-  moto: "Exploring non-transactional cooperation"
-  description: "An experimental initiative exploring whether human cooperation can function with reduced dependence on currency-based relations, within the EU legal framework."
-  disable_theme_toggle: false
-  newsletter_signup: false
-
-  p1:
-    heading: "Our purpose"
-    image: "images/pages/our-mission.png"
-    content:
-      - text: "European Dream is an experimental initiative exploring whether and how human cooperation can function with a reduced dependence on currency-based, transactional relations, within the legal, social, and cultural framework of the European Union."
-      - text: "The project does not propose a ready-made alternative system. Its purpose is to test, document, and evaluate possibilities that do not yet have a stable or agreed form."
-      - text: "Modern societies are structurally organised around currency as the primary coordination mechanism. European Dream starts from the assumption that this model, while efficient, may be insufficient to address long-term social cohesion, ecological limits, and human well-being. This assumption is treated as a hypothesis to be examined through practice, not as a truth."
-
-  p2:
-    heading: "An experimental approach"
-    image: "images/pages/our-mission.png"
-    content:
-      - text: "The initiative explores paths away from purely transactional logic, potentially involving partial de-monetisation of certain activities, non-monetary forms of contribution and reciprocity, shared responsibility over shared ownership, and trust-based or commons-oriented coordination models. No specific model is privileged. Failure is an acceptable and expected outcome."
-
-  p4:
-    heading: "Latest updates"
-    content:
-      - text: "Follow the progress of our experimental journey."
-
-  social_media:
-    github:
-      enabled: true
-      url: 'https://github.com/European-Dream'
-    facebook:
-      enabled: false
-      url: ''
-    instagram:
-      enabled: false
-      url: ''
-    twitter:
-      enabled: false
-      url: ''
-
-
-menu:
+menus:
   main:
     - identifier: why
       name: Why?
@@ -130,39 +84,11 @@ menu:
       url: /identity/
       weight: 50
 
-taxonomies:
-  category: Categories
-  tag: Tags
-
-privacy:
-  disqus:
-    disable: true
-  googleAnalytics:
-    anonymizeIP: true
-    disable: true
-    respectDoNotTrack: false
-    useSessionStorage: false
-  instagram:
-    disable: true
-    simple: false
-  twitter:
-    disable: true
-    enableDNT: false
-    simple: false
-  vimeo:
-    disable: true
-    enableDNT: false
-    simple: false
-  youtube:
-    disable: true
-    privacyEnhanced: true
-
 module:
   hugoVersion:
     extended: true
-    min: "0.148.2"
+    min: "0.153.0"
 
-# Performance optimizations
 caches:
   assets:
     dir: :cacheDir/assets
@@ -180,8 +106,7 @@ caches:
     dir: :cacheDir/modules
     maxAge: 8760h # 1 year
 
-# Image processing defaults
 imaging:
   quality: 85
-  resampleFilter: lanczos
-  anchor: smart
+  resampleFilter: Lanczos
+  anchor: Smart
