@@ -27,6 +27,8 @@ test.describe("Accessibility tests", () => {
 });
 
 test.describe("Keyboard navigation", () => {
+  test.skip(({ isMobile }) => isMobile, "Keyboard navigation not applicable on mobile");
+
   test("should be able to navigate main menu with keyboard", async ({ page }) => {
     await page.goto("/");
 
@@ -119,13 +121,18 @@ test.describe("Semantic structure", () => {
     }
   });
 
-  test("page should have proper landmark regions", async ({ page }) => {
+  test("page should have proper landmark regions", async ({ page, isMobile }) => {
     await page.goto("/");
 
     await expect(page.locator("header[role='banner']")).toBeVisible();
     await expect(page.locator("main#main")).toBeVisible();
     await expect(page.locator("footer[role='contentinfo']")).toBeVisible();
-    await expect(page.locator("nav[role='navigation']").first()).toBeVisible();
+
+    if (isMobile) {
+      await expect(page.locator("nav.navigation--mobile")).toBeAttached();
+    } else {
+      await expect(page.locator("nav[role='navigation']").first()).toBeVisible();
+    }
   });
 
   test("images should have alt text", async ({ page }) => {
