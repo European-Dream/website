@@ -5,8 +5,8 @@
 ## Table of Contents
 
 - [Contributing](#contributing)
-  - [For non-developers](#for-non-developers)
-  - [For developers](#for-developers)
+  - [Quick Start](#quick-start)
+  - [Tech Stack](#tech-stack)
 - [Licensing](#licensing)
   - [Website Code](#website-code)
   - [Website Content](#website-content)
@@ -16,25 +16,28 @@
 
 ## Contributing
 
-> [!IMPORTANT]  
-> The textual content is first written in English using EU style: UK spelling + EU institutional terminology. Please avoid idioms and slang. We then translate it into other languages.
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed contribution guidelines.
 
-### For non-developers
+### Quick Start
 
-Simply edit the content files in the [`content/`](./content) directory via GitHub.
+**For non-developers:** Edit content files in [`content/`](./content) directly via GitHub.
 
-This will trigger a pull request, which will be reviewed, discussed if necessary, and merged if approved.
-
-### For developers
-
-The website is built using [Hugo](https://gohugo.io/). 
+**For developers:**
 
 ```sh
 git clone https://github.com/European-Dream/website.git
 cd website
-git submodule update --init --recursive
-hugo server # to start the development server
+mise install      # Install Hugo and Bun
+bun install       # Install dependencies
+bun run dev       # Start development server
 ```
+
+### Tech Stack
+
+- Hugo 0.153+ (extended)
+- Bootstrap 5.3, Sass
+- TypeScript, Bun
+- Playwright (E2E testing)
 
 ## Licensing
 
