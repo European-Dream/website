@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1152"
+   height="1152"
+   viewBox="0 0 1152 1152"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title1">European Dream Logo (v1)</title>
+  <defs
+     id="defs1" />
+  <g
+     id="g1"
+     transform="translate(-677.51404,-448.00002)">
+    <path
+       id="path3"
+       style="fill:#ffffff;fill-opacity:1;stroke-width:4"
+       d="m 1024,514.05664 a 509.94379,509.94379 0 0 0 -212.30469,46.29492 l -0.60351,6.57422 A 466,500 0 0 1 1000,524 a 466,500 0 0 1 466,500 466,500 0 0 1 -466,500 466,500 0 0 1 -268.45898,-91.3086 l -0.78125,8.5039 A 509.94379,509.94379 0 0 0 1024,1533.9434 509.94379,509.94379 0 0 0 1532.6641,1060.1035 l 53.3496,225.6035 -48.2051,-240.9941 135.9551,125.2637 -128.7949,-134.2911 110.5429,21.5508 -108.9863,-32.7578 233.2031,-75.1992 -235.6933,66.7949 100.5722,-121.1367 -108.3554,113.3535 29.5722,-263.66795 -33.8437,234.69531 A 509.94379,509.94379 0 0 0 1024,514.05664 Z" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:16;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 815.22176,567.53305 c 0,0 38.11229,25.18808 70.03759,54.23038 39.44636,35.88416 71.6915,90.29971 77.22804,108.89447 5.68013,19.077 -1.14464,24.58987 2.96178,38.992 5.47616,19.20607 18.15177,28.47544 25.47676,32.96924 30.65967,18.80941 53.07987,34.04074 87.80327,53.49952 24.0531,13.47921 37.6001,39.56194 14.0876,61.63369 -12.3924,11.63305 -16.88,10.19224 -33.4878,25.2778 -7.4935,9.61147 -10.1175,21.19021 0.043,33.13613 9.4359,11.09444 17.4145,15.42212 28.606,25.83262 4.1696,3.8787 9.3566,9.5573 2.3581,19.5969 -17.8167,25.5586 -35.11,23.6247 -53.2912,29.7319 -16.4399,1.3593 -10.0386,10.198 10.8679,7.3017 28.4147,-3.9364 34.458,-22.4104 47.546,-12.3267 8.5219,6.5657 8.0374,18.6109 5.176,25.685 -6.7816,16.7656 2.7643,40.0157 8.9117,47.3949 16.9668,20.3666 19.519,54.031 7.7991,74.1742 -29.3612,50.4638 -117.54808,33.4941 -175.09058,43.3701 -38.52524,6.612 -73.77388,18.7729 -94.65176,36.54 -61.77923,52.5743 -112.30367,161.1013 -112.30367,161.1013"
+       id="path4" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:18;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 955.15945,815.69116 c -12.34481,11.51338 -25.22584,15.90776 -39.9162,14.07476"
+       id="path5" />
+  </g>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>European Dream</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>Ivan Gabriele</dc:title>
+          </cc:Agent>
+        </dc:contributor>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>© European Dream. All rights reserved.</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:date>2026-01-08</dc:date>
+        <dc:title>European Dream Logo (v1)</dc:title>
+        <dc:description>Logo for the European Dream initiative.
+Not licensed for reuse. For identification purposes only.</dc:description>
+        <cc:license
+           rdf:resource="https://european-dream.eu/identity/" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
