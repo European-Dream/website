@@ -1,0 +1,134 @@
+@use "../abstracts" as *;
+
+.navigation__list {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navigation__item {
+  display: inline-block;
+  margin-right: rem(48);
+  margin-bottom: 0;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.navigation__link {
+  position: relative;
+  padding: 4px 0;
+  font-size: rem(16);
+  font-weight: $font-weight-bold;
+  line-height: 1;
+  color: $color-text-primary;
+  text-decoration: none;
+  transition: color $transition-base;
+
+  @include focus-visible;
+
+  &:hover,
+  &--active {
+    color: $color-brand;
+  }
+}
+
+.navigation--mobile {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  background-color: $color-background;
+  opacity: 0;
+  visibility: hidden;
+  transition: all $transition-base;
+
+  &.is-open {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  @include respond-to(lg) {
+    display: none;
+  }
+}
+
+.navigation--mobile__box {
+  display: block;
+  align-items: center;
+  width: 80%;
+  height: 80vh;
+  padding-top: rem(180);
+  margin: 0 auto;
+  text-align: center;
+  overflow-y: auto;
+
+  @include respond-to-max(md) {
+    padding-top: rem(100);
+  }
+}
+
+.navigation--mobile__title {
+  display: inline-block;
+  margin-bottom: $spacing-sm;
+  font-family: $font-family-heading;
+  font-size: rem(36);
+  font-weight: $font-weight-bold;
+  letter-spacing: -1px;
+  color: $color-text-primary;
+}
+
+.navigation--mobile .navigation__list {
+  flex-direction: column;
+  width: 100%;
+}
+
+.navigation--mobile .navigation__item {
+  display: block;
+  margin: 0;
+}
+
+.navigation--mobile .navigation__link {
+  display: inline-block;
+  padding: rem(16) 0;
+  font-size: rem(18);
+  transition: color $transition-base;
+}
+
+.navigation__close {
+  position: absolute;
+  top: rem(40);
+  right: rem(40);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  font-size: rem(24);
+  line-height: 1;
+  color: $color-text-primary;
+  background-color: $color-background-alt;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+
+  @include focus-visible;
+
+  &:hover {
+    color: $color-brand;
+
+    span {
+      transform: rotate(90deg);
+    }
+  }
+
+  span {
+    transition: transform $transition-base;
+  }
+}

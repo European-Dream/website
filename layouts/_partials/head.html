@@ -1,0 +1,49 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+
+{{ with .Description }}
+<meta name="description" content="{{ . }}">
+{{ else }}
+{{ with .Site.Params.description }}
+<meta name="description" content="{{ . }}">
+{{ end }}
+{{ end }}
+
+<meta name="robots" content="{{ if .Params.noindex }}noindex{{ else }}index, follow{{ end }}">
+
+<link rel="canonical" href="{{ .Permalink }}">
+
+{{ with .OutputFormats.Get "rss" }}
+<link rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" href="{{ .Permalink }}">
+{{ end }}
+
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:title" content="{{ .Title }}">
+{{ with .Description }}
+<meta property="og:description" content="{{ . }}">
+{{ end }}
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+{{ with .Params.featured_image }}
+{{ $image := resources.Get . }}
+{{ with $image }}
+<meta property="og:image" content="{{ .Permalink }}">
+{{ end }}
+{{ end }}
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ .Title }}">
+{{ with .Description }}
+<meta name="twitter:description" content="{{ . }}">
+{{ end }}
+
+{{ with .Site.Params.favicon }}
+<link rel="icon" type="image/x-icon" href="{{ . }}">
+{{ end }}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700;900&amp;display=swap">

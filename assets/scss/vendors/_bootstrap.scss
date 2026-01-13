@@ -1,0 +1,54 @@
+@use "../abstracts/variables" as *;
+
+$primary: $color-brand;
+$secondary: $color-text-secondary;
+$success: $color-success;
+$danger: $color-error;
+$warning: $color-warning;
+
+$body-bg: $color-background;
+$body-color: $color-text-primary;
+
+$font-family-base: $font-family-base;
+$font-size-base: $font-size-base;
+$line-height-base: $line-height-base;
+
+$link-color: $color-brand;
+$link-hover-color: $color-brand-dark;
+
+$border-radius: $border-radius-sm;
+$border-radius-sm: $border-radius-sm;
+$border-radius-lg: $border-radius-md;
+
+$spacer: 1rem;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: $breakpoint-sm,
+  md: $breakpoint-md,
+  lg: $breakpoint-lg,
+  xl: $breakpoint-xl,
+  xxl: $breakpoint-xxl
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: $container-max-width,
+  xxl: 1320px
+);
+
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/variables-dark";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/utilities";
+
+@import "bootstrap/scss/root";
+@import "bootstrap/scss/reboot";
+@import "bootstrap/scss/type";
+@import "bootstrap/scss/containers";
+@import "bootstrap/scss/grid";
+@import "bootstrap/scss/utilities/api";

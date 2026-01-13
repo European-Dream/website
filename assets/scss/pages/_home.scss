@@ -1,0 +1,89 @@
+@use "../abstracts" as *;
+
+.hero {
+  display: flex;
+  align-items: center;
+  min-height: 60vh;
+
+  @include respond-to(lg) {
+    min-height: 70vh;
+  }
+}
+
+.hero__inner {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-xxl;
+
+  @include respond-to(lg) {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.hero__content {
+  flex: 1;
+
+  @include respond-to(lg) {
+    max-width: 50%;
+    padding-right: $spacing-xxl;
+  }
+}
+
+.hero__title {
+  margin-bottom: $spacing-lg;
+  font-size: rem(36);
+  font-weight: $font-weight-black;
+  line-height: 1.2;
+  color: $color-text-primary;
+
+  @include respond-to(md) {
+    font-size: rem(48);
+  }
+
+  @include respond-to(lg) {
+    font-size: rem(56);
+  }
+}
+
+.hero__description {
+  margin-bottom: $spacing-xl;
+  font-size: $font-size-large;
+  color: $color-text-secondary;
+
+  @include respond-to(md) {
+    font-size: rem(20);
+  }
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $spacing-md;
+}
+
+.hero__image {
+  flex: 1;
+
+  @include respond-to(lg) {
+    max-width: 50%;
+  }
+}
+
+.hero__image-wrapper {
+  position: relative;
+  padding-bottom: 75%;
+  border-radius: $border-radius-lg;
+  overflow: hidden;
+  background-color: $color-background-alt;
+  box-shadow: $shadow-lg;
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

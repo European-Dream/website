@@ -1,0 +1,26 @@
+@use "../abstracts" as *;
+
+.contact {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact__header {
+  margin-bottom: $spacing-xxl;
+  text-align: center;
+}
+
+.contact__title {
+  margin-bottom: $spacing-md;
+}
+
+.contact__description {
+  color: $color-text-secondary;
+}
+
+.contact__form {
+  padding: $spacing-xl;
+  background-color: $color-background;
+  border-radius: $border-radius-md;
+  box-shadow: $shadow-sm;
+}

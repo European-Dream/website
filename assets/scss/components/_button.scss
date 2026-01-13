@@ -1,0 +1,57 @@
+@use "../abstracts" as *;
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: $spacing-md $spacing-xl;
+  font-size: $font-size-base;
+  font-weight: $font-weight-bold;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid transparent;
+  border-radius: $border-radius-sm;
+  cursor: pointer;
+  transition: all $transition-fast;
+
+  @include focus-visible;
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+}
+
+.button--primary {
+  color: $color-background;
+  background-color: $color-brand;
+  border-color: $color-brand;
+
+  &:hover:not(:disabled) {
+    color: $color-background;
+    background-color: $color-brand-dark;
+    border-color: $color-brand-dark;
+  }
+}
+
+.button--secondary {
+  color: $color-brand;
+  background-color: transparent;
+  border-color: $color-brand;
+
+  &:hover:not(:disabled) {
+    color: $color-background;
+    background-color: $color-brand;
+  }
+}
+
+.button--large {
+  padding: $spacing-lg $spacing-xxl;
+  font-size: $font-size-large;
+}
+
+.button--block {
+  display: flex;
+  width: 100%;
+}

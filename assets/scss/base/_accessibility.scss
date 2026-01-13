@@ -1,0 +1,33 @@
+@use "../abstracts" as *;
+
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: $spacing-md;
+  z-index: 1000;
+  padding: $spacing-md $spacing-lg;
+  font-weight: $font-weight-bold;
+  color: $color-background;
+  background-color: $color-brand;
+  border-radius: $border-radius-sm;
+  transition: top $transition-fast;
+
+  &:focus {
+    top: $spacing-md;
+  }
+}
+
+.visually-hidden {
+  @include visually-hidden;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

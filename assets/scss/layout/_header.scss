@@ -1,0 +1,82 @@
+@use "../abstracts" as *;
+
+.header {
+  position: relative;
+  background-color: $color-background;
+}
+
+.header__inner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: rem(32) $spacing-md;
+
+  @include respond-to(md) {
+    padding: rem(40) $spacing-md;
+  }
+
+  @include respond-to(lg) {
+    padding: rem(44) $spacing-md;
+  }
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo-link {
+  padding: 4px 0;
+  font-family: $font-family-heading;
+  font-size: rem(28);
+  font-weight: $font-weight-bold;
+  letter-spacing: -1px;
+  line-height: 1;
+  color: $color-text-primary;
+  text-decoration: none;
+  transition: color $transition-base;
+
+  &:hover {
+    color: $color-brand;
+  }
+
+  @include focus-visible;
+}
+
+.header__logo-image {
+  max-height: 50px;
+}
+
+.header__navigation {
+  display: none;
+  margin-left: auto;
+
+  @include respond-to(lg) {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.header__menu-toggle {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  padding: 0;
+  font-size: rem(24);
+  color: $color-text-primary;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color $transition-base;
+
+  @include focus-visible;
+
+  @include respond-to(lg) {
+    display: none;
+  }
+
+  &:hover {
+    color: $color-brand;
+  }
+}

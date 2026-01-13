@@ -1,6 +1,6 @@
 ---
 title: "Why?"
-date: 2026-01-08
+date: 2026-01-13
 draft: false
 language: en
 description: "Why does European Dream exist? Exploring the limitations of currency-based coordination in modern society."

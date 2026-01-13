@@ -1,6 +1,6 @@
 ---
 title: "Our Goals"
-date: 2026-01-08
+date: 2026-01-13
 draft: false
 language: en
 description: "What European Dream aims to explore: directions of experimentation, constraints, and what success might look like."

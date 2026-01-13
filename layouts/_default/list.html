@@ -1,0 +1,48 @@
+{{ define "main" }}
+<section class="section">
+  <div class="container">
+    <header class="section__header">
+      <h1 class="section__title">{{ .Title }}</h1>
+      {{ with .Description }}
+      <p class="section__description">{{ . }}</p>
+      {{ end }}
+    </header>
+
+    {{ if .Pages }}
+    <div class="row g-4">
+      {{ range .Pages }}
+      <div class="col-12 col-md-6 col-lg-4">
+        <article class="card">
+          {{ with .Params.featured_image }}
+          {{ $image := resources.Get . }}
+          {{ with $image }}
+          <div class="card__image">
+            {{ $resized := .Resize "600x webp q85" }}
+            <img
+              src="{{ $resized.RelPermalink }}"
+              width="{{ $resized.Width }}"
+              height="{{ $resized.Height }}"
+              alt="{{ $.Title }}"
+              loading="lazy"
+            >
+          </div>
+          {{ end }}
+          {{ end }}
+          <div class="card__body">
+            <h2 class="card__title">
+              <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </h2>
+            {{ with .Description }}
+            <p class="card__text">{{ . }}</p>
+            {{ end }}
+          </div>
+        </article>
+      </div>
+      {{ end }}
+    </div>
+    {{ else }}
+    <p>No content available.</p>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

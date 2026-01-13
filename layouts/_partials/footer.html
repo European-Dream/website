@@ -1,0 +1,98 @@
+<footer class="footer" role="contentinfo">
+  <div class="footer__inner">
+    <div class="container">
+      <div class="row">
+        <div class="col col-5 col-d-12">
+          <div class="footer__author">
+            <div class="footer__author-avatar">
+              <img src="https://european-dream.eu/images/pages/hero-logo_hu_e2bc1430a3f2c45d.webp" alt="{{ .Site.Title }}" />
+            </div>
+            <h3 class="footer__author-name">{{ .Site.Title }}</h3>
+            <p class="footer__author-bio">An experimental initiative exploring non-transactional human cooperation within the EU legal framework.</p>
+
+            <div class="footer__social">
+              <ul class="footer__social-list">
+                <li class="footer__social-item">
+                  <a class="footer__social-link" href="https://mastodon.social/@european_dream" target="_blank" rel="noopener" aria-label="Mastodon">
+                    <ion-icon name="logo-mastodon"></ion-icon>
+                  </a>
+                </li>
+                <li class="footer__social-item">
+                  <a class="footer__social-link" href="https://bsky.app/profile/european-dream.eu" target="_blank" rel="noopener" aria-label="BlueSky">
+                    <ion-icon src="/icons/bluesky.svg"></ion-icon>
+                  </a>
+                </li>
+                <li class="footer__social-item">
+                  <a class="footer__social-link" href="https://github.com/European-Dream/" target="_blank" rel="noopener" aria-label="GitHub">
+                    <ion-icon name="logo-github"></ion-icon>
+                  </a>
+                </li>
+                <li class="footer__social-item">
+                  <a class="footer__social-link" href="https://www.linkedin.com/company/european-dream/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
+                </li>
+                <li class="footer__social-item">
+                  <a class="footer__social-link" href="https://www.facebook.com/european.dream.official/" target="_blank" rel="noopener" aria-label="Facebook">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+                <li class="footer__social-item">
+                  <a class="footer__social-link" href="https://www.instagram.com/european_dream_official/" target="_blank" rel="noopener" aria-label="Instagram">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                </li>
+                <li class="footer__social-item">
+                  <a class="footer__social-link" href="https://www.youtube.com/@european-dream" target="_blank" rel="noopener" aria-label="YouTube">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                  </a>
+                </li>
+                <li class="footer__social-item">
+                  <a class="footer__social-link" href="https://www.tiktok.com/@european_dream_official" target="_blank" rel="noopener" aria-label="TikTok">
+                    <ion-icon name="logo-tiktok"></ion-icon>
+                  </a>
+                </li>
+                <li class="footer__social-item">
+                  <a class="footer__social-link" href="https://twitter.com/EuropeanDream_" target="_blank" rel="noopener" aria-label="Twitter">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-6 push-1 col-d-12 push-d-0">
+          <nav class="footer__navigation" aria-label="Footer navigation">
+            <ul>
+              {{ range .Site.Menus.footer }}
+              <li>
+                <a href="{{ .URL }}">{{ .Name }}</a>
+              </li>
+              {{ end }}
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer__info">
+    <div class="container">
+      <div class="row">
+        <div class="col col-12">
+          <div class="footer__info-box">
+            <div class="footer__copyright">
+              {{ now.Year }} &copy; {{ .Site.Title }}.
+              Code: <a href="https://eupl.eu/">EUPL-1.2</a>.
+              Content: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.
+            </div>
+            <a href="#top" class="footer__top" title="Top" aria-label="Scroll to top">
+              <i class="ion ion-ios-arrow-up"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

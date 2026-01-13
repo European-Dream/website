@@ -1,0 +1,15 @@
+@use "../abstracts" as *;
+
+:root {
+  --color-brand: #{$color-brand};
+  --color-brand-dark: #{$color-brand-dark};
+  --color-brand-light: #{$color-brand-light};
+  --color-text-primary: #{$color-text-primary};
+  --color-text-secondary: #{$color-text-secondary};
+  --color-text-muted: #{$color-text-muted};
+  --color-background: #{$color-background};
+  --color-background-alt: #{$color-background-alt};
+  --color-background-hero: #{$color-background-hero};
+  --color-border: #{$color-border};
+  --color-border-light: #{$color-border-light};
+}

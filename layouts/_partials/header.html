@@ -1,0 +1,65 @@
+<header class="header" id="top" role="banner">
+  <div class="container">
+    <div class="row">
+      <div class="header__inner col col-12">
+        <div class="header__logo">
+          <a href="{{ .Site.BaseURL }}" class="header__logo-link" aria-label="{{ .Site.Title }} - Home">
+            {{ .Site.Title }}
+          </a>
+        </div>
+
+        <nav class="header__navigation" role="navigation" aria-label="Main navigation">
+          <ul class="navigation__list">
+            {{ range .Site.Menus.main }}
+            <li class="navigation__item">
+              <a href="{{ .URL }}" class="navigation__link{{ if $.IsMenuCurrent "main" . }} navigation__link--active{{ end }}"{{ if $.IsMenuCurrent "main" . }} aria-current="page"{{ end }}>
+                {{ .Name }}
+              </a>
+            </li>
+            {{ end }}
+          </ul>
+        </nav>
+
+        <button
+          type="button"
+          class="header__menu-toggle"
+          aria-expanded="false"
+          aria-controls="mobile-navigation"
+          aria-label="Open menu"
+        >
+          <span aria-hidden="true">&#9776;</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<nav
+  id="mobile-navigation"
+  class="navigation--mobile"
+  role="navigation"
+  aria-label="Mobile navigation"
+  aria-hidden="true"
+>
+  <div class="navigation--mobile__box">
+    <button
+      type="button"
+      class="navigation__close"
+      aria-label="Close menu"
+    >
+      <span aria-hidden="true">&times;</span>
+    </button>
+
+    <div class="navigation--mobile__title">Menu</div>
+
+    <ul class="navigation__list">
+      {{ range .Site.Menus.main }}
+      <li class="navigation__item">
+        <a href="{{ .URL }}" class="navigation__link{{ if $.IsMenuCurrent "main" . }} navigation__link--active{{ end }}"{{ if $.IsMenuCurrent "main" . }} aria-current="page"{{ end }}>
+          {{ .Name }}
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</nav>

@@ -1,0 +1,38 @@
+@use "../abstracts" as *;
+
+.section {
+  padding: $spacing-xxl 0;
+
+  @include respond-to(md) {
+    padding: $spacing-section 0;
+  }
+}
+
+.section--hero {
+  padding: $spacing-xxl 0;
+  background-color: $color-background-hero;
+
+  @include respond-to(md) {
+    padding: $spacing-section 0;
+  }
+}
+
+.section__header {
+  margin-bottom: $spacing-xl;
+  text-align: center;
+
+  @include respond-to(md) {
+    margin-bottom: $spacing-xxl;
+  }
+}
+
+.section__title {
+  margin-bottom: $spacing-md;
+}
+
+.section__description {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  color: $color-text-secondary;
+}

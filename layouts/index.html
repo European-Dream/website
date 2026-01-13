@@ -1,3 +1,26 @@
 {{ define "main" }}
-<main id="main"></main>
+<section class="section--hero">
+  <div class="container">
+    <div class="hero">
+      <div class="hero__inner">
+        <div class="hero__content">
+          <h1 class="hero__title">Exploring non-transactional cooperation</h1>
+          <p class="hero__description">An experimental initiative exploring whether human cooperation can function with reduced dependence on currency-based relations, within the EU legal framework.</p>
+          <div class="hero__actions">
+            <a href="/why/" class="button button--primary">Learn why</a>
+            <a href="/goals/" class="button button--secondary">Our goals</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container container--narrow">
+    <div class="page__content">
+      {{ .Content }}
+    </div>
+  </div>
+</section>
 {{ end }}
