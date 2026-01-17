@@ -1,0 +1,61 @@
+{{ define "main" }}
+  <header class="page-head">
+    <div class="container">
+      <div class="row">
+        {{ with .Resources.GetMatch "images/header.*" }}
+        <div class="col col-12">
+          <div class="page-image">
+            {{ $image := . }}
+            {{ with $image.Resize "1200x webp q85" }}
+            <img
+              src="{{ .RelPermalink }}"
+              alt="{{ $.Title }}"
+              width="{{ .Width }}"
+              height="{{ .Height }}"
+              loading="eager"
+            />
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+
+        {{ with .Params.headerUnsplashId }}
+        <div class="col col-12">
+          <div class="page-image">
+            {{ partial "unsplash.html" (dict
+              "ctx" $
+              "id" .
+              "size" "raw"
+              "alt" $.Title
+            ) }}
+          </div>
+        </div>
+        {{ end }}
+
+        <div class="col col-12">
+          <div class="page__info">
+            <h1 class="page__title">{{ .Title }}</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <article class="page" id="main" tabindex="-1">
+      <div class="page__content">
+        {{ .Content }}
+      </div>
+    </article>
+  </div>
+{{ end }}
+
+{{ define "scripts" }}
+  {{ if .IsHome }}
+    {{ partial "schema-website.html" . }}
+  {{ else if eq .Params.type "Article" }}
+    {{ partial "schema-article.html" . }}
+  {{ else }}
+    {{ partial "schema-webpage.html" . }}
+  {{ end }}
+{{ end }}

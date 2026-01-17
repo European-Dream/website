@@ -61,7 +61,7 @@
 .header__menu-toggle {
   display: flex;
   align-items: center;
-  margin-left: auto;
+  margin-left: rem(16);
   padding: 0;
   font-size: rem(24);
   color: $color-text-primary;

@@ -7,6 +7,10 @@
   @include respond-to-max(sm) {
     margin-top: rem(60);
   }
+
+  hr {
+    margin: rem(20) 0;
+  }
 }
 
 .footer__inner {
@@ -40,7 +44,7 @@
   border-radius: 50%;
   overflow: hidden;
   box-shadow: 0 100px 80px rgba(0, 0, 0, 7%), 0 12.5216px 10.0172px rgba(0, 0, 0, 3.5%);
-  background-color: $color-background;
+  background-color: black;
 
   img {
     position: absolute;

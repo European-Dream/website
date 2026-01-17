@@ -1,7 +1,10 @@
 ---
-description: An experimental initiative exploring whether human cooperation can function with reduced dependence on currency-based relations, within the EU legal framework.
+description: "An experimental initiative exploring whether human cooperation can function with reduced dependence on currency-based relations, within the EU legal framework."
+date: 2026-01-13
+lastmod: 2026-01-13
+language: en
+draft: false
 ---
-
 ## Our purpose
 
 European Dream is an experimental initiative exploring whether and how human cooperation can function with a reduced dependence on currency-based, transactional relations, within the legal, social, and cultural framework of the European Union.

@@ -8,14 +8,14 @@
 
   {{ partial "header.html" . }}
 
-  <main id="main" tabindex="-1">
+  <main>
     {{ block "main" . }}{{ end }}
   </main>
 
   {{ partial "footer.html" . }}
 
   <link rel="stylesheet" href="/css/main.css">
-
   <script src="/js/main.js" defer></script>
+  {{ block "scripts" . }}{{ end }}
 </body>
 </html>

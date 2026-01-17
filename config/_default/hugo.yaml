@@ -1,14 +1,109 @@
 baseURL: 'https://european-dream.eu/'
 title: 'European Dream'
-languageCode: en
-DefaultContentLanguage: en
+
+canonifyURLs: false
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
 enableEmoji: true
 enableGitInfo: false
+enableInlineShortcodes: true
 enableRobotsTXT: true
-canonifyURLs: false
 pagination:
   pagerSize: 9
-enableInlineShortcodes: true
+
+caches:
+  assets:
+    dir: :cacheDir/assets
+    maxAge: "0s" # Disable caching in development
+  getcsv:
+    dir: :cacheDir/getcsv
+    maxAge: 3600s # 1 hour
+  getjson:
+    dir: :cacheDir/getjson
+    maxAge: 3600s # 1 hour
+  images:
+    dir: :cacheDir/images
+    maxAge: 8760h # 1 year
+  modules:
+    dir: :cacheDir/modules
+    maxAge: 8760h # 1 year
+
+imaging:
+  quality: 85
+  resampleFilter: Lanczos
+  anchor: Smart
+
+languages:
+  en:
+    languageCode: en
+    languageName: English
+    weight: 1
+    params:
+      description: 'An experimental initiative exploring non-transactional human cooperation within the EU legal framework.'
+    menus:
+      main:
+        # - identifier: a-call-to-dream
+        #   name: A Call To Dream
+        #   url: /a-call-to-dream/
+        #   weight: 10
+        - identifier: why
+          name: Why?
+          url: /why/
+          weight: 10
+        - identifier: goals
+          name: Our Goals
+          url: /goals/
+          weight: 20
+        - identifier: roadmap
+          name: Roadmap
+          url: /roadmap/
+          weight: 30
+        - identifier: contact
+          name: Contact
+          url: /contact/
+          weight: 40
+      footer:
+        - identifier: identity
+          name: Identity
+          url: /identity/
+          weight: 10
+        - identifier: website-elements
+          name: Website Elements
+          url: /website-elements/
+          weight: 20
+  # fr:
+  #   languageCode: fr
+  #   languageName: Français
+  #   weight: 2
+  #   params:
+  #     description: Une initiative expérimentale explorant la coopération humaine non transactionnelle dans le cadre juridique de l'UE.
+  #   menus:
+  #     main:
+  #       - identifier: a-call-to-dream
+  #         name: Un Appel à Rêver
+  #         url: /fr/a-call-to-dream/
+  #         weight: 10
+  #       - identifier: contact
+  #         name: Contacts
+  #         url: /fr/contact/
+  #         weight: 40
+  #     footer:
+  #       - identifier: why
+  #         name: Pourquoi ?
+  #         url: /fr/why/
+  #         weight: 10
+  #       - identifier: goals
+  #         name: Nos Objectifs
+  #         url: /fr/goals/
+  #         weight: 20
+  #       - identifier: roadmap
+  #         name: Feuille de Route
+  #         url: /fr/roadmap/
+  #         weight: 30
+  #       - identifier: identity
+  #         name: Identité
+  #         url: /fr/identity/
+  #         weight: 50
 
 markup:
   goldmark:
@@ -34,7 +129,7 @@ markup:
         rightSingleQuote: '&rsquo;'
     parser:
       attribute:
-        block: false
+        block: true
         title: true
       autoHeadingID: true
       autoHeadingIDType: github
@@ -44,69 +139,16 @@ markup:
       unsafe: true
       xhtml: false
 
-menus:
-  main:
-    - identifier: why
-      name: Why?
-      url: /why/
-      weight: 10
-    - identifier: goals
-      name: Our Goals
-      url: /goals/
-      weight: 20
-    - identifier: roadmap
-      name: Roadmap
-      url: /roadmap/
-      weight: 30
-    - identifier: contact
-      name: Contact
-      url: /contact/
-      weight: 40
-  footer:
-    - identifier: why
-      name: Why?
-      url: /why/
-      weight: 10
-    - identifier: goals
-      name: Our Goals
-      url: /goals/
-      weight: 20
-    - identifier: roadmap
-      name: Roadmap
-      url: /roadmap/
-      weight: 30
-    - identifier: contact
-      name: Contact
-      url: /contact/
-      weight: 40
-    - identifier: identity
-      name: Identity
-      url: /identity/
-      weight: 50
-
 module:
   hugoVersion:
     extended: true
     min: "0.153.0"
 
-caches:
-  assets:
-    dir: :cacheDir/assets
-    maxAge: "0s" # Disable caching in development
-  getcsv:
-    dir: :cacheDir/getcsv
-    maxAge: 3600s # 1 hour
-  getjson:
-    dir: :cacheDir/getjson
-    maxAge: 3600s # 1 hour
-  images:
-    dir: :cacheDir/images
-    maxAge: 8760h # 1 year
-  modules:
-    dir: :cacheDir/modules
-    maxAge: 8760h # 1 year
+params:
+  utmSource: european_dream
 
-imaging:
-  quality: 85
-  resampleFilter: Lanczos
-  anchor: Smart
+security:
+  funcs:
+    getenv:
+      - '^HUGO_'
+      - 'UNSPLASH_API_ACCESS_KEY'

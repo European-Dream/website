@@ -1,10 +1,13 @@
 ---
 title: "Why?"
-date: 2026-01-13
-draft: false
-language: en
 description: "Why does European Dream exist? Exploring the limitations of currency-based coordination in modern society."
-type: page
+date: 2026-01-13
+lastmod: 2026-01-13
+language: en
+draft: false
+params:
+  headerUnsplashId: 7hu0jZRuRaA
+  type: Article
 ---
 
 ## The question we cannot ignore

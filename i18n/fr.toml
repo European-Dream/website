@@ -1,0 +1,32 @@
+[siteDescription]
+other = "Une initiative expérimentale explorant la coopération humaine non transactionnelle dans le cadre juridique de l'UE."
+
+[menu]
+other = "Menu"
+
+[mainNavigation]
+other = "Navigation principale"
+
+[mobileNavigation]
+other = "Navigation mobile"
+
+[footerNavigation]
+other = "Navigation pied de page"
+
+[openMenu]
+other = "Ouvrir le menu"
+
+[closeMenu]
+other = "Fermer le menu"
+
+[scrollToTop]
+other = "Retour en haut"
+
+[home]
+other = "Accueil"
+
+[codeLabel]
+other = "Code"
+
+[contentLabel]
+other = "Contenu"

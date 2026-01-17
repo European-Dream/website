@@ -1,0 +1,11 @@
+{{- $dest := .Destination | safeURL -}}
+{{- $text := .Text | safeHTML -}}
+
+{{- $isExternal := or (hasPrefix $dest "https://") (hasPrefix $dest "mailto:") -}}
+
+<a href="{{ $dest }}"
+  {{- with .Title }} title="{{ . }}"{{ end -}}
+  {{- if $isExternal }} target="_blank" rel="noopener" aria-label="{{ $text }} (opens in a new tab)"{{ end -}}
+>
+  {{- $text -}}
+</a>

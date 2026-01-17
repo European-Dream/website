@@ -1,10 +1,13 @@
 ---
 title: "Our Goals"
-date: 2026-01-13
-draft: false
-language: en
 description: "What European Dream aims to explore: directions of experimentation, constraints, and what success might look like."
-type: page
+date: 2026-01-13
+lastmod: 2026-01-13
+language: en
+draft: false
+params:
+  headerUnsplashId: 7hu0jZRuRaA
+  type: Article
 ---
 
 ## What we aim to explore

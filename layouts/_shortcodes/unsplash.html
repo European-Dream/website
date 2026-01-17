@@ -1,0 +1,10 @@
+{{- $id := .Get 0 -}}
+{{- $alt := .Get "alt" -}}
+{{- $size := default "regular" (.Get "size") -}}
+
+{{- partial "unsplash.html" (dict
+  "ctx" .
+  "id" $id
+  "alt" $alt
+  "size" $size
+) -}}

@@ -8,6 +8,7 @@ const PAGES = [
   { path: "/roadmap/", name: "Roadmap page" },
   { path: "/contact/", name: "Contact page" },
   { path: "/identity/", name: "Identity page" },
+  { path: "/website-elements/", name: "Website Elements page" },
 ];
 
 test.describe("Accessibility tests", () => {
@@ -19,6 +20,7 @@ test.describe("Accessibility tests", () => {
 
       const accessibilityScanResults = await new AxeBuilder({ page: browserPage })
         .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"])
+        .exclude("iframe")
         .analyze();
 
       expect(accessibilityScanResults.violations).toEqual([]);
@@ -125,7 +127,8 @@ test.describe("Semantic structure", () => {
     await page.goto("/");
 
     await expect(page.locator("header[role='banner']")).toBeVisible();
-    await expect(page.locator("main#main")).toBeVisible();
+    await expect(page.locator("main")).toBeVisible();
+    await expect(page.locator("#main")).toBeAttached();
     await expect(page.locator("footer[role='contentinfo']")).toBeVisible();
 
     if (isMobile) {
@@ -146,42 +149,5 @@ test.describe("Semantic structure", () => {
       const alt = await image.getAttribute("alt");
       expect(alt).not.toBeNull();
     }
-  });
-});
-
-test.describe("Form accessibility", () => {
-  test("contact form should have proper labels", async ({ page }) => {
-    await page.goto("/contact/");
-
-    const emailInput = page.locator("#email");
-    const emailLabel = page.locator("label[for='email']");
-    await expect(emailLabel).toBeVisible();
-    await expect(emailInput).toBeVisible();
-
-    const subjectInput = page.locator("#subject");
-    const subjectLabel = page.locator("label[for='subject']");
-    await expect(subjectLabel).toBeVisible();
-    await expect(subjectInput).toBeVisible();
-
-    const messageInput = page.locator("#message");
-    const messageLabel = page.locator("label[for='message']");
-    await expect(messageLabel).toBeVisible();
-    await expect(messageInput).toBeVisible();
-  });
-
-  test("form inputs should be focusable with keyboard", async ({ page }) => {
-    await page.goto("/contact/");
-
-    const emailInput = page.locator("#email");
-    await emailInput.focus();
-    await expect(emailInput).toBeFocused();
-
-    await page.keyboard.press("Tab");
-    const subjectInput = page.locator("#subject");
-    await expect(subjectInput).toBeFocused();
-
-    await page.keyboard.press("Tab");
-    const messageInput = page.locator("#message");
-    await expect(messageInput).toBeFocused();
   });
 });

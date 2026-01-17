@@ -1,0 +1,32 @@
+[siteDescription]
+other = "An experimental initiative exploring non-transactional human cooperation within the EU legal framework."
+
+[menu]
+other = "Menu"
+
+[mainNavigation]
+other = "Main navigation"
+
+[mobileNavigation]
+other = "Mobile navigation"
+
+[footerNavigation]
+other = "Footer navigation"
+
+[openMenu]
+other = "Open menu"
+
+[closeMenu]
+other = "Close menu"
+
+[scrollToTop]
+other = "Scroll to top"
+
+[home]
+other = "Home"
+
+[codeLabel]
+other = "Code"
+
+[contentLabel]
+other = "Content"

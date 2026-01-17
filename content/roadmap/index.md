@@ -1,10 +1,13 @@
 ---
 title: "Roadmap"
-date: 2026-01-13
-draft: false
-language: en
 description: "The legal and organisational path for European Dream: where we are, where we are going, and how we plan to get there."
-type: page
+date: 2026-01-13
+lastmod: 2026-01-13
+language: en
+draft: false
+params:
+  headerUnsplashId: 7hu0jZRuRaA
+  type: Article
 ---
 
 ## Current status

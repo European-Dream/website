@@ -5,10 +5,10 @@
         <div class="col col-5 col-d-12">
           <div class="footer__author">
             <div class="footer__author-avatar">
-              <img src="https://european-dream.eu/images/pages/hero-logo_hu_e2bc1430a3f2c45d.webp" alt="{{ .Site.Title }}" />
+              <img src="{{ "images/logo.svg" | relURL }}" alt="{{ .Site.Title }} logo" />
             </div>
             <h3 class="footer__author-name">{{ .Site.Title }}</h3>
-            <p class="footer__author-bio">An experimental initiative exploring non-transactional human cooperation within the EU legal framework.</p>
+            <p class="footer__author-bio">{{ i18n "siteDescription" }}</p>
 
             <div class="footer__social">
               <ul class="footer__social-list">
@@ -33,37 +33,23 @@
                   </a>
                 </li>
                 <li class="footer__social-item">
-                  <a class="footer__social-link" href="https://www.facebook.com/european.dream.official/" target="_blank" rel="noopener" aria-label="Facebook">
-                    <img src="/icons/facebook.svg" alt="" aria-hidden="true" width="20" height="20" />
-                  </a>
-                </li>
-                <li class="footer__social-item">
-                  <a class="footer__social-link" href="https://www.instagram.com/european_dream_official/" target="_blank" rel="noopener" aria-label="Instagram">
-                    <img src="/icons/instagram.svg" alt="" aria-hidden="true" width="20" height="20" />
-                  </a>
-                </li>
-                <li class="footer__social-item">
-                  <a class="footer__social-link" href="https://www.youtube.com/@european-dream" target="_blank" rel="noopener" aria-label="YouTube">
-                    <img src="/icons/youtube.svg" alt="" aria-hidden="true" width="20" height="20" />
-                  </a>
-                </li>
-                <li class="footer__social-item">
-                  <a class="footer__social-link" href="https://www.tiktok.com/@european_dream_official" target="_blank" rel="noopener" aria-label="TikTok">
-                    <img src="/icons/tiktok.svg" alt="" aria-hidden="true" width="20" height="20" />
-                  </a>
-                </li>
-                <li class="footer__social-item">
-                  <a class="footer__social-link" href="https://x.com/EuropeanDream_" target="_blank" rel="noopener" aria-label="X">
-                    <img src="/icons/x.svg" alt="" aria-hidden="true" width="20" height="20" />
+                  <a class="footer__social-link" href="https://medium.com/@european_dream" target="_blank" rel="noopener" aria-label="Medium">
+                    <img src="/icons/medium-light.svg" alt="" aria-hidden="true" width="20" height="20" />
                   </a>
                 </li>
               </ul>
+
+              <hr />
+
+              {{ with site.GetPage "contact" }}
+                <p><small><a href="{{ .RelPermalink }}#social-media">Our use of social media</a></small></p>
+              {{ end }}
             </div>
           </div>
         </div>
 
         <div class="col col-6 push-1 col-d-12 push-d-0">
-          <nav class="footer__navigation" aria-label="Footer navigation">
+          <nav class="footer__navigation" aria-label="{{ i18n "footerNavigation" }}">
             <ul>
               {{ range .Site.Menus.footer }}
               <li>
@@ -84,10 +70,10 @@
           <div class="footer__info-box">
             <div class="footer__copyright">
               {{ now.Year }} &copy; {{ .Site.Title }}.
-              Code: <a href="https://eupl.eu/">EUPL-1.2</a>.
-              Content: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.
+              {{ i18n "codeLabel" }}: <a href="https://eupl.eu/" rel="noopener noreferrer" target="_blank">EUPL-1.2</a>.
+              {{ i18n "contentLabel" }}: <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener noreferrer" target="_blank">CC BY-SA 4.0</a>.
             </div>
-            <a href="#top" class="footer__top" aria-label="Scroll to top">
+            <a href="#top" class="footer__top" aria-label="{{ i18n "scrollToTop" }}">
               <svg aria-hidden="true" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
             </a>
           </div>

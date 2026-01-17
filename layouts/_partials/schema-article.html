@@ -1,0 +1,19 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ .Title | jsonify }},
+  "description": {{ .Params.description | default .Summary | jsonify }},
+  "datePublished": "{{ .Date }}",
+  "dateModified": "{{ .Lastmod }}",
+  "url": "{{ .Permalink }}",
+  "author": {
+    "@type": "Organization",
+    "name": "European Dream"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "European Dream"
+  }
+}
+</script>

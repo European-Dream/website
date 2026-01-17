@@ -3,12 +3,12 @@
     <div class="row">
       <div class="header__inner col col-12">
         <div class="header__logo">
-          <a href="{{ .Site.BaseURL }}" class="header__logo-link" aria-label="{{ .Site.Title }} - Home">
+          <a href="{{ site.Home.RelPermalink }}" class="header__logo-link" aria-label="{{ .Site.Title }} - {{ i18n "home" }}">
             {{ .Site.Title }}
           </a>
         </div>
 
-        <nav class="header__navigation" role="navigation" aria-label="Main navigation">
+        <nav class="header__navigation" role="navigation" aria-label="{{ i18n "mainNavigation" }}">
           <ul class="navigation__list">
             {{ range .Site.Menus.main }}
             <li class="navigation__item">
@@ -25,7 +25,7 @@
           class="header__menu-toggle"
           aria-expanded="false"
           aria-controls="mobile-navigation"
-          aria-label="Open menu"
+          aria-label="{{ i18n "openMenu" }}"
         >
           <span aria-hidden="true">&#9776;</span>
         </button>
@@ -38,19 +38,19 @@
   id="mobile-navigation"
   class="navigation--mobile"
   role="navigation"
-  aria-label="Mobile navigation"
+  aria-label="{{ i18n "mobileNavigation" }}"
   aria-hidden="true"
 >
   <div class="navigation--mobile__box">
     <button
       type="button"
       class="navigation__close"
-      aria-label="Close menu"
+      aria-label="{{ i18n "closeMenu" }}"
     >
       <span aria-hidden="true">&times;</span>
     </button>
 
-    <div class="navigation--mobile__title">Menu</div>
+    <div class="navigation--mobile__title">{{ i18n "menu" }}</div>
 
     <ul class="navigation__list">
       {{ range .Site.Menus.main }}
@@ -61,5 +61,23 @@
       </li>
       {{ end }}
     </ul>
+
+    <!--<div class="navigation--mobile__language">
+      {{ if .IsTranslated }}
+        {{ range .Translations }}
+        <a href="{{ .RelPermalink }}" class="language-switcher" lang="{{ .Lang }}" hreflang="{{ .Lang }}">
+          {{ index (dict "en" "English" "fr" "Français") .Lang }}
+        </a>
+        {{ end }}
+      {{ else }}
+        {{ range site.Languages }}
+          {{ if ne .Lang $.Lang }}
+          <a href="{{ (site.GetPage "/").RelPermalink | printf "/%s%s" .Lang }}" class="language-switcher" lang="{{ .Lang }}" hreflang="{{ .Lang }}">
+            {{ index (dict "en" "English" "fr" "Français") .Lang }}
+          </a>
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    </div>-->
   </div>
 </nav>

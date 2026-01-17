@@ -2,9 +2,12 @@
 title: "Name, Logo and Visual Identity"
 description: "Ownership and permitted use of the European Dream name, logo, and visual identity, distinct from the project’s open licences."
 date: 2026-01-13
-draft: false
+lastmod: 2026-01-13
 language: en
-type: page
+draft: false
+params:
+  headerUnsplashId: 8dgFq8Vbelo
+  type: WebPage
 ---
 
 ## European Dream – Name, Logo and Visual Identity
@@ -70,8 +73,8 @@ must use a **different name and visual identity**.
 ## Relationship with open licences
 
 European Dream publishes:
-- software under the **European Union Public License (EUPL)**,
-- editorial content under the **Creative Commons Attribution–ShareAlike (CC BY-SA)** licence.
+- software under the **[European Union Public License (EUPL)](https://eupl.eu)**,
+- editorial content under the **[Creative Commons Attribution–ShareAlike (CC BY-SA)](https://creativecommons.org/licenses/by-sa/4.0/)** licence.
 
 These licences apply **only** to the respective works and **do not extend**
 to the European Dream Identity.
@@ -82,4 +85,4 @@ to the European Dream Identity.
 
 For questions regarding the use of the European Dream name or logo, please contact:
 
-**contact@european-dream.eu**
+**[media@european-dream.eu](mailto:media@european-dream.eu)**

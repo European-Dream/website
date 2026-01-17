@@ -1,0 +1,69 @@
+{{- $ctx := .ctx -}}
+{{- $id := .id -}}
+{{- $altOverride := .alt -}}
+{{- $size := default "regular" .size -}}
+
+{{- $accessKey := getenv "UNSPLASH_API_ACCESS_KEY" -}}
+{{- if not $accessKey -}}
+  {{- errorf "UNSPLASH_API_ACCESS_KEY is not set" -}}
+{{- end -}}
+
+{{- $apiURL := printf "https://api.unsplash.com/photos/%s?client_id=%s" $id $accessKey -}}
+{{- $opts := dict "headers" (dict "Accept-Version" "v1") -}}
+
+{{- $photo := dict -}}
+{{- with try (resources.GetRemote $apiURL $opts) -}}
+  {{- with .Err -}}
+    {{- errorf "Unsplash API error: %s" . -}}
+  {{- else with .Value -}}
+    {{- $photo = . | transform.Unmarshal -}}
+  {{- else -}}
+    {{- errorf "Unsplash photo not found: %q" $id -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $raw := $photo.urls.raw -}}
+{{- $q := default 80 .quality -}}
+{{- $fit := default "crop" .fit -}}
+{{- $crop := default "entropy" .crop -}}
+{{- $widths := default (slice 640 960 1280 1600 2000) .srcset -}}
+{{- $sizesAttr := default "100vw" .sizesAttr -}}
+
+{{- $ratioW := default 21 .ratioW -}}
+{{- $ratioH := default 9  .ratioH -}}
+
+{{- $srcset := slice -}}
+{{- range $w := $widths -}}
+  {{- $h := div (mul $w $ratioH) $ratioW -}}
+  {{- $u := printf "%s?auto=format&fit=crop&crop=%s&w=%d&h=%d&q=%d" $raw $crop $w $h $q -}}
+  {{- $srcset = $srcset | append (printf "%s %dw" $u $w) -}}
+{{- end -}}
+
+{{- $imgW := 1280 -}}
+{{- $imgH := div (mul $imgW $ratioH) $ratioW -}}
+{{- $imgUrl := printf "%s?auto=format&fit=crop&crop=%s&w=%d&h=%d&q=%d" $raw $crop $imgW $imgH $q -}}
+
+{{- $utm := default ($ctx.Site.Title | urlize) $ctx.Site.Params.utmSource -}}
+{{- $userName := $photo.user.name -}}
+{{- $userUrl := printf "%s?utm_source=%s&utm_medium=referral" $photo.user.links.html $utm -}}
+{{- $unsplashUrl := printf "https://unsplash.com/?utm_source=%s&utm_medium=referral" $utm -}}
+
+{{- $alt := $altOverride -}}
+{{- if not $alt -}}
+  {{- $alt = default "" (or $photo.alt_description $photo.description) -}}
+{{- end -}}
+
+<figure>
+  <img
+    alt="{{ $alt | htmlEscape }}"
+    decoding="async"
+    loading="{{ default "lazy" .loading }}"
+    sizes="{{ $sizesAttr }}"
+    src="{{ $imgUrl }}"
+    srcset="{{ delimit $srcset ", " }}"
+  />
+  <figcaption>
+    Photo by <a href="{{ $userUrl }}" rel="noopener noreferrer" target="_blank">{{ $userName }}</a>
+    on <a href="{{ $unsplashUrl }}" rel="noopener noreferrer" target="_blank">Unsplash</a>
+  </figcaption>
+</figure>
