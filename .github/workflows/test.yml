@@ -58,6 +58,8 @@ jobs:
 
       - name: Run E2E tests
         run: bun run test:e2e
+        env:
+          UNSPLASH_API_ACCESS_KEY: ${{ secrets.UNSPLASH_API_ACCESS_KEY }}
 
       - name: Upload Playwright report
         uses: actions/upload-artifact@v6
