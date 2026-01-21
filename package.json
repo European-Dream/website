@@ -7,7 +7,7 @@
     "scss:build": "sass assets/scss/index.scss:static/css/main.css --load-path=node_modules --style=compressed --no-source-map",
     "scss:watch": "sass assets/scss/index.scss:static/css/main.css --load-path=node_modules --watch",
     "js:build": "bun build assets/js/index.ts --outfile=static/js/main.js --minify",
-    "dev": "bun run scss:build && bun run js:build && hugo server --buildDrafts --buildFuture",
+    "dev": "bun run scss:build && bun run js:build && hugo server --buildDrafts --buildFuture -p 3000",
     "build": "bun run scss:build && bun run js:build && hugo --minify",
     "serve:example": "bunx serve -p 8080 example",
     "test:watch": "bun test --watch assets/js/",
