@@ -61,6 +61,7 @@ These platforms are used in a limited manner, primarily to relay links to new we
 
 The following accounts are currently inactive or lightly used. They are reserved for potential future use or name protection purposes and should not be considered active communication channels at this time.
 
+- **[Discord](https://discord.gg/w6CDF7pMWn)**
 - **[YouTube](https://www.youtube.com/@european-dream)**
 - **[Instagram](https://www.instagram.com/european_dream_official/)**
 - **[Facebook](https://www.facebook.com/european.dream.official/)**
