@@ -1,6 +1,6 @@
 ---
 title: "A Call To Dream"
-description: "..."
+description: "A manifesto for European Dream: rethinking work, leadership, education, ownership, and progress to move from transactions to helpfulness—and from power to wisdom."
 date: 2026-01-25
 lastmod: 2026-01-25
 language: en
