@@ -1,7 +1,7 @@
 ---
 description: "An experimental initiative exploring whether human cooperation can function with reduced dependence on currency-based relations, within the EU legal framework."
 date: 2026-01-13
-lastmod: 2026-01-13
+lastmod: 2026-01-25
 language: en
 draft: false
 ---
