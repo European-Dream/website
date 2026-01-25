@@ -24,14 +24,35 @@
 <meta property="article:modified_time" content="{{ .Lastmod | time.Format "2006-01-02T15:04:05Z07:00" }}">
 <meta property="og:locale" content="{{ .Language }}">
 <meta property="og:url" content="{{ .Permalink }}">
+
+{{- $ogImage := "" -}}
 {{- with .Params.featured_image -}}
   {{- $image := resources.Get . -}}
-  {{- with $image }}<meta property="og:image" content="{{ .Permalink }}">{{- end -}}
+  {{- with $image -}}
+    {{- $ogImage = .Permalink -}}
+  {{- end -}}
+{{- else -}}
+  {{- with .Resources.GetMatch "images/header.*" -}}
+    {{- with .Resize "1200x webp q85" -}}
+      {{- $ogImage = .Permalink -}}
+    {{- end -}}
+  {{- else -}}
+    {{- with $.Params.headerUnsplashId -}}
+      {{- $ogImage = printf "https://images.unsplash.com/photo-%s?w=1200&h=630&fit=crop&crop=entropy&q=80" . -}}
+    {{- end -}}
+  {{- end -}}
 {{- end -}}
+
+{{- with $ogImage }}
+<meta property="og:image" content="{{ . }}">
+{{- end }}
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ .Title }}">
 <meta name="twitter:description" content="{{ .Description }}">
+{{- with $ogImage }}
+<meta name="twitter:image" content="{{ . }}">
+{{- end }}
 
 <link rel="apple-touch-icon" sizes="57x57" href="/favicon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/favicon-60x60.png">
