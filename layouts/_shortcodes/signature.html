@@ -1,0 +1,11 @@
+{{- /* usage:
+  {{< signature name="Victor Hugo" role="First European Dreamer" >}}
+*/ -}}
+
+{{- $name := .Get "name" | default "" -}}
+{{- $role := .Get "role" | default "" -}}
+
+<p>
+  <span aria-hidden="true">—</span>
+  <strong>{{ $name }}</strong>{{ with $role }}, <em>{{ . }}</em>{{ end }}
+</p>
