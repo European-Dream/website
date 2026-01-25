@@ -42,22 +42,10 @@ languages:
       description: 'An experimental initiative exploring non-transactional human cooperation within the EU legal framework.'
     menus:
       main:
-        # - identifier: a-call-to-dream
-        #   name: A Call To Dream
-        #   url: /a-call-to-dream/
-        #   weight: 10
-        - identifier: why
-          name: Why?
-          url: /why/
+        - identifier: a-call-to-dream
+          name: A Call To Dream
+          url: /a-call-to-dream/
           weight: 10
-        - identifier: goals
-          name: Our Goals
-          url: /goals/
-          weight: 20
-        - identifier: roadmap
-          name: Roadmap
-          url: /roadmap/
-          weight: 30
         - identifier: contact
           name: Contact
           url: /contact/
@@ -71,6 +59,18 @@ languages:
           name: Website Elements
           url: /website-elements/
           weight: 20
+        - identifier: why
+          name: Why?
+          url: /why/
+          weight: 30
+        - identifier: goals
+          name: Our Goals
+          url: /goals/
+          weight: 40
+        - identifier: roadmap
+          name: Roadmap
+          url: /roadmap/
+          weight: 50
   # fr:
   #   languageCode: fr
   #   languageName: Français
