@@ -38,7 +38,17 @@
     {{- end -}}
   {{- else -}}
     {{- with $.Params.headerUnsplashId -}}
-      {{- $ogImage = printf "https://images.unsplash.com/photo-%s?w=1200&h=630&fit=crop&crop=entropy&q=80" . -}}
+      {{- $accessKey := getenv "UNSPLASH_API_ACCESS_KEY" -}}
+      {{- if $accessKey -}}
+        {{- $apiURL := printf "https://api.unsplash.com/photos/%s?client_id=%s" . $accessKey -}}
+        {{- $opts := dict "headers" (dict "Accept-Version" "v1") -}}
+        {{- with try (resources.GetRemote $apiURL $opts) -}}
+          {{- with .Value -}}
+            {{- $photo := . | transform.Unmarshal -}}
+            {{- $ogImage = printf "%s&w=1200&h=630&fit=crop&crop=entropy&q=80" $photo.urls.raw -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
     {{- end -}}
   {{- end -}}
 {{- end -}}
