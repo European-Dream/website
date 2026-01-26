@@ -160,6 +160,7 @@ dist
 
 /example/
 /static/css/
+/static/fonts/
 /static/js/
 
 *.draft.md
