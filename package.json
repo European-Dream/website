@@ -4,7 +4,7 @@
   "description": "European Dream website - Hugo static site",
   "type": "module",
   "scripts": {
-    "fonts:copy": "cp node_modules/@fontsource-variable/jost/files/jost-*-wght-normal.woff2 static/fonts/",
+    "fonts:copy": "mkdir -p static/fonts && cp node_modules/@fontsource-variable/jost/files/jost-*-wght-normal.woff2 static/fonts/",
     "scss:build": "sass assets/scss/index.scss:static/css/main.css --load-path=node_modules --style=compressed --no-source-map",
     "scss:watch": "sass assets/scss/index.scss:static/css/main.css --load-path=node_modules --watch",
     "js:build": "bun build assets/js/index.ts --outfile=static/js/main.js --minify",
