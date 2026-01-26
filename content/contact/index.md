@@ -2,7 +2,7 @@
 title: Contact
 description: Official contact information for the European Dream initiative, including participation enquiries, media contacts, and communication channels.
 date: 2026-01-13
-lastmod: 2026-01-17
+lastmod: 2026-01-26
 language: en
 draft: false
 params:
@@ -11,11 +11,11 @@ params:
 ---
 ## Email Contacts
 
-We currently handle enquiries via email only. This allows for clearer routing and more appropriate handling of enquiries.
+We currently handle enquiries via email only.
 
 ### Participation and Project Enquiries
 
-For questions related to participation, collaboration, or involvement in the European Dream initiative:
+For questions related to participation, collaboration, or involvement in the European Dream project:
 
 - [you@european-dream.eu](mailto:you@european-dream.eu)
 
@@ -31,14 +31,16 @@ For press enquiries, interviews, or public communication matters:
 
 European Dream is currently in the process of being formally constituted as a Belgian non-profit association (ASBL), with the intention to later evolve into an international non-profit association (AISBL).
 
-As a result, **no official postal address is available at this stage**.  
+As a result, **no official postal address is available at this stage**.
+
 This section will be updated as soon as the legal structure is finalised.
 
 ---
 
 ## Our Use of Social Media {#social-media}
 
-European Dream maintains a differentiated presence across online platforms in order to balance reach, coherence, editorial quality, and alignment with our values.  
+European Dream maintains a differentiated presence across online platforms in order to balance reach, coherence, editorial quality, and alignment with our values.
+
 Not all platforms play the same role, and not all are actively used at this stage.
 
 ### Actively Used Platforms
@@ -62,12 +64,14 @@ These platforms are used in a limited manner, primarily to relay links to new we
 The following accounts are currently inactive or lightly used. They are reserved for potential future use or name protection purposes and should not be considered active communication channels at this time.
 
 - **[Discord](https://discord.gg/w6CDF7pMWn)**
-- **[YouTube](https://www.youtube.com/@european-dream)**
-- **[Instagram](https://www.instagram.com/european_dream_official/)**
 - **[Facebook](https://www.facebook.com/european.dream.official/)**
+- **[Instagram](https://www.instagram.com/european_dream_official/)**
+- **[Reddit](https://www.reddit.com/r/European_Dream/)**
 - **[TikTok](https://www.tiktok.com/@european_dream_official)**
+- **[YouTube](https://www.youtube.com/@european-dream)**
 
 ### Editorial Principle
 
-European Dream does not aim to maximise presence across all platforms indiscriminately.  
+European Dream does not aim to maximise presence across all platforms indiscriminately.
+
 Our approach prioritises consistency, clarity, and meaningful interaction over visibility alone. Platform usage may evolve over time as the project develops.
