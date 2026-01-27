@@ -61,6 +61,7 @@ jobs:
 
       - name: Build the site
         run: |
+          bun run fonts:copy
           bun run scss:build
           bun run js:build
           hugo \
