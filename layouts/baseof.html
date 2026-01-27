@@ -16,7 +16,9 @@
 
   <link rel="stylesheet" href="/css/main.css">
   <script src="/js/main.js" defer></script>
-  <script defer src="https://umami.european-dream.eu/script.js" data-website-id="9078bd3e-63b6-49f5-bbe6-f273a4a758c8"></script>
+  {{- if eq (getenv "HUGO_ENABLE_UMAMI") "1" -}}
+    <script defer src="https://umami.european-dream.eu/script.js" data-website-id="9078bd3e-63b6-49f5-bbe6-f273a4a758c8"></script>
+  {{- end -}}
   {{ block "scripts" . }}{{ end }}
 </body>
 </html>
