@@ -51,7 +51,8 @@ These platforms are our primary channels for communication, collaboration, and p
 - **[Bluesky](https://bsky.app/profile/european-dream.eu)** — Announcements, short-form updates and interactions.
 - **[GitHub](https://github.com/European-Dream/)** — Documentation, collaborative work, and source code publication.
 - **[LinkedIn](https://www.linkedin.com/company/european-dream/)** — Announcements, institutional articles, and outreach.
-- **[Medium](https://medium.com/@european_dream)** — Long-form articles and essays exploring the themes and questions at the core of the European Dream initiative.
+- **[Medium](https://medium.com/@european_dream)** — Essays, interviews, and weekly journal.
+- **[Stoat (ex-Revolt)](https://stt.gg/NfjD0BwP)** — Live chat.
 
 ### Relay-Only Platforms
 
