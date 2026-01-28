@@ -2,7 +2,7 @@
 title: Contact
 description: Official contact information for the European Dream initiative, including participation enquiries, media contacts, and communication channels.
 date: 2026-01-13
-lastmod: 2026-01-26
+lastmod: 2026-01-28
 language: en
 draft: false
 params:
@@ -47,18 +47,18 @@ Not all platforms play the same role, and not all are actively used at this stag
 
 These platforms are our primary channels for communication, collaboration, and publication. They are actively maintained and reflect our current editorial tone.
 
-- **[Mastodon](https://mastodon.social/@european_dream)** — Announcements, open discussions, and decentralised dialogue.
-- **[Bluesky](https://bsky.app/profile/european-dream.eu)** — Announcements, short-form updates and interactions.
-- **[GitHub](https://github.com/European-Dream/)** — Documentation, collaborative work, and source code publication.
-- **[LinkedIn](https://www.linkedin.com/company/european-dream/)** — Announcements, institutional articles, and outreach.
-- **[Medium](https://medium.com/@european_dream)** — Essays, interviews, and weekly journal.
-- **[Stoat (ex-Revolt)](https://stt.gg/NfjD0BwP)** — Live chat.
+- **[Mastodon](https://mastodon.social/@european_dream)** – Announcements, open discussions, and decentralised dialogue.
+- **[Bluesky](https://bsky.app/profile/european-dream.eu)** – Announcements, short-form updates and interactions.
+- **[GitHub](https://github.com/European-Dream/)** – Documentation, collaborative work, and source code publication.
+- **[LinkedIn](https://www.linkedin.com/company/european-dream/)** – Announcements, institutional articles, and outreach.
+- **[Medium](https://medium.com/@european_dream)** – Essays, interviews, and weekly journal.
+- **[Stoat (ex-Revolt)](https://stt.gg/NfjD0BwP)** – Live chat.
 
 ### Relay-Only Platforms
 
 These platforms are used in a limited manner, primarily to relay links to new website pages or publications, **without** platform-specific engagement.
 
-- **[X (ex-Twitter)](https://x.com/EuropeanDream_)** — Link sharing only.
+- **[X (ex-Twitter)](https://x.com/EuropeanDream_)** – Link sharing only.
 
 ### Reserved or Inactive Platforms
 
