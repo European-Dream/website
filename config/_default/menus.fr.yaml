@@ -1,0 +1,14 @@
+main:
+  - name: Un Appel à Rêver
+    pageRef: /a-call-to-dream/
+    weight: 10
+  - name: Contacts
+    pageRef: /contact/
+    weight: 40
+footer:
+  - name: Identité
+    pageRef: /identity/
+    weight: 10
+  - name: Éléments du site web
+    pageRef: /website-elements/
+    weight: 20

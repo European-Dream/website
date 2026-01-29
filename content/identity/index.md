@@ -2,7 +2,7 @@
 title: "Name, Logo and Visual Identity"
 description: "Ownership and permitted use of the European Dream name, logo, and visual identity, distinct from the project’s open licences."
 date: 2026-01-13
-lastmod: 2026-01-13
+lastmod: 2026-01-29
 language: en
 draft: false
 params:
@@ -10,11 +10,7 @@ params:
   type: WebPage
 ---
 
-## European Dream – Name, Logo and Visual Identity
-
-The name **European Dream**, its logo(s), and associated visual identity elements
-(collectively, the **European Dream Identity**) are distinctive signs identifying
-the European Dream initiative.
+The name **European Dream**, its logo(s), and associated visual identity elements (collectively, the **European Dream Identity**) are distinctive signs identifying the European Dream initiative.
 
 They are **not** covered by the open licences used elsewhere on this website.
 

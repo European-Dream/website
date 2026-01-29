@@ -2,7 +2,7 @@
 title: "A Call To Dream"
 description: "A manifesto for European Dream: rethinking work, leadership, education, ownership, and progress to move from transactions to helpfulness – and from power to wisdom."
 date: 2026-01-25
-lastmod: 2026-01-25
+lastmod: 2026-01-29
 language: en
 draft: false
 params:
@@ -21,7 +21,7 @@ params:
 
 We believe there is a world where we can rewrite our entire social foundations – challenging how we relate to everything and everyone, and how each generation passes its heritage on to the next.
 
-A world that has shed the – so inhuman – need to make most relationships **transactional**, rather than keeping them – well – **human**.
+A world that has shed the – so inhuman – need to make most relationships **transactional**, to rather keep them – well – **human**.
 
 A world that has understood that passing knowledge from one generation to another can only be balanced by an equivalent measure of inherited wisdom.
 

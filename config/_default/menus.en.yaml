@@ -1,0 +1,23 @@
+main:
+  - name: A Call To Dream
+    pageRef: /a-call-to-dream/
+    weight: 10
+  - name: Contact
+    pageRef: /contact/
+    weight: 40
+footer:
+  - name: Identity
+    pageRef: /identity/
+    weight: 10
+  - name: Website Elements
+    pageRef: /website-elements/
+    weight: 20
+  - name: Why?
+    pageRef: /why/
+    weight: 30
+  - name: Our Goals
+    pageRef: /goals/
+    weight: 40
+  - name: Roadmap
+    pageRef: /roadmap/
+    weight: 50
