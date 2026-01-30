@@ -2,9 +2,12 @@ main:
   - name: A Call To Dream
     pageRef: /a-call-to-dream/
     weight: 10
+  - name: Our Goals
+    pageRef: /our-goals/
+    weight: 20
   - name: Contact
     pageRef: /contact/
-    weight: 40
+    weight: 30
 footer:
   - name: Identity
     pageRef: /identity/
@@ -15,9 +18,6 @@ footer:
   - name: Why?
     pageRef: /why/
     weight: 30
-  - name: Our Goals
-    pageRef: /goals/
-    weight: 40
   - name: Roadmap
     pageRef: /roadmap/
-    weight: 50
+    weight: 40
