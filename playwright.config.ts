@@ -22,7 +22,7 @@ export default defineConfig({
     },
   ],
   webServer: {
-    command: "hugo server --port 1313",
+    command: "dotenv -- hugo server --port 1313",
     url: "http://localhost:1313",
     reuseExistingServer: !process.env.CI,
   },
