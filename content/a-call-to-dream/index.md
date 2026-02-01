@@ -129,4 +129,4 @@ Online or offline, drop us a line – or a dream – at [you@european-dream.eu](
 
 ---
 
-{{< signature name="Ivan Gabriele" role="Founder of European Dream" >}}
+{{< signature name="Ivan Gabriele" role="Cofounder of European Dream" >}}

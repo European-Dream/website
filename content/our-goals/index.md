@@ -2,7 +2,7 @@
 title: "Our Goals"
 description: "..."
 date: 2026-01-13
-lastmod: 2026-01-30
+lastmod: 2026-02-01
 language: en
 draft: false
 params:
@@ -11,56 +11,63 @@ params:
 aliases:
   - /goals/
 ---
-Our goals share the same hope: to move beyond transactionalism by building realistic foundations for holomutualist societies — sensible and tangible — that future generations can adopt and build upon.
+**Our goals share a single hope: to pave the path for all that might become within a holomutualist society, far from transactionalism, so that a future generation may inherit sound, tangible, and tested foundations for what such an alternative could be.**
 
-We believe such a generation will come. The question is not *whether*, but *when*.
+These alternatives are – for us – inseparable from ecosystem balance, individual freedom, collective wisdom, and enthusiastic but thoughtful technological progress.
 
-These alternatives are — for us — inseparable from ecosystem balance, freedom, wisdom, and thoughtful technological progress.
+To some, this may sound unattainable. And that very reaction is symptomatic of how outdated our world has become – resisting change rather than embracing it, casting alternatives as impossibilities, and often dressing renouncement up as realism. Because of this, there are _so many_ assumptions we may never think to question.
 
-This may sound like an unattainable dream. But we believe this sentiment of impossibility is the perfect illustration of the difference between realism and renouncement. The more you dare to challenge assumptions you may have never thought to question, the more you may be surprised at how outdated our world is at a foundational level.
+Whether one looks at our societies through empathy, and recognises how inhuman and destructive we have become, or through reason, and sees how inefficient we are at making meaningful progress, and at addressing the greatest challenges we face, it becomes difficult to believe there are no better ways to live our lives.
 
-Whether you look at our current societies through empathy and see how inhuman and destructive we have become, or through reason and see how inefficient we are at making impactful progress and solving the largest problems we face — it is hard to believe there are no better ways to live.
+This is what European Dream challenges, with hope but no delusion.  
+We will fail. Likely _many_ times. And we will learn.
 
-This is what our goals challenge, with hope but no delusion. We will fail — likely many times — and we will learn. Because if it were easy, our societies would already have found it.
+What we are attempting requires so much patience, time, and reflection.  
+Urgency has no place within European Dream. Only _importance_ does.  
+And _any_ rhythm is acceptable.
 
-It will require an incredible amount of patience, time, and reflection. Urgency does not exist within European Dream. Only importance does. And any rhythm is acceptable.
+---
 
 ## We explore
 
-Before we can imagine alternatives, we need to understand what has already been tried, thought, and learned. Exploration is the foundation of everything else.
+At European Dream, we are all explorers. Because we all – at the very least – come with a lifelong experience of, _well_, living.
 
-We survey academic research and literature across sociology, economics, political science, anthropology, and philosophy. We study past experiments in alternative social organisation — from intentional communities to cooperative movements, from historical utopias to contemporary initiatives. We conduct interviews with experts who have dedicated their lives to these questions, and with ordinary citizens whose lived experience holds insights no theory can capture.
+Some a little longer than others. Yet there is little chance we will ever come close to discovering how rich each of our beings – thus each of our social journeys – truly is.
 
-The guiding question is simple: *what do we know?* Not what do we assume, not what feels intuitive — but what has actually been documented, tested, debated, and refined by those who came before us.
+For us, exploration is the harmonious conjunction of four elements: inheriting from those who thought and experimented before us; listening to those who are not among us; encountering one another; and deepening our understanding of ourselves.
 
-Exploration never ends. Every experiment we run, every debate we have, generates new questions that send us back to the sources.
+---
 
 ## We dream
 
-Dreaming is where knowledge becomes imagination. We take what the Explorers gather and ask: *what if?*
+We are also all dreamers. Not because of our name, but because it would be utterly senseless for any of our members not to take part in proposing, discussing, and shaping what our new worlds could be.
 
-This is the space for debate, for design, for bold hypotheses about how human societies could be organised differently. Not utopian blueprints — we are suspicious of anyone who claims to have the answer — but serious, structured proposals that can be examined, challenged, and refined through collective deliberation.
+What we call dreaming is far from an attempt to escape reality. It is the first step towards founding another one – and it begins by facing our own without timidity or idealisation.
 
-Dreaming requires both creativity and discipline. It is easy to imagine perfect worlds; it is harder to imagine *possible* worlds — arrangements that account for human nature as it is, not as we wish it were, while still daring to believe we can do better than we currently do.
+Dreaming is where we collectively breathe: drawing in as much imagination as we can allow, and breathing out as many sound solutions as our societies can hold.
 
-The proposals that emerge from this work are not conclusions. They are hypotheses — questions posed to reality, waiting to be tested.
+---
 
 ## We architect
 
-A dream without a plan remains a dream. Architecting is where we prepare our ideas for contact with the real world.
+Architecting is, at once, the most crucial, the most unforgiving, and likely the hardest part of our endeavour.
 
-We assess feasibility: what resources, skills, and conditions would this proposal require? We study legal compatibility: can this experiment be conducted within the frameworks that govern us, or do we need to adapt it? We define scope: how small can we start while still learning something meaningful? We plan logistics: who, where, when, and how?
+This is where we turn thrilling theories into experiments we can run. It is also where idealism is embraced, but ideologism is unacceptable. There are few things less human than perfection, and architecting must make room for the messy parts of who we are.
 
-Architecting is humble work. It often means scaling back ambitious visions to something testable. It means confronting the gap between what we imagine and what we can actually do — and finding ways to bridge it, step by step.
+Architecting is our ambitious but humble sociological handicraft: constraints will make us struggle, fail, learn – and sometimes shine, as they push us towards simple, resilient choices that still make room for human complexity.
 
-The output is not a manifesto but a protocol: a clear enough design that volunteers can participate, that outcomes can be observed, and that lessons can be drawn.
+---
 
 ## We experiment
 
-Theory is not enough. At some point, we must try.
+The Great Dive! And the most exhilarating step of our goals: living our European Dream.
 
-Experimentation is where our proposals meet reality — in small-scale, real-world tests with real volunteers, in conditions designed to generate genuine learning. We do not experiment to prove we are right; we experiment to discover what works, what fails, and why.
+Our experiments will be many, and they may take countless forms – a few weeks or a few months somewhere in Europe, online or in person, among ourselves or alongside others.
 
-Every experiment is documented. Successes and failures alike are shared openly, so that others — within European Dream and beyond — can build on what we learn. The goal is not to protect our ideas but to improve them, and to contribute to a shared body of knowledge that outlasts any single initiative.
+Living with others – and sometimes with ourselves – can be an emotional upheaval, especially in a society that seeks to replace transactions with helpfulness, balance, and spontaneous recognition. Yet beyond those failures and disappointments lies the question European Dream ultimately tries to answer: **as a species, are we condemned to eternal immaturity, or can we grow beyond ourselves and usher in another Age?**
 
-We expect most experiments to fail, at least partially. That is not defeat; it is the price of genuine inquiry. What matters is that each failure teaches us something — and that we have the patience to try again, differently, informed by what we have learned.
+---
+
+## In a Living Motion
+
+Our goals are not a straight line, but a set of living loops. Many will run in parallel – decentralisation is the rule. Disagreement is not a threat to unity, but an invitation to fork, to diversify, and to test. What we seek is not a final truth, but a contextual alignment that holds – for as long as it serves.
