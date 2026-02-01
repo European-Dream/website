@@ -1,6 +1,6 @@
 ---
 title: "Our Goals"
-description: "..."
+description: "Exploring, dreaming, architecting, and experimenting — how European Dream works towards post-transactional societies, with patience, humility, and hope."
 date: 2026-01-13
 lastmod: 2026-02-01
 language: en

@@ -1,6 +1,6 @@
 ---
 title: "Roadmap"
-description: "The legal and organisational path for European Dream: where we are, where we are going, and how we plan to get there."
+description: "European Dream's journey from its first foundations in 2026 to real-world experiments across Europe — a living plan shaped by those who join."
 date: 2026-01-13
 lastmod: 2026-02-01
 language: en
