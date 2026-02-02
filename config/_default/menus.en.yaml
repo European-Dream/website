@@ -21,6 +21,3 @@ footer:
   - name: Website Elements
     pageRef: /website-elements/
     weight: 20
-  - name: Why?
-    pageRef: /why/
-    weight: 30

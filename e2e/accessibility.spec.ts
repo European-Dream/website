@@ -7,7 +7,6 @@ const PAGES = [
   { path: "/our-goals/", name: "Our Goals page" },
   { path: "/roadmap/", name: "Roadmap page" },
   { path: "/contact/", name: "Contact page" },
-  { path: "/why/", name: "Why page" },
   { path: "/identity/", name: "Identity page" },
   { path: "/website-elements/", name: "Website Elements page" },
 ];
