@@ -1,7 +1,7 @@
 @use "../abstracts" as *;
 
 .section {
-  padding: $spacing-xxl 0;
+  padding: 0;
 
   @include respond-to(md) {
     padding: $spacing-section 0;

@@ -8,9 +8,12 @@ main:
   - name: Roadmap
     pageRef: /roadmap/
     weight: 30
+  - name: Join Us
+    pageRef: /join-us/
+    weight: 40
   - name: Contact
     pageRef: /contact/
-    weight: 40
+    weight: 50
 footer:
   - name: Identity
     pageRef: /identity/

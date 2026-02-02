@@ -1,60 +1,66 @@
 @use "../abstracts" as *;
 
 .form__group {
-  margin-bottom: $spacing-lg;
+  margin-bottom: $spacing-lg !important;
 
   &:last-child {
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
   }
 }
 
 .form__label {
-  display: block;
-  margin-bottom: $spacing-sm;
-  font-weight: $font-weight-medium;
-  color: $color-text-primary;
+  display: block !important;
+  margin-bottom: $spacing-sm !important;
+  font-weight: $font-weight-medium !important;
+  color: $color-text-primary !important;
+  text-wrap: nowrap !important;
+
+  em {
+    color: $color-text-muted !important;
+    font-weight: $font-weight-normal !important;
+  }
 }
 
 .form__input {
-  display: block;
-  width: 100%;
-  padding: $spacing-md;
-  font-size: $font-size-base;
-  line-height: 1.5;
-  color: $color-text-primary;
-  background-color: $color-background;
-  border: 2px solid $color-border;
-  border-radius: $border-radius-sm;
-  transition: border-color $transition-fast, box-shadow $transition-fast;
+  display: block !important;
+  width: 100% !important;
+  padding: $spacing-md !important;
+  font-size: $font-size-base !important;
+  line-height: 1.5 !important;
+  color: $color-text-primary !important;
+  background-color: $color-background-alt !important;
+  border: 2px solid $color-border !important;
+  border-radius: $border-radius-sm !important;
+  transition: border-color $transition-fast, box-shadow $transition-fast !important;
 
   &::placeholder {
-    color: $color-text-muted;
+    color: $color-text-muted !important;
   }
 
   &:focus {
-    outline: none;
-    border-color: $color-brand;
-    box-shadow: 0 0 0 3px $color-brand-light;
+    outline: none !important;
+    border-color: $color-brand !important;
+    box-shadow: 0 0 0 3px $color-brand-light !important;
   }
 
   &:disabled {
-    background-color: $color-background-alt;
-    cursor: not-allowed;
+    background-color: $color-background-alt !important;
+    cursor: not-allowed !important;
   }
 }
 
 .form__textarea {
-  min-height: 150px;
-  resize: vertical;
+  min-height: 150px !important;
+  resize: vertical !important;
 }
 
 .form__help {
-  display: block;
-  margin-top: $spacing-xs;
-  font-size: $font-size-small;
-  color: $color-text-muted;
+  display: block !important;
+  margin-top: $spacing-xs !important;
+  font-size: $font-size-small !important;
+  color: $color-text-muted !important;
 }
 
 .form__error {
-  color: $color-error;
+  color: $color-error !important;
 }

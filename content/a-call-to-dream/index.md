@@ -6,6 +6,7 @@ lastmod: 2026-01-29
 language: en
 draft: false
 params:
+  headerUnsplashCrop: center
   headerUnsplashId: mqz__jWUJUs
   type: Article
 ---

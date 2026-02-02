@@ -32,17 +32,17 @@
 
 .hero__title {
   margin-bottom: $spacing-lg;
-  font-size: rem(36);
+  font-size: rem(24);
   font-weight: $font-weight-black;
   line-height: 1.2;
   color: $color-text-primary;
 
   @include respond-to(md) {
-    font-size: rem(48);
+    font-size: rem(36);
   }
 
   @include respond-to(lg) {
-    font-size: rem(56);
+    font-size: rem(48);
   }
 }
 

@@ -1,6 +1,6 @@
 ---
 title: Contact
-description: Official contact information for the European Dream initiative, including participation enquiries, media contacts, and communication channels.
+description: "Official contact information for the European Dream initiative, including participation enquiries, media contacts, and communication channels."
 date: 2026-01-13
 lastmod: 2026-01-28
 language: en

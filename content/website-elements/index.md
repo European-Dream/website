@@ -1,6 +1,6 @@
 ---
 title: Website Elements
-description: Overview of the content elements and shortcodes available on the European Dream website, with simple examples for contributors.
+description: "Overview of the content elements and shortcodes available on the European Dream website, with simple examples for contributors."
 date: 2026-01-13
 lastmod: 2026-01-17
 type: page

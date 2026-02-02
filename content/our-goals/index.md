@@ -6,6 +6,7 @@ lastmod: 2026-02-01
 language: en
 draft: false
 params:
+  headerUnsplashCrop: top
   headerUnsplashId: p9_DanaJmow
   type: Article
 aliases:
