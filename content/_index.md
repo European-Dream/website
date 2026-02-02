@@ -1,18 +1,14 @@
 ---
-description: "An experimental initiative exploring whether human cooperation can function with reduced dependence on currency-based relations, within the EU legal framework."
+description: "A non-profit initiative exploring non-transactional human cooperation across the European Union."
 date: 2026-01-13
-lastmod: 2026-01-25
+lastmod: 2026-02-02
 language: en
 draft: false
 ---
-## Our purpose
+## The root we never question
 
-European Dream is an experimental initiative exploring whether and how human cooperation can function with a reduced dependence on currency-based, transactional relations, within the legal, social, and cultural framework of the European Union.
+From work to education, from healthcare to housing, from the food on our table to the relationships we build – nearly every aspect of human life passes through a transaction. We are so immersed in this logic that we rarely notice it, let alone question it.
 
-The project does not propose a ready-made alternative system. Its purpose is to test, document, and evaluate possibilities that do not yet have a stable or agreed form.
+Yet this is a choice – not a law of nature. And it comes at a cost: wasted talent, exhausted compassion, and a species that excels at inheriting knowledge but fails at inheriting wisdom, xondemned to endlessly repeat the same mistakes of the past.
 
-Modern societies are structurally organised around currency as the primary coordination mechanism. European Dream starts from the assumption that this model, while efficient, may be insufficient to address long-term social cohesion, ecological limits, and human well-being. This assumption is treated as a hypothesis to be examined through practice, not as a truth.
-
-## An experimental approach
-
-The initiative explores paths away from purely transactional logic, potentially involving partial de-monetisation of certain activities, non-monetary forms of contribution and reciprocity, shared responsibility over shared ownership, and trust-based or commons-oriented coordination models. No specific model is privileged. Failure is an acceptable and expected outcome.
+<a class="button button--primary" href="/a-call-to-dream/">Read our Call To Dream</a>
