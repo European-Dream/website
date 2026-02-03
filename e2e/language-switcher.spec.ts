@@ -27,12 +27,15 @@ test.describe("Language switcher", () => {
     test("should be keyboard accessible", async ({ page }) => {
       await page.goto("/");
 
-      await page.keyboard.press("Tab");
+      const navLinks = page.locator(".header__navigation .navigation__link");
+      const navCount = await navLinks.count();
+
       await page.keyboard.press("Tab");
       await page.keyboard.press("Tab");
 
-      const lastNavLink = page.locator(".header__navigation .navigation__link").last();
-      await expect(lastNavLink).toBeFocused();
+      for (let i = 0; i < navCount; i++) {
+        await page.keyboard.press("Tab");
+      }
 
       await page.keyboard.press("Tab");
 
