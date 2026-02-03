@@ -16,16 +16,16 @@ aliases:
 
 These alternatives are – for us – inseparable from ecosystem balance, individual freedom, collective wisdom, and enthusiastic but thoughtful technological progress.
 
-To some, this may sound unattainable. And that very reaction is symptomatic of how outdated our world has become – resisting change rather than embracing it, casting alternatives as impossibilities, and often dressing renouncement up as realism. Because of this, there are _so many_ assumptions we may never think to question.
+To some, this may sound unattainable. And that very reaction is symptomatic of how outdated our world has become – resisting change rather than embracing it, casting alternatives as impossibilities, and often dressing renouncement up as realism. Because of this, there are so many assumptions we may never think to question.
 
 Whether one looks at our societies through empathy, and recognises how inhuman and destructive we have become, or through reason, and sees how inefficient we are at making meaningful progress, and at addressing the greatest challenges we face, it becomes difficult to believe there are no better ways to live our lives.
 
 This is what European Dream challenges, with hope but no delusion.  
-We will fail. Likely _many_ times. And we will learn.
+We will fail. Likely many times. And we will learn.
 
 What we are attempting requires so much patience, time, and reflection.  
-Urgency has no place within European Dream. Only _importance_ does.  
-And _any_ rhythm is acceptable.
+Urgency has no place within European Dream. Only importance does.  
+And any rhythm is acceptable.
 
 ---
 
