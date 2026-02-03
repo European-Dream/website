@@ -4,13 +4,15 @@
       <div class="hero">
         <div class="hero__inner">
           <div class="hero__content">
-            <h1 class="hero__title">We are educated to put a price on everything – including each other.</h1>
-            <p class="hero__description">There is a world beyond transactions. A world where we help – not because we are paid, but because it matters. Where we grow – not to compete, but to understand. Where progress is not measured by what it costs, but by what it gives – to everyone.
-            That world does not exist yet. But maybe European Dream can change that.</p>
+            <h1 class="hero__title">{{ i18n "heroTitle" }}</h1>
+            <p class="hero__description">{{ i18n "heroDescription1" }}</p>
+            <p class="hero__description hero__description--last">
+              {{ i18n "heroDescription2" }}<br>
+              {{ i18n "heroDescription3" }}
+            </p>
             <div class="hero__actions">
-              <a class="button button--primary" href="/join-us/" target="_blank">Join Us</a>
-              or
-              <a class="button button--primary" href="https://stt.gg/NfjD0BwP" target="_blank">Join the discussion</a>
+              <a class="button button--primary" href="https://stt.gg/NfjD0BwP" target="_blank">{{ i18n "heroJoinDiscussion" }}</a>
+              <a class="button button--primary" href="/join-us/" target="_blank">{{ i18n "heroJoinUs" }}</a>
             </div>
           </div>
           <div class="hero__image">

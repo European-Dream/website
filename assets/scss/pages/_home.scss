@@ -46,12 +46,17 @@
 }
 
 .hero__description {
-  margin-bottom: $spacing-xl;
-  font-size: $font-size-large;
   color: $color-text-secondary;
+  font-size: $font-size-large;
+  margin-bottom: $spacing-md;
 
   @include respond-to(md) {
     font-size: rem(20);
+  }
+
+  &--last {
+    font-weight: $font-weight-bold;
+    margin-bottom: $spacing-xl;
   }
 }
 

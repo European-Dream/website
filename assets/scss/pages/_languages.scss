@@ -1,0 +1,97 @@
+@use "../abstracts" as *;
+
+.languages-page .page {
+  max-width: none;
+}
+
+.languages-page .page__info {
+  max-width: none;
+}
+
+.languages-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: rem(12);
+  margin: 0 !important;
+  padding: 0;
+  list-style: none;
+
+  @include respond-to(sm) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include respond-to(lg) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @include respond-to(xl) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.languages-list__item {
+  margin: 0;
+}
+
+.languages-list__link {
+  display: flex;
+  flex-direction: column;
+  gap: rem(4);
+  height: 100%;
+  padding: rem(16) rem(20);
+  text-decoration: none;
+  background-color: $color-background-alt;
+  border-radius: $border-radius-md;
+  border: 2px solid transparent;
+  transition: background-color $transition-base, border-color $transition-base;
+
+  @include focus-visible;
+
+  &:hover:not(&--disabled):not(&--current) {
+    background-color: darken($color-background-alt, 3%);
+    border-color: $color-brand;
+  }
+
+  &--current {
+    background-color: $color-background;
+    border-color: $color-brand;
+    cursor: default;
+  }
+
+  &--disabled {
+    cursor: default;
+  }
+}
+
+.languages-list__native {
+  font-size: rem(18);
+  font-weight: $font-weight-bold;
+  color: $color-text-primary;
+  line-height: 1.3;
+
+  .languages-list__link--disabled & {
+    color: $color-text-muted;
+  }
+}
+
+.languages-list__english {
+  font-size: rem(14);
+  color: $color-text-secondary;
+  line-height: 1.3;
+
+  .languages-list__link--disabled & {
+    color: $color-text-muted;
+  }
+}
+
+.languages-list__help {
+  margin-top: rem(8);
+  font-size: rem(13);
+  line-height: 1.4;
+  color: $color-text-secondary;
+}
+
+.languages-list__help-greeting {
+  font-weight: $font-weight-medium;
+  color: $color-text-primary;
+}

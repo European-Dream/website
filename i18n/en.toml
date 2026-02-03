@@ -30,3 +30,30 @@ other = "Code"
 
 [contentLabel]
 other = "Content"
+
+[selectLanguage]
+other = "Select language"
+
+[languagesTitle]
+other = "Select your language"
+
+[languagesSubtitle]
+other = "European Dream is available in multiple languages. Choose the one that suits you best."
+
+[heroTitle]
+other = "We are educated to put a price on everything – including each other."
+
+[heroDescription1]
+other = "There is a world beyond transactions. A world where we help – not because we are paid, but because it matters. Where we grow – not to compete, but to understand. Where progress is not measured by what it costs, but by what it gives – to everyone."
+
+[heroDescription2]
+other = "That world does not exist yet."
+
+[heroDescription3]
+other = "Maybe we can change that."
+
+[heroJoinDiscussion]
+other = "Join the discussion"
+
+[heroJoinUs]
+other = "or Join Us"

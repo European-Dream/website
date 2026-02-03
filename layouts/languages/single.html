@@ -1,0 +1,90 @@
+{{ define "main" }}
+  <header class="page-head">
+    <div class="container">
+      <div class="row">
+        <div class="col col-12">
+          <div class="page__info">
+            <h1 class="page__title">{{ i18n "languagesTitle" }}</h1>
+            <p class="page__subtitle">{{ i18n "languagesSubtitle" }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <article class="page" id="main" tabindex="-1">
+      <div class="page__content">
+        <ul class="languages-list" role="list">
+          {{ $activeLanguages := slice "en" "fr" }}
+          {{ $languages := slice
+            (dict "code" "en" "name" "English" "englishName" "English" "greeting" "Hi")
+            (dict "code" "fr" "name" "Français" "englishName" "French" "greeting" "Salut")
+            (dict "code" "bg" "name" "Български" "englishName" "Bulgarian" "greeting" "Здравей")
+            (dict "code" "cs" "name" "Čeština" "englishName" "Czech" "greeting" "Ahoj")
+            (dict "code" "da" "name" "Dansk" "englishName" "Danish" "greeting" "Hej")
+            (dict "code" "de" "name" "Deutsch" "englishName" "German" "greeting" "Hallo")
+            (dict "code" "el" "name" "Ελληνικά" "englishName" "Greek" "greeting" "Γεια")
+            (dict "code" "es" "name" "Español" "englishName" "Spanish" "greeting" "Hola")
+            (dict "code" "et" "name" "Eesti" "englishName" "Estonian" "greeting" "Tere")
+            (dict "code" "fi" "name" "Suomi" "englishName" "Finnish" "greeting" "Hei")
+            (dict "code" "ga" "name" "Gaeilge" "englishName" "Irish" "greeting" "Dia duit")
+            (dict "code" "hr" "name" "Hrvatski" "englishName" "Croatian" "greeting" "Bok")
+            (dict "code" "hu" "name" "Magyar" "englishName" "Hungarian" "greeting" "Szia")
+            (dict "code" "it" "name" "Italiano" "englishName" "Italian" "greeting" "Ciao")
+            (dict "code" "lt" "name" "Lietuvių" "englishName" "Lithuanian" "greeting" "Labas")
+            (dict "code" "lv" "name" "Latviešu" "englishName" "Latvian" "greeting" "Sveiki")
+            (dict "code" "mt" "name" "Malti" "englishName" "Maltese" "greeting" "Bonġu")
+            (dict "code" "nl" "name" "Nederlands" "englishName" "Dutch" "greeting" "Hallo")
+            (dict "code" "pl" "name" "Polski" "englishName" "Polish" "greeting" "Cześć")
+            (dict "code" "pt" "name" "Português" "englishName" "Portuguese" "greeting" "Olá")
+            (dict "code" "ro" "name" "Română" "englishName" "Romanian" "greeting" "Salut")
+            (dict "code" "sk" "name" "Slovenčina" "englishName" "Slovak" "greeting" "Ahoj")
+            (dict "code" "sl" "name" "Slovenščina" "englishName" "Slovenian" "greeting" "Živjo")
+            (dict "code" "sv" "name" "Svenska" "englishName" "Swedish" "greeting" "Hej")
+          }}
+
+          {{ range $languages }}
+            {{ $isActive := in $activeLanguages .code }}
+            {{ $isCurrent := eq .code $.Lang }}
+            <li class="languages-list__item{{ if not $isActive }} languages-list__item--disabled{{ end }}{{ if $isCurrent }} languages-list__item--current{{ end }}">
+              {{ if $isActive }}
+                {{ if $isCurrent }}
+                  <span class="languages-list__link languages-list__link--current" aria-current="true">
+                    <span class="languages-list__native" lang="{{ .code }}">{{ .name }}</span>
+                    {{ if ne .name .englishName }}
+                      <span class="languages-list__english">({{ .englishName }})</span>
+                    {{ end }}
+                  </span>
+                {{ else }}
+                  {{ $url := cond (eq .code "en") "/" (printf "/%s/" .code) }}
+                  <a href="{{ $url }}" class="languages-list__link" lang="{{ .code }}" hreflang="{{ .code }}">
+                    <span class="languages-list__native">{{ .name }}</span>
+                    {{ if ne .name .englishName }}
+                      <span class="languages-list__english">({{ .englishName }})</span>
+                    {{ end }}
+                  </a>
+                {{ end }}
+              {{ else }}
+                <span class="languages-list__link languages-list__link--disabled">
+                  <span class="languages-list__native" lang="{{ .code }}">{{ .name }}</span>
+                  {{ if ne .name .englishName }}
+                    <span class="languages-list__english">({{ .englishName }})</span>
+                  {{ end }}
+                  <p class="languages-list__help">
+                    <span class="languages-list__help-greeting" lang="{{ .code }}">{{ .greeting }}!</span>
+                    We are looking for volunteers to help translate our content into {{ .englishName }}.
+                  </p>
+                </span>
+              {{ end }}
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+    </article>
+  </div>
+{{ end }}
+
+{{ define "scripts" }}
+  {{ partial "schema-webpage.html" . }}
+{{ end }}

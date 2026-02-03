@@ -30,3 +30,30 @@ other = "Code"
 
 [contentLabel]
 other = "Contenu"
+
+[selectLanguage]
+other = "Choisir la langue"
+
+[languagesTitle]
+other = "Choisissez votre langue"
+
+[languagesSubtitle]
+other = "European Dream est disponible en plusieurs langues. Choisissez celle qui vous convient."
+
+[heroTitle]
+other = "On nous apprend à mettre un prix sur tout – y compris sur les autres."
+
+[heroDescription1]
+other = "Il existe un monde au-delà des transactions. Un monde où l'on aide – non pas parce qu'on est payé, mais parce que c'est important. Où l'on grandit – non pas pour rivaliser, mais pour comprendre. Où le progrès ne se mesure pas à ce qu'il coûte, mais à ce qu'il apporte – à tous."
+
+[heroDescription2]
+other = "Ce monde n'existe pas encore."
+
+[heroDescription3]
+other = "Peut-être pouvons-nous changer cela."
+
+[heroJoinDiscussion]
+other = "Rejoindre la discussion"
+
+[heroJoinUs]
+other = "ou Nous rejoindre"

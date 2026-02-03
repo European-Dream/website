@@ -9,6 +9,7 @@ const PAGES = [
   { path: "/contact/", name: "Contact page" },
   { path: "/identity/", name: "Identity page" },
   { path: "/website-elements/", name: "Website Elements page" },
+  { path: "/languages/", name: "Languages page" },
 ];
 
 test.describe("Accessibility tests", () => {

@@ -19,6 +19,7 @@ h1,
 h2,
 h3 {
   scroll-margin-top: $anchor-offset;
+  text-wrap: pretty;
 }
 
 h1 {
@@ -48,6 +49,7 @@ h6 {
 p {
   margin-top: 0;
   margin-bottom: $spacing-md;
+  text-wrap: pretty;
 }
 
 blockquote {

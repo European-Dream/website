@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/css/main.css">
   {{- end -}}
 </head>
-<body>
+<body{{ with .Type }} class="{{ . }}-page"{{ end }}>
   <a href="#main" class="skip-link">Skip to main content</a>
 
   {{ partial "header.html" . }}

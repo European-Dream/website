@@ -102,8 +102,8 @@
 
 .navigation__close {
   position: absolute;
-  top: rem(40);
-  right: rem(40);
+  top: rem(32);
+  right: rem(8);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -120,15 +120,50 @@
 
   @include focus-visible;
 
+  @include respond-to(md) {
+    top: rem(40);
+  }
+
   &:hover {
     color: $color-brand;
 
-    span {
+    svg {
       transform: rotate(90deg);
     }
   }
 
-  span {
+  svg {
     transition: transform $transition-base;
+  }
+}
+
+.navigation--mobile__language {
+  margin-top: $spacing-xl;
+  padding-top: $spacing-xl;
+  border-top: 1px solid $color-border-light;
+}
+
+.navigation--mobile__language-link {
+  display: inline-flex;
+  align-items: center;
+  gap: rem(12);
+  padding: rem(12) rem(20);
+  font-size: rem(16);
+  font-weight: $font-weight-medium;
+  color: $color-text-primary;
+  text-decoration: none;
+  background-color: $color-background-alt;
+  border-radius: $border-radius-md;
+  transition: background-color $transition-base, color $transition-base;
+
+  @include focus-visible;
+
+  &:hover {
+    color: $color-brand;
+    background-color: darken($color-background-alt, 3%);
+  }
+
+  img {
+    display: block;
   }
 }

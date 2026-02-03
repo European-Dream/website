@@ -164,11 +164,13 @@
 }
 
 .footer__top {
+  align-items: center;
+  justify-content: center;
+  display: flex;
   min-width: 36px;
   height: 36px;
   font-size: rem(20);
   line-height: 36px;
-  text-align: center;
   border-radius: $border-radius-lg;
   color: $color-text-primary;
   background-color: $color-background-alt;
