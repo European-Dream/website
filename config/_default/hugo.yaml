@@ -39,63 +39,13 @@ languages:
     languageName: English
     weight: 1
     params:
-      description: 'An experimental initiative exploring non-transactional human cooperation within the EU legal framework.'
-    # menus:
-    #   main:
-    #     - identifier: a-call-to-dream
-    #       name: A Call To Dream
-    #       url: /a-call-to-dream/
-    #       weight: 10
-    #     - identifier: contact
-    #       name: Contact
-    #       url: /contact/
-    #       weight: 40
-    #   footer:
-    #     - identifier: identity
-    #       name: Identity
-    #       url: /identity/
-    #       weight: 10
-    #     - identifier: website-elements
-    #       name: Website Elements
-    #       url: /website-elements/
-    #       weight: 20
-    #     - identifier: why
-    #       name: Why?
-    #       url: /why/
-    #       weight: 30
-    #     - identifier: goals
-    #       name: Our Goals
-    #       url: /goals/
-    #       weight: 40
-    #     - identifier: roadmap
-    #       name: Roadmap
-    #       url: /roadmap/
-    #       weight: 50
+      description: 'A non-profit initiative dreaming and building a post-transactional world, rooted in the European Union.'
   fr:
     languageCode: fr
     languageName: Français
     weight: 2
     params:
-      description: Une initiative expérimentale explorant la coopération humaine non transactionnelle dans le cadre juridique de l'UE.
-    # menus:
-    #   main:
-    #     - identifier: a-call-to-dream
-    #       name: Un Appel à Rêver
-    #       url: /fr/a-call-to-dream/
-    #       weight: 10
-    #     - identifier: contact
-    #       name: Contacts
-    #       url: /fr/contact/
-    #       weight: 40
-    #   footer:
-    #     - identifier: identity
-    #       name: Identité
-    #       url: /fr/identity/
-    #       weight: 10
-    #     - identifier: website-elements
-    #       name: Éléments du site web
-    #       url: /fr/website-elements/
-    #       weight: 20
+      description: Une initiative à but non lucratif qui rêve et bâtit un monde post-transactionnel, à l'échelle de l'Union européenne.
 
 markup:
   goldmark:
