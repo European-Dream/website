@@ -1,4 +1,16 @@
-@font-face {
+/**
+ * Generates font-face declarations for development builds.
+ *
+ * This script creates _jost.scss with URL references to font files.
+ * For production builds with inline base64 fonts, use build_inline_assets.ts instead.
+ */
+
+import { mkdir } from "node:fs/promises";
+
+const OUTPUT_DIR = ".build/scss/generated";
+const OUTPUT_FILE = `${OUTPUT_DIR}/_jost.scss`;
+
+const FONT_FACES = `@font-face {
   font-family: "Jost";
   font-style: normal;
   font-display: swap;
@@ -29,3 +41,12 @@
     U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122,
     U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
+`;
+
+async function main(): Promise<void> {
+  await mkdir(OUTPUT_DIR, { recursive: true });
+  await Bun.write(OUTPUT_FILE, FONT_FACES);
+  console.log(`Generated ${OUTPUT_FILE}`);
+}
+
+main();

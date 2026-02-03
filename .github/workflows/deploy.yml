@@ -62,6 +62,7 @@ jobs:
       - name: Build the site
         run: |
           bun run fonts:copy
+          bun run fonts:inline
           bun run scss:build
           bun run js:build
           hugo \
@@ -70,6 +71,7 @@ jobs:
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --cacheDir "${{ runner.temp }}/hugo_cache"
         env:
+          HUGO_ENABLE_INLINE_ASSETS: "1"
           HUGO_ENABLE_UMAMI: "1"
           UNSPLASH_API_ACCESS_KEY: ${{ secrets.UNSPLASH_API_ACCESS_KEY }}
 
