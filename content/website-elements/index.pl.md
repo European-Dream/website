@@ -34,8 +34,6 @@ Te zasady pomagają utrzymać stronę **inkluzywną i przyjazną dla wszystkich 
 Nagłówki pierwszego poziomu są zarezerwowane dla tytułu strony, który jest generowany automatycznie.
 W praktyce oznacza to używanie nagłówków drugiego poziomu i niższych na stronach i postach, ponieważ nagłówek pierwszego poziomu powinien być unikalny ze względów dostępności.
 
-# Nagłówek pierwszego poziomu
-
 ## Nagłówek drugiego poziomu
 
 ### Nagłówek trzeciego poziomu

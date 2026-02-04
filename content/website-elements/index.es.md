@@ -34,8 +34,6 @@ Estos principios ayudan a mantener el sitio web **inclusivo y acogedor para todo
 Los encabezados de primer nivel están reservados para el título de la página, que se genera automáticamente.
 En la práctica, esto significa usar encabezados de segundo nivel e inferiores en páginas y publicaciones, ya que se espera que el encabezado de primer nivel sea único por razones de accesibilidad.
 
-# Encabezado de primer nivel
-
 ## Encabezado de segundo nivel
 
 ### Encabezado de tercer nivel

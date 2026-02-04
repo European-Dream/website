@@ -34,8 +34,6 @@ Aceste principii ajută la menținerea site-ului **inclusiv și primitor pentru 
 Titlurile de primul nivel sunt rezervate pentru titlul paginii, care este generat automat.
 În practică, aceasta înseamnă utilizarea titlurilor de al doilea nivel și mai mici în pagini și postări, deoarece titlul de primul nivel se așteaptă să fie unic din motive de accesibilitate.
 
-# Titlu de primul nivel
-
 ## Titlu de al doilea nivel
 
 ### Titlu de al treilea nivel

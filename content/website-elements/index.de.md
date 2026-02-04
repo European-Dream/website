@@ -34,8 +34,6 @@ Diese Prinzipien helfen, die Website **inklusiv und einladend für alle** zu hal
 Überschriften erster Ebene sind für den Seitentitel reserviert, der automatisch generiert wird.
 In der Praxis bedeutet das, dass in Seiten und Beiträgen Überschriften zweiter Ebene und darunter verwendet werden, da die Überschrift erster Ebene aus Gründen der Barrierefreiheit einzigartig sein sollte.
 
-# Überschrift erster Ebene
-
 ## Überschrift zweiter Ebene
 
 ### Überschrift dritter Ebene

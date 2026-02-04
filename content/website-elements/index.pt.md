@@ -34,8 +34,6 @@ Estes princípios ajudam a manter o website **inclusivo e acolhedor para todos �
 Os títulos de primeiro nível estão reservados para o título da página, que é gerado automaticamente.
 Na prática, isto significa usar títulos de segundo nível e inferiores nas páginas e publicações, já que o título de primeiro nível deve ser único por razões de acessibilidade.
 
-# Título de primeiro nível
-
 ## Título de segundo nível
 
 ### Título de terceiro nível

@@ -34,8 +34,6 @@ Questi principi aiutano a mantenere il sito **inclusivo e accogliente per tutti 
 I titoli di primo livello sono riservati al titolo della pagina, che viene generato automaticamente.
 In pratica, questo significa usare titoli di secondo livello e inferiori nelle pagine e negli articoli, poiché il titolo di primo livello dovrebbe essere unico per ragioni di accessibilità.
 
-# Titolo di primo livello
-
 ## Titolo di secondo livello
 
 ### Titolo di terzo livello

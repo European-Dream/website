@@ -34,8 +34,6 @@ Ces principes contribuent à maintenir le site web **inclusif et accueillant pou
 Les titres de premier niveau sont réservés au titre de la page, qui est généré automatiquement.
 En pratique, cela signifie qu'il faut utiliser des titres de deuxième niveau et inférieurs dans les pages et les articles, le titre de premier niveau devant être unique pour des raisons d'accessibilité.
 
-# Titre de premier niveau
-
 ## Titre de deuxième niveau
 
 ### Titre de troisième niveau

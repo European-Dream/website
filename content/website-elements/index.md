@@ -34,8 +34,6 @@ These principles help keep the website **inclusive and welcoming to everyone ðŸ’
 First-level headings are reserved for the page title, which is automatically generated.
 In practice, this means using second-level headings and below in pages and posts, as the first-level heading is expected to be unique for accessibility purposes.
 
-# First-level heading
-
 ## Second-level heading
 
 ### Third-level heading
