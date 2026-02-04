@@ -70,6 +70,12 @@ languages:
     weight: 6
     params:
       description: Inicjatywa non-profit, która marzy i buduje świat post-transakcyjny, zakorzeniona w Unii Europejskiej.
+  pt:
+    languageCode: pt
+    languageName: Português
+    weight: 7
+    params:
+      description: Uma iniciativa sem fins lucrativos que sonha e constrói um mundo pós-transacional, enraizada na União Europeia.
 
 markup:
   goldmark:
