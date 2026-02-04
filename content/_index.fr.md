@@ -1,20 +1,19 @@
 ---
-description: "Une initiative à but non lucratif qui rêve et construit un monde post-transactionnel, à l'échelle de l'Union européenne."
-date: 2026-01-29
-lastmod: 2026-01-29
+description: "Une initiative à but non lucratif qui rêve et bâtit un monde post-transactionnel, à l'échelle de l'Union européenne."
+date: 2026-01-13
+lastmod: 2026-02-04
 language: fr
 draft: false
 params:
+  headerUnsplashCrop: center
+  headerUnsplashId: mqz__jWUJUs
   metaTitle: "European Dream – Construire un monde post-transactionnel"
+  type: Article
 ---
-## Notre raison d’être
+## La racine que nous ne questionnons jamais
 
-European Dream est une initiative expérimentale qui explore si, et comment, la coopération humaine peut fonctionner avec une dépendance réduite aux relations transactionnelles fondées sur la monnaie, dans le cadre juridique, social et culturel de l’Union européenne.
+Du travail à l'éducation, de la santé au logement, de la nourriture sur notre table aux relations que nous construisons — presque chaque aspect de la vie humaine passe par une transaction. Nous sommes si immergés dans cette logique que nous la remarquons rarement, et encore moins la remettons en question.
 
-Le projet ne propose pas de système alternatif clé en main. Son objectif est de tester, documenter et évaluer des possibilités qui ne disposent pas encore d’une forme stable ou consensuelle.
+Pourtant, c'est un choix — pas une loi de la nature. Et il a un prix : des talents gâchés, de la compassion épuisée, et une espèce qui excelle à hériter du savoir mais échoue à hériter de la sagesse, condamnée à répéter sans cesse les mêmes erreurs du passé.
 
-Les sociétés modernes sont structurellement organisées autour de la monnaie comme principal mécanisme de coordination. European Dream part de l’hypothèse que ce modèle, bien qu’efficace, pourrait être insuffisant pour répondre aux enjeux de cohésion sociale à long terme, de limites écologiques et de bien-être humain. Cette hypothèse est traitée comme un point à examiner par la pratique, et non comme une vérité établie.
-
-## Une approche expérimentale
-
-L’initiative explore des voies s’éloignant d’une logique purement transactionnelle, pouvant inclure une dé-monétisation partielle de certaines activités, des formes non monétaires de contribution et de réciprocité, une responsabilité partagée plutôt qu’une propriété partagée, ainsi que des modèles de coordination fondés sur la confiance ou orientés vers les communs. Aucun modèle spécifique n’est privilégié. L’échec est un résultat acceptable et attendu.
+<a class="button button--primary" href="/a-call-to-dream/">Lire notre Appel à Rêver</a>

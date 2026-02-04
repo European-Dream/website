@@ -2,9 +2,18 @@ main:
   - name: Un Appel à Rêver
     pageRef: /a-call-to-dream/
     weight: 10
-  - name: Contacts
-    pageRef: /contact/
+  - name: Nos Objectifs
+    pageRef: /our-goals/
+    weight: 20
+  - name: Feuille de route
+    pageRef: /roadmap/
+    weight: 30
+  - name: Nous rejoindre
+    pageRef: /join-us/
     weight: 40
+  - name: Contact
+    pageRef: /contact/
+    weight: 50
 footer:
   - name: Identité
     pageRef: /identity/

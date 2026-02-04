@@ -2,11 +2,13 @@
 title: "Un Appel à Rêver"
 description: "Un manifeste pour European Dream : repenser le travail, le leadership, l'éducation, la propriété et le progrès pour passer de la transaction à l'entraide – et du pouvoir à la sagesse."
 date: 2026-01-29
-lastmod: 2026-01-29
+lastmod: 2026-02-04
 language: fr
 draft: false
 params:
+  headerUnsplashCrop: center
   headerUnsplashId: mqz__jWUJUs
+  metaTitle: "European Dream – Un Appel à Rêver"
   type: Article
 ---
 **Tant de talents sont gâchés par un monde qui confine nos capacités à des objectifs qui n'améliorent pas le monde – et qui, parfois, l'empirent pour certains, voire pour nous tous lorsqu'ils menacent notre avenir commun.**
@@ -97,19 +99,19 @@ Sur un plan humain, ce qui compte, c'est ce qui est accompli – et ce que la so
 
 ---
 
-Tant que nous aurons besoin d'argent pour valoriser et motiver les contributions de chacun au monde,
-Tant que nous considérerons un chirurgien plus méritant qu'un égoutier,
-Tant que nous aurons des conversations plutôt que des discussions,
-Tant que nous aurons besoin de concentrations de pouvoir pour diriger nos sociétés,
-Tant que nous croirons que la compétition destructrice est le meilleur moyen de maximiser l'innovation,
-Tant que nous ferons payer à quelqu'un – ou à quelque chose – le prix de notre progrès,
+Tant que nous aurons besoin d'argent pour valoriser et motiver les contributions de chacun au monde,<br>
+Tant que nous considérerons un chirurgien plus méritant qu'un égoutier,<br>
+Tant que nous aurons des conversations plutôt que des discussions,<br>
+Tant que nous aurons besoin de concentrations de pouvoir pour diriger nos sociétés,<br>
+Tant que nous croirons que la compétition destructrice est le meilleur moyen de maximiser l'innovation,<br>
+Tant que nous ferons payer à quelqu'un – ou à quelque chose – le prix de notre progrès,<br>
 L'humanité restera un enfant immature, incapable de grandir au-delà de ses propres limitations égocentriques.
 
 **C'est pourquoi nous appelons quiconque résonne avec ces mots – et quiconque est prêt à rêver, et à expérimenter ce que pourrait être une nouvelle humanité – à nous rejoindre.**
 
 Que nous soyons dix ou des milliers n'a pas d'importance. Nous ne sommes pas là pour combattre la société actuelle. Nous sommes là pour construire la prochaine – pour ouvrir des portes à une génération future, peu importe quand cela sera. Une génération qui aura réalisé à quel point les changements doivent être fondamentaux si nous voulons nous libérer du cycle infernal de notre histoire.
 
-En tant qu'Européens, nous avons traversé tout ce que l'humanité a fait – le meilleur comme le pire. Nous portons l'histoire politique la plus riche sur Terre, par le simple nombre et la diversité des régimes que l'Europe a connus. C'est pourquoi nous croyons que l'Union Européenne est peut-être le meilleur endroit sur Terre pour – une fois de plus – ouvrir une nouvelle ère, sur les épaules de milliers d'années d'expérience.
+En tant qu'Européens, nous avons traversé tout ce que l'humanité a fait – le meilleur comme le pire. Nous portons l'histoire politique la plus riche sur Terre, par le simple nombre et la diversité des régimes que l'Europe a connus. C'est pourquoi nous croyons que l'Union européenne est peut-être le meilleur endroit sur Terre pour – une fois de plus – ouvrir une nouvelle ère, sur les épaules de milliers d'années d'expérience.
 
 Une ère d'**Holomutualisme** – une forme d'organisation sociale où les relations sont principalement bâties sur l'entraide, où l'équilibre entre le monde vivant et non-vivant passe en premier, où la liberté grandit par la décentralisation, et où le but est que l'humanité prospère – dans le bonheur, la sagesse et le savoir – sur Terre et au-delà.
 
@@ -129,4 +131,4 @@ En ligne ou hors ligne, envoyez-nous un mot – ou un rêve – à [you@european
 
 ---
 
-{{< signature name="Ivan Gabriele" role="Fondateur de European Dream" >}}
+{{< signature name="Ivan Gabriele" role="Cofondateur de European Dream" >}}

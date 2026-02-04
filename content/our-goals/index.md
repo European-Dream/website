@@ -21,11 +21,11 @@ To some, this may sound unattainable. And that very reaction is symptomatic of h
 
 Whether one looks at our societies through empathy, and recognises how inhuman and destructive we have become, or through reason, and sees how inefficient we are at making meaningful progress, and at addressing the greatest challenges we face, it becomes difficult to believe there are no better ways to live our lives.
 
-This is what European Dream challenges, with hope but no delusion.  
+This is what European Dream challenges, with hope but no delusion.<br>
 We will fail. Likely many times. And we will learn.
 
-What we are attempting requires so much patience, time, and reflection.  
-Urgency has no place within European Dream. Only importance does.  
+What we are attempting requires so much patience, time, and reflection.<br>
+Urgency has no place within European Dream. Only importance does.<br>
 And any rhythm is acceptable.
 
 ---

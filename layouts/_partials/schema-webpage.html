@@ -1,15 +1,34 @@
+{{- $isTranslation := ne .Language.Lang "en" -}}
+{{- $originalURL := "" -}}
+{{- if $isTranslation -}}
+  {{- range .Translations -}}
+    {{- if eq .Language.Lang "en" -}}
+      {{- $originalURL = .Permalink -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": {{ .Title | jsonify }},
   "description": {{ .Params.description | default .Summary | jsonify }},
+  "inLanguage": "{{ .Language.Lang }}",
   "dateModified": "{{ .Lastmod }}",
   "url": "{{ .Permalink }}",
   "isPartOf": {
     "@type": "WebSite",
     "name": "European Dream",
     "url": "{{ .Site.BaseURL }}"
-  }
+  }{{ if and $isTranslation $originalURL }},
+  "translationOfWork": {
+    "@type": "WebPage",
+    "inLanguage": "en",
+    "url": "{{ $originalURL }}"
+  },
+  "translator": {
+    "@type": "Organization",
+    "name": "European Dream (AI-assisted)"
+  }{{ end }}
 }
 </script>

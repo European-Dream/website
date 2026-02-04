@@ -2,12 +2,13 @@
 title: Éléments du site web
 description: Aperçu des éléments de contenu et des shortcodes disponibles sur le site web European Dream, avec des exemples simples pour les contributeurs.
 date: 2026-01-29
-lastmod: 2026-01-29
+lastmod: 2026-02-04
 type: page
 language: fr
 draft: false
 params:
   headerUnsplashId: 7hu0jZRuRaA
+  metaTitle: "Éléments du site web European Dream"
   type: WebPage
 ---
 Cette page présente les éléments de contenu et les composants disponibles sur le site web European Dream.

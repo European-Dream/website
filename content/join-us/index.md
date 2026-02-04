@@ -13,7 +13,7 @@ params:
 ---
 You can now pre-register to become a future member of European Dream, once the organisation is formally established.
 
-While our work is rooted in the European Union, the discussion is open to people from everywhere, and membership is meant to remain accessible.  
+While our work is rooted in the European Union, the discussion is open to people from everywhere, and membership is meant to remain accessible.
 
 The annual contribution will be left to your discretion, with a minimum of **€5 per year**.
 

@@ -2,11 +2,12 @@
 title: "Nom, logo et identité visuelle"
 description: "Propriété et utilisation autorisée du nom, du logo et de l'identité visuelle d'European Dream, distincts des licences ouvertes du projet."
 date: 2026-01-29
-lastmod: 2026-01-29
+lastmod: 2026-02-04
 language: fr
 draft: false
 params:
   headerUnsplashId: 8dgFq8Vbelo
+  metaTitle: "Nom, logo et identité visuelle de European Dream"
   type: WebPage
 ---
 

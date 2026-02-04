@@ -99,12 +99,12 @@ On a human level, what counts is what is achieved – and how much society gains
 
 ---
 
-As long as we need money to value and motivate one another’s contributions to the world,  
-As long as we consider a surgeon more deserving than a sewage worker,  
-As long as we have conversations rather than discussions,  
-As long as we need concentrations of power to lead our societies,  
-As long as we believe destructive competition is the best way to maximise innovation,  
-As long as we make someone – or something – pay for our progress,  
+As long as we need money to value and motivate one another's contributions to the world,<br>
+As long as we consider a surgeon more deserving than a sewage worker,<br>
+As long as we have conversations rather than discussions,<br>
+As long as we need concentrations of power to lead our societies,<br>
+As long as we believe destructive competition is the best way to maximise innovation,<br>
+As long as we make someone – or something – pay for our progress,<br>
 Humanity will remain an immature child, unable to grow past its own self-centred limitations.
 
 **This is why we call on whoever resonates with these words – and whoever is ready to dream, and to experiment with what a new humanity could be – to join us.**

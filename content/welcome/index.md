@@ -12,8 +12,8 @@ params:
   metaTitle: "Welcome to European Dream"
   type: WebPage
 ---
-That’s it.  
-Your email is confirmed.  
+That's it.<br>
+Your email is confirmed.<br>
 The conversation can begin.
 
 We’ll be in touch when European Dream takes shape.
