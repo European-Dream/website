@@ -52,6 +52,12 @@ languages:
     weight: 3
     params:
       description: Eine gemeinnützige Initiative, die von einer post-transaktionalen Welt träumt und sie aufbaut – verwurzelt in der Europäischen Union.
+  es:
+    languageCode: es
+    languageName: Español
+    weight: 4
+    params:
+      description: Una iniciativa sin ánimo de lucro que sueña y construye un mundo post-transaccional, arraigada en la Unión Europea.
 
 markup:
   goldmark:
