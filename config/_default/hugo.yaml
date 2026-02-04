@@ -76,6 +76,12 @@ languages:
     weight: 7
     params:
       description: Uma iniciativa sem fins lucrativos que sonha e constrói um mundo pós-transacional, enraizada na União Europeia.
+  ro:
+    languageCode: ro
+    languageName: Română
+    weight: 8
+    params:
+      description: O inițiativă non-profit care visează și construiește o lume post-tranzacțională, înrădăcinată în Uniunea Europeană.
 
 markup:
   goldmark:
