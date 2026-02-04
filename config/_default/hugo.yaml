@@ -58,6 +58,12 @@ languages:
     weight: 4
     params:
       description: Una iniciativa sin ánimo de lucro que sueña y construye un mundo post-transaccional, arraigada en la Unión Europea.
+  it:
+    languageCode: it
+    languageName: Italiano
+    weight: 5
+    params:
+      description: Un'iniziativa senza scopo di lucro che sogna e costruisce un mondo post-transazionale, radicata nell'Unione europea.
 
 markup:
   goldmark:

@@ -15,12 +15,13 @@
     <article class="page" id="main" tabindex="-1">
       <div class="page__content">
         <ul class="languages-list" role="list">
-          {{ $activeLanguages := slice "de" "en" "es" "fr" }}
+          {{ $activeLanguages := slice "de" "en" "es" "fr" "it" }}
           {{ $languages := slice
             (dict "code" "de" "name" "Deutsch" "englishName" "German" "greeting" "Hallo")
             (dict "code" "en" "name" "English" "englishName" "English" "greeting" "Hi")
             (dict "code" "es" "name" "Español" "englishName" "Spanish" "greeting" "Hola")
             (dict "code" "fr" "name" "Français" "englishName" "French" "greeting" "Salut")
+            (dict "code" "it" "name" "Italiano" "englishName" "Italian" "greeting" "Ciao")
             (dict "code" "bg" "name" "Български" "englishName" "Bulgarian" "greeting" "Здравей")
             (dict "code" "cs" "name" "Čeština" "englishName" "Czech" "greeting" "Ahoj")
             (dict "code" "da" "name" "Dansk" "englishName" "Danish" "greeting" "Hej")
@@ -30,7 +31,6 @@
             (dict "code" "ga" "name" "Gaeilge" "englishName" "Irish" "greeting" "Dia duit")
             (dict "code" "hr" "name" "Hrvatski" "englishName" "Croatian" "greeting" "Bok")
             (dict "code" "hu" "name" "Magyar" "englishName" "Hungarian" "greeting" "Szia")
-            (dict "code" "it" "name" "Italiano" "englishName" "Italian" "greeting" "Ciao")
             (dict "code" "lt" "name" "Lietuvių" "englishName" "Lithuanian" "greeting" "Labas")
             (dict "code" "lv" "name" "Latviešu" "englishName" "Latvian" "greeting" "Sveiki")
             (dict "code" "mt" "name" "Malti" "englishName" "Maltese" "greeting" "Bonġu")
