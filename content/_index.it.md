@@ -16,4 +16,4 @@ Dal lavoro all'istruzione, dalla sanità alla casa, dal cibo sulle nostre tavole
 
 Eppure si tratta di una scelta – non di una legge di natura. E ha un costo: talento sprecato, compassione esaurita, e una specie che eccelle nell'ereditare conoscenza ma fallisce nell'ereditare saggezza, condannata a ripetere all'infinito gli stessi errori del passato.
 
-<a class="button button--primary" href="/a-call-to-dream/">Leggi il nostro Invito a sognare</a>
+{{< button href="/a-call-to-dream/" text="Leggi il nostro Invito a sognare" >}}

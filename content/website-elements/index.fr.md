@@ -144,6 +144,20 @@ _Photo par [Martin Katler](https://unsplash.com/@martinkatler) sur [Unsplash](ht
 
 ---
 
+## Lien bouton
+
+Un lien bouton stylisé qui gère automatiquement la localisation des langues.
+
+{{< button href="/a-call-to-dream/" text="Lire notre Appel à Rêver" >}}
+
+```
+{{</* button href="/a-call-to-dream/" text="Lire notre Appel à Rêver" */>}}
+```
+
+Le chemin `href` est automatiquement préfixé avec le code de la langue actuelle (par ex. `/fr/a-call-to-dream/` pour le français). Lors de la traduction, gardez le `href` inchangé et traduisez uniquement le paramètre `text`.
+
+---
+
 ## Intégration YouTube
 
 {{< youtube qXl8XByenME >}}

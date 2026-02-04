@@ -16,4 +16,4 @@ Desde el trabajo hasta la educación, desde la sanidad hasta la vivienda, desde 
 
 Sin embargo, esto es una elección — no una ley de la naturaleza. Y tiene un coste: talento desperdiciado, compasión agotada, y una especie que sobresale heredando conocimiento pero fracasa heredando sabiduría, condenada a repetir sin fin los mismos errores del pasado.
 
-<a class="button button--primary" href="/a-call-to-dream/">Lea nuestra Llamada A Soñar</a>
+{{< button href="/a-call-to-dream/" text="Lea nuestra Llamada A Soñar" >}}

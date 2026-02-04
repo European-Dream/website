@@ -16,4 +16,4 @@ Du travail à l'éducation, de la santé au logement, de la nourriture sur notre
 
 Pourtant, c'est un choix — pas une loi de la nature. Et il a un prix : des talents gâchés, de la compassion épuisée, et une espèce qui excelle à hériter du savoir mais échoue à hériter de la sagesse, condamnée à répéter sans cesse les mêmes erreurs du passé.
 
-<a class="button button--primary" href="/a-call-to-dream/">Lire notre Appel à Rêver</a>
+{{< button href="/a-call-to-dream/" text="Lire notre Appel à Rêver" >}}

@@ -144,6 +144,20 @@ _Foto de [Martin Katler](https://unsplash.com/@martinkatler) no [Unsplash](https
 
 ---
 
+## Link de botão
+
+Um link de botão estilizado que lida automaticamente com a localização de idiomas.
+
+{{< button href="/a-call-to-dream/" text="Leia o nosso Apelo a Sonhar" >}}
+
+```
+{{</* button href="/a-call-to-dream/" text="Leia o nosso Apelo a Sonhar" */>}}
+```
+
+O caminho `href` é automaticamente prefixado com o código do idioma atual (por exemplo, `/pt/a-call-to-dream/` para português). Ao traduzir, mantenham o `href` inalterado e traduzam apenas o parâmetro `text`.
+
+---
+
 ## Incorporação YouTube
 
 {{< youtube qXl8XByenME >}}

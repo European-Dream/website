@@ -2,7 +2,7 @@
 title: Website Elements
 description: "Overview of the content elements and shortcodes available on the European Dream website, with simple examples for contributors."
 date: 2026-01-13
-lastmod: 2026-01-17
+lastmod: 2026-02-04
 type: page
 language: en
 draft: false
@@ -141,6 +141,20 @@ _Photo by [Martin Katler](https://unsplash.com/@martinkatler) on [Unsplash](http
 ![Sea](./images/example.jpg)
 _Photo by [Martin Katler](https://unsplash.com/@martinkatler) on [Unsplash](https://unsplash.com)_
 ```
+
+---
+
+## Button Link
+
+A styled button link that automatically handles language localization.
+
+{{< button href="/a-call-to-dream/" text="Read our Call To Dream" >}}
+
+```
+{{</* button href="/a-call-to-dream/" text="Read our Call To Dream" */>}}
+```
+
+The `href` path is automatically prefixed with the current language code (e.g. `/fr/a-call-to-dream/` for French). When translating, keep the `href` unchanged and only translate the `text` parameter.
 
 ---
 

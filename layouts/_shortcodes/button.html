@@ -1,0 +1,12 @@
+{{- /* usage:
+  {{< button href="/a-call-to-dream/" text="Read our Call To Dream" >}}
+  {{< button href="/a-call-to-dream/" text="Read our Call To Dream" class="button--secondary" >}}
+
+  The href is automatically localized using relLangURL.
+*/ -}}
+
+{{- $href := .Get "href" | default "/" -}}
+{{- $text := .Get "text" | default "Learn more" -}}
+{{- $class := .Get "class" | default "button--primary" -}}
+
+<a class="button {{ $class }}" href="{{ $href | relLangURL }}">{{ $text }}</a>

@@ -144,6 +144,20 @@ _Foto de [Martin Katler](https://unsplash.com/@martinkatler) en [Unsplash](https
 
 ---
 
+## Enlace de botón
+
+Un enlace de botón estilizado que gestiona automáticamente la localización de idiomas.
+
+{{< button href="/a-call-to-dream/" text="Lea nuestra Llamada A Soñar" >}}
+
+```
+{{</* button href="/a-call-to-dream/" text="Lea nuestra Llamada A Soñar" */>}}
+```
+
+La ruta `href` se prefija automáticamente con el código del idioma actual (por ejemplo, `/es/a-call-to-dream/` para español). Al traducir, mantenga el `href` sin cambios y traduzca únicamente el parámetro `text`.
+
+---
+
 ## Inserción de Youtube
 
 {{< youtube qXl8XByenME >}}

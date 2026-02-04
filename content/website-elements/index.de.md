@@ -144,6 +144,20 @@ _Foto von [Martin Katler](https://unsplash.com/@martinkatler) auf [Unsplash](htt
 
 ---
 
+## Button-Link
+
+Ein gestalteter Button-Link, der die Sprachlokalisierung automatisch handhabt.
+
+{{< button href="/a-call-to-dream/" text="Lesen Sie unseren Aufruf zu träumen" >}}
+
+```
+{{</* button href="/a-call-to-dream/" text="Lesen Sie unseren Aufruf zu träumen" */>}}
+```
+
+Der `href`-Pfad wird automatisch mit dem aktuellen Sprachcode versehen (z.B. `/de/a-call-to-dream/` für Deutsch). Beim Übersetzen lassen Sie den `href` unverändert und übersetzen Sie nur den `text`-Parameter.
+
+---
+
 ## YouTube-Einbettung
 
 {{< youtube qXl8XByenME >}}

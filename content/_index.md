@@ -16,4 +16,4 @@ From work to education, from healthcare to housing, from the food on our table t
 
 Yet this is a choice – not a law of nature. And it comes at a cost: wasted talent, exhausted compassion, and a species that excels at inheriting knowledge but fails at inheriting wisdom, xondemned to endlessly repeat the same mistakes of the past.
 
-<a class="button button--primary" href="/a-call-to-dream/">Read our Call To Dream</a>
+{{< button href="/a-call-to-dream/" text="Read our Call To Dream" >}}

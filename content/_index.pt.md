@@ -16,4 +16,4 @@ Do trabalho à educação, da saúde à habitação, da comida nas nossas mesas 
 
 Contudo, isto é uma escolha – não uma lei da natureza. E tem um custo: talento desperdiçado, compaixão esgotada, e uma espécie que se destaca a herdar conhecimento mas falha em herdar sabedoria, condenada a repetir eternamente os mesmos erros do passado.
 
-<a class="button button--primary" href="/a-call-to-dream/">Leia o nosso Apelo a Sonhar</a>
+{{< button href="/a-call-to-dream/" text="Leia o nosso Apelo a Sonhar" >}}

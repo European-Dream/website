@@ -16,4 +16,4 @@ Od pracy po edukację, od opieki zdrowotnej po mieszkalnictwo, od jedzenia na na
 
 A przecież to wybór – nie prawo natury. I ma swoją cenę: zmarnowany talent, wyczerpane współczucie i gatunek, który doskonale dziedziczy wiedzę, ale nie potrafi dziedziczyć mądrości, skazany na wieczne powtarzanie tych samych błędów przeszłości.
 
-<a class="button button--primary" href="/a-call-to-dream/">Przeczytaj nasze Wezwanie do marzeń</a>
+{{< button href="/a-call-to-dream/" text="Przeczytaj nasze Wezwanie do marzeń" >}}

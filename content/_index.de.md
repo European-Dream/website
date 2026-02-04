@@ -16,4 +16,4 @@ Von der Arbeit bis zur Bildung, vom Gesundheitswesen bis zum Wohnen, von der Nah
 
 Doch das ist eine Wahl – kein Naturgesetz. Und sie hat ihren Preis: verschwendetes Talent, erschöpftes Mitgefühl und eine Spezies, die hervorragend darin ist, Wissen zu erben, aber daran scheitert, Weisheit weiterzugeben – dazu verdammt, die gleichen Fehler der Vergangenheit endlos zu wiederholen.
 
-<a class="button button--primary" href="/a-call-to-dream/">Lesen Sie unseren Aufruf zu träumen</a>
+{{< button href="/a-call-to-dream/" text="Lesen Sie unseren Aufruf zu träumen" >}}

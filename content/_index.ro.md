@@ -16,4 +16,4 @@ De la muncă la educație, de la sănătate la locuință, de la mâncarea de pe
 
 Totuși, aceasta este o alegere – nu o lege a naturii. Și are un cost: talent irosit, compasiune epuizată și o specie care excelează în moștenirea cunoașterii dar eșuează în moștenirea înțelepciunii, condamnată să repete la nesfârșit aceleași greșeli ale trecutului.
 
-<a class="button button--primary" href="/a-call-to-dream/">Citește Apelul nostru la Vis</a>
+{{< button href="/a-call-to-dream/" text="Citește Apelul nostru la Vis" >}}

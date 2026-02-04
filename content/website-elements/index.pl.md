@@ -144,6 +144,20 @@ _Zdjęcie: [Martin Katler](https://unsplash.com/@martinkatler) na [Unsplash](htt
 
 ---
 
+## Link przycisku
+
+Stylizowany link przycisku, który automatycznie obsługuje lokalizację języka.
+
+{{< button href="/a-call-to-dream/" text="Przeczytaj nasze Wezwanie do marzeń" >}}
+
+```
+{{</* button href="/a-call-to-dream/" text="Przeczytaj nasze Wezwanie do marzeń" */>}}
+```
+
+Ścieżka `href` jest automatycznie poprzedzana kodem bieżącego języka (np. `/pl/a-call-to-dream/` dla polskiego). Podczas tłumaczenia pozostawcie `href` bez zmian i tłumaczcie tylko parametr `text`.
+
+---
+
 ## Osadzenie YouTube
 
 {{< youtube qXl8XByenME >}}

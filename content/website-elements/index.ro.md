@@ -144,6 +144,20 @@ _Fotografie de [Martin Katler](https://unsplash.com/@martinkatler) pe [Unsplash]
 
 ---
 
+## Link buton
+
+Un link buton stilizat care gestionează automat localizarea limbii.
+
+{{< button href="/a-call-to-dream/" text="Citește Apelul nostru la Vis" >}}
+
+```
+{{</* button href="/a-call-to-dream/" text="Citește Apelul nostru la Vis" */>}}
+```
+
+Calea `href` este prefixată automat cu codul limbii curente (de ex. `/ro/a-call-to-dream/` pentru română). La traducere, păstrați `href` neschimbat și traduceți doar parametrul `text`.
+
+---
+
 ## Încorporare YouTube
 
 {{< youtube qXl8XByenME >}}

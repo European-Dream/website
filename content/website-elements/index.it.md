@@ -144,6 +144,20 @@ _Foto di [Martin Katler](https://unsplash.com/@martinkatler) su [Unsplash](https
 
 ---
 
+## Link pulsante
+
+Un link pulsante stilizzato che gestisce automaticamente la localizzazione delle lingue.
+
+{{< button href="/a-call-to-dream/" text="Leggi il nostro Invito a sognare" >}}
+
+```
+{{</* button href="/a-call-to-dream/" text="Leggi il nostro Invito a sognare" */>}}
+```
+
+Il percorso `href` viene automaticamente prefissato con il codice della lingua corrente (es. `/it/a-call-to-dream/` per l'italiano). Durante la traduzione, mantenete l'`href` invariato e traducete solo il parametro `text`.
+
+---
+
 ## Video YouTube
 
 {{< youtube qXl8XByenME >}}
