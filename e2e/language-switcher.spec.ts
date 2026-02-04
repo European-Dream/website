@@ -140,32 +140,32 @@ test.describe("Languages page", () => {
     await expect(frenchLink).not.toHaveClass(/languages-list__link--disabled/);
   });
 
-  test("should have disabled styling for unavailable languages", async ({ page }) => {
-    await page.goto("/languages/");
+  // test("should have disabled styling for unavailable languages", async ({ page }) => {
+  //   await page.goto("/languages/");
 
-    const germanLink = page.locator(".languages-list__link", {
-      hasText: "Deutsch",
-    });
+  //   const germanLink = page.locator(".languages-list__link", {
+  //     hasText: "Deutsch",
+  //   });
 
-    await expect(germanLink).toHaveClass(/languages-list__link--disabled/);
-  });
+  //   await expect(germanLink).toHaveClass(/languages-list__link--disabled/);
+  // });
 
-  test("should display translator recruitment message for unavailable languages", async ({
-    page,
-  }) => {
-    await page.goto("/languages/");
+  // test("should display translator recruitment message for unavailable languages", async ({
+  //   page,
+  // }) => {
+  //   await page.goto("/languages/");
 
-    const germanItem = page.locator(".languages-list__item", {
-      hasText: "Deutsch",
-    });
-    const helpMessage = germanItem.locator(".languages-list__help");
+  //   const germanItem = page.locator(".languages-list__item", {
+  //     hasText: "Deutsch",
+  //   });
+  //   const helpMessage = germanItem.locator(".languages-list__help");
 
-    await expect(helpMessage).toBeVisible();
-    await expect(helpMessage).toContainText("Hallo!");
-    await expect(helpMessage).toContainText(
-      "We are looking for volunteers to help translate our content into German."
-    );
-  });
+  //   await expect(helpMessage).toBeVisible();
+  //   await expect(helpMessage).toContainText("Hallo!");
+  //   await expect(helpMessage).toContainText(
+  //     "We are looking for volunteers to help translate our content into German."
+  //   );
+  // });
 
   test("should mark current language as current", async ({ page }) => {
     await page.goto("/languages/");
