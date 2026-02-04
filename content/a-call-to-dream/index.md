@@ -8,6 +8,7 @@ draft: false
 params:
   headerUnsplashCrop: center
   headerUnsplashId: mqz__jWUJUs
+  metaTitle: "European Dream – A Call To Dream"
   type: Article
 ---
 **So much talent is wasted by a world that confines abilities to purposes that do not make the world better – sometimes even making it worse for some, or all of us when it threatens the future we share.**

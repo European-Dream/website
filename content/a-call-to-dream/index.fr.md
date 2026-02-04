@@ -1,5 +1,5 @@
 ---
-title: "Un Appel au Rêve"
+title: "Un Appel à Rêver"
 description: "Un manifeste pour European Dream : repenser le travail, le leadership, l'éducation, la propriété et le progrès pour passer de la transaction à l'entraide – et du pouvoir à la sagesse."
 date: 2026-01-29
 lastmod: 2026-01-29

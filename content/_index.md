@@ -1,9 +1,14 @@
 ---
-description: "A non-profit initiative exploring non-transactional human cooperation across the European Union."
+description: "A non-profit initiative dreaming and building a post-transactional world, rooted in the European Union."
 date: 2026-01-13
 lastmod: 2026-02-02
 language: en
 draft: false
+params:
+  headerUnsplashCrop: center
+  headerUnsplashId: mqz__jWUJUs
+  metaTitle: "European Dream – Building A Post-Transactional World"
+  type: Article
 ---
 ## The root we never question
 

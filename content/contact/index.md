@@ -7,6 +7,7 @@ language: en
 draft: false
 params:
   headerUnsplashId: 2Xht5D22y0I
+  metaTitle: "Contact and Connect with European Dream"
   type: WebPage
 ---
 ## Email Contacts

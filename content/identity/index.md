@@ -7,6 +7,7 @@ language: en
 draft: false
 params:
   headerUnsplashId: 8dgFq8Vbelo
+  metaTitle: "European Dream Name, Logo and Visual Identity"
   type: WebPage
 ---
 

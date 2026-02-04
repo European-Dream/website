@@ -1,9 +1,11 @@
 ---
-description: "Une initiative expérimentale explorant la possibilité que la coopération humaine puisse fonctionner avec une dépendance réduite aux relations fondées sur la monnaie, dans le cadre juridique de l’Union européenne."
+description: "Une initiative à but non lucratif qui rêve et construit un monde post-transactionnel, à l'échelle de l'Union européenne."
 date: 2026-01-29
 lastmod: 2026-01-29
 language: fr
 draft: false
+params:
+  metaTitle: "European Dream – Construire un monde post-transactionnel"
 ---
 ## Notre raison d’être
 

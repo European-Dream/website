@@ -1,3 +1,4 @@
+@use 'sass:color';
 @use "../abstracts" as *;
 
 .languages-page .page {
@@ -59,6 +60,7 @@
   }
 
   &--disabled {
+    background-color: color.change($color-background-alt, $alpha: 0.5);
     cursor: default;
   }
 }

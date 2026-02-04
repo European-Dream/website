@@ -8,6 +8,7 @@ draft: false
 params:
   headerUnsplashCrop: top
   headerUnsplashId: p9_DanaJmow
+  metaTitle: "European Dream Goals"
   type: Article
 aliases:
   - /goals/

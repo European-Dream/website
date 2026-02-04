@@ -8,6 +8,7 @@ language: en
 draft: false
 params:
   headerUnsplashId: 7hu0jZRuRaA
+  metaTitle: "European Dream Website Elements"
   type: WebPage
 ---
 This page presents the content elements and components available on the European Dream website.
