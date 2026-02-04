@@ -46,6 +46,12 @@ languages:
     weight: 2
     params:
       description: Une initiative à but non lucratif qui rêve et bâtit un monde post-transactionnel, à l'échelle de l'Union européenne.
+  de:
+    languageCode: de
+    languageName: Deutsch
+    weight: 3
+    params:
+      description: Eine gemeinnützige Initiative, die von einer post-transaktionalen Welt träumt und sie aufbaut – verwurzelt in der Europäischen Union.
 
 markup:
   goldmark:
