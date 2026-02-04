@@ -1,0 +1,23 @@
+main:
+  - name: Wezwanie do marzeń
+    pageRef: /a-call-to-dream/
+    weight: 10
+  - name: Nasze cele
+    pageRef: /our-goals/
+    weight: 20
+  - name: Plan działania
+    pageRef: /roadmap/
+    weight: 30
+  - name: Dołącz do nas
+    pageRef: /join-us/
+    weight: 40
+  - name: Kontakt
+    pageRef: /contact/
+    weight: 50
+footer:
+  - name: Tożsamość
+    pageRef: /identity/
+    weight: 10
+  - name: Elementy strony
+    pageRef: /website-elements/
+    weight: 20
