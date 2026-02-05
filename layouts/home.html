@@ -35,16 +35,6 @@
 {{ end }}
 
 {{ define "scripts" }}
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "{{ .Site.Title }}",
-    "url": "{{ .Site.BaseURL }}",
-    "publisher": {
-      "@type": "Organization",
-      "name": "{{ .Site.Title }}"
-    }
-  }
-  </script>
+  {{- $schema := partial "schema/_website.html" . -}}
+  <script type="application/ld+json">{{ dict "@context" "https://schema.org" | merge $schema | jsonify (dict "indent" "  ") | safeJS }}</script>
 {{ end }}

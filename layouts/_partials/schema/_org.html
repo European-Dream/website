@@ -1,0 +1,12 @@
+{{- return (dict
+  "@type" "Organization"
+  "@id" (printf "%s#organization" .Site.BaseURL)
+  "name" .Site.Title
+  "url" .Site.BaseURL
+  "logo" (dict
+    "@type" "ImageObject"
+    "url" (printf "%sfavicon-512x512.png" .Site.BaseURL)
+    "width" 512
+    "height" 512
+  )
+) -}}

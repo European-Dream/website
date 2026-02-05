@@ -85,5 +85,6 @@
 {{ end }}
 
 {{ define "scripts" }}
-  {{ partial "schema-webpage.html" . }}
+  {{- $schema := partial "schema/_page.html" (dict "page" . "type" "WebPage") -}}
+  <script type="application/ld+json">{{ $schema | jsonify (dict "indent" "  ") | safeJS }}</script>
 {{ end }}

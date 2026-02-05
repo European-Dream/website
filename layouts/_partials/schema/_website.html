@@ -1,0 +1,24 @@
+{{/*
+  Usage:
+
+  ```
+  {{- $schema := partial "schema/_website.html" . -}}
+  <script type="application/ld+json">{{ $schema | jsonify (dict "indent" "  ") | safeJS }}</script>
+  ```
+*/}}
+
+{{- $org := partial "schema/_org.html" . -}}
+
+{{- $schema := dict
+  "@type" "WebSite"
+  "@id" (printf "%s#website" .Site.BaseURL)
+  "name" .Site.Title
+  "url" .Site.BaseURL
+  "publisher" $org
+-}}
+
+{{- with .Site.Lastmod -}}
+  {{- $schema = merge $schema (dict "dateModified" (.Format "2006-01-02T15:04:05Z07:00")) -}}
+{{- end -}}
+
+{{- return $schema -}}

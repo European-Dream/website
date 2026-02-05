@@ -1,0 +1,72 @@
+{{/*
+  Usage:
+
+  ```
+  {{- $schema := partial "schema/_page.html" (dict "page" . "type" "Article") -}}
+  <script type="application/ld+json">{{ $schema | jsonify (dict "indent" "  ") | safeJS }}</script>
+  ```
+
+  ```
+  {{- $schema := partial "schema/_page.html" (dict "page" . "type" "WebPage") -}}
+  <script type="application/ld+json">{{ $schema | jsonify (dict "indent" "  ") | safeJS }}</script>
+  ```
+*/}}
+
+{{- $isTranslation := ne .page.Language.Lang "en" -}}
+{{- $originalUrl := "" -}}
+{{- if $isTranslation -}}
+  {{- range .page.Translations -}}
+    {{- if eq .Language.Lang "en" -}}
+      {{- $originalUrl = .Permalink -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $organizationRef := dict
+  "@id" (printf "%s#organization" .page.Site.BaseURL)
+  "@type" "Organization"
+-}}
+{{- $websiteRef := dict
+  "@id" (printf "%s#website" .page.Site.BaseURL)
+  "@type" "WebSite"
+-}}
+
+{{- $schema := dict
+  "@context" "https://schema.org"
+-}}
+
+{{- if eq .type "Article" -}}
+  {{- $schema = merge $schema (dict
+    "@type" "Article"
+    "headline" .page.Title
+    "author" $organizationRef
+  ) -}}
+{{- else -}}
+  {{- $schema = merge $schema (dict
+    "@type" "WebPage"
+    "name" .page.Title
+  ) -}}
+{{- end -}}
+
+{{- $schema = merge $schema (dict
+  "description" (.page.Params.description | default .page.Summary)
+  "inLanguage" .page.Language.Lang
+  "datePublished" (.page.Date.Format "2006-01-02T15:04:05Z07:00")
+  "dateModified" (.page.Lastmod.Format "2006-01-02T15:04:05Z07:00")
+  "url" .page.Permalink
+  "isPartOf" $websiteRef
+  "publisher" $organizationRef
+) -}}
+
+{{- if and $isTranslation $originalUrl -}}
+  {{- $schema = merge $schema (dict
+    "translationOfWork" (dict
+      "@type" .type
+      "inLanguage" "en"
+      "url" $originalUrl
+    )
+    "translator" $organizationRef
+  ) -}}
+{{- end -}}
+
+{{- return $schema -}}

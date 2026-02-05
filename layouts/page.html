@@ -52,11 +52,11 @@
 {{ end }}
 
 {{ define "scripts" }}
-  {{ if .IsHome }}
-    {{ partial "schema-website.html" . }}
-  {{ else if eq .Params.type "Article" }}
-    {{ partial "schema-article.html" . }}
-  {{ else }}
-    {{ partial "schema-webpage.html" . }}
-  {{ end }}
+  {{- if eq .Params.type "Article" -}}
+    {{- $schema := partial "schema/_page.html" (dict "page" . "type" "Article") -}}
+    <script type="application/ld+json">{{ $schema | jsonify (dict "indent" "  ") | safeJS }}</script>
+  {{- else -}}
+    {{- $schema := partial "schema/_page.html" (dict "page" . "type" "WebPage") -}}
+    <script type="application/ld+json">{{ $schema | jsonify (dict "indent" "  ") | safeJS }}</script>
+  {{- end -}}
 {{ end }}
