@@ -18,9 +18,9 @@ Pourtant, c'est un choix — pas une loi de la nature. Et ce choix a un prix : d
 
 {{< button href="/a-call-to-dream/" text="Notre Appel à Rêver" >}}
 
-## Les mondes de demain plutôt que celui d'aujourd'hui
+## Notre voie : construire et vivre les mondes de demain
 
-Nous pourrions faire comme tant font déjà, si courageusement : tenter de changer le monde actuel. Ce qui revient à dépenser toute son énergie à convaincre et à se battre _contre_ d'innombrables forces, résistances, et à en tolérer les violentes régressions.
+Nous pourrions faire comme tant font déjà, si courageusement : tenter de changer le monde actuel. Ce qui revient à dépenser toute son énergie à convaincre et à se battre _contre_ d'innombrables forces, résistances, et à en tolérer les incessantes régressions.
 
 Mais European Dream propose un autre chemin : consacrer notre énergie à rêver, architecturer, et **expérimenter** d'autres sociétés ; pour que nous — ou d'autres — puissent en faire les leurs, sans toucher à ce que le monde actuel choisit et devient.
 
