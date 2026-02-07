@@ -12,7 +12,7 @@ params:
 ---
 ## The root we never question
 
-From work to education, from healthcare to housing, from the food on our table to the relationships we build — nearly every aspect of human life passes through a transaction. We are so deeply shaped by this link that we rarely notice it, let alone question it.
+From work to education, from healthcare to housing, from the food on our table to the relationships we build — nearly every aspect of human life passes through a transaction. We are so deeply forged by this link that we rarely notice it, let alone question it.
 
 Yet this is a choice — not a law of nature. And it comes at a cost: talent wasted by the infinity of uselessness, hope muffled by surrender dressed as realism, and a species that excels at inheriting knowledge but fails at inheriting wisdom — condemned to repeat, endlessly, the mistakes of the past.
 
