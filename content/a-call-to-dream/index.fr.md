@@ -21,7 +21,7 @@ params:
 
 ---
 
-Nous croyons qu'il existe un monde où nous pouvons réécrire l'ensemble de nos fondations sociales – y remettant en question notre rapport à tout, à toutes, à tous, et la manière dont chaque génération transmet son héritage à la suivante.
+Nous croyons qu'il existe un monde où nous pouvons réécrire l'ensemble de nos fondations sociales – remettant en question notre rapport à tout, à toutes, à tous, et la manière dont chaque génération transmet son héritage à la suivante.
 
 Un monde qui s'est délesté du besoin – si inhumain – de rendre la plupart des relations **transactionnelles**, pour plutôt les garder – tout simplement – **humaines**.
 
