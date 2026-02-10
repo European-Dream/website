@@ -15,12 +15,13 @@
     <article class="page">
       <div class="page__content">
         <ul class="languages-list" role="list">
-          {{ $activeLanguages := slice "de" "en" "es" "fr" "it" "pl" "pt" "ro" }}
+          {{ $activeLanguages := slice "en" "fr" }}
           {{ $languages := slice
-            (dict "code" "de" "name" "Deutsch" "englishName" "German" "greeting" "Hallo")
             (dict "code" "en" "name" "English" "englishName" "English" "greeting" "Hi")
-            (dict "code" "es" "name" "Español" "englishName" "Spanish" "greeting" "Hola")
             (dict "code" "fr" "name" "Français" "englishName" "French" "greeting" "Salut")
+
+            (dict "code" "de" "name" "Deutsch" "englishName" "German" "greeting" "Hallo")
+            (dict "code" "es" "name" "Español" "englishName" "Spanish" "greeting" "Hola")
             (dict "code" "it" "name" "Italiano" "englishName" "Italian" "greeting" "Ciao")
             (dict "code" "pl" "name" "Polski" "englishName" "Polish" "greeting" "Cześć")
             (dict "code" "pt" "name" "Português" "englishName" "Portuguese" "greeting" "Olá")
