@@ -46,25 +46,15 @@
 
           {{ range $languages }}
             {{ $isActive := in $activeLanguages .code }}
-            {{ $isCurrent := eq .code $.Lang }}
-            <li class="languages-list__item{{ if not $isActive }} languages-list__item--disabled{{ end }}{{ if $isCurrent }} languages-list__item--current{{ end }}">
+            <li class="languages-list__item{{ if not $isActive }} languages-list__item--disabled{{ end }}">
               {{ if $isActive }}
-                {{ if $isCurrent }}
-                  <span class="languages-list__link languages-list__link--current" aria-current="true">
-                    <span class="languages-list__native" lang="{{ .code }}">{{ .name }}</span>
-                    {{ if ne .name .englishName }}
-                      <span class="languages-list__english">({{ .englishName }})</span>
-                    {{ end }}
-                  </span>
-                {{ else }}
-                  {{ $url := cond (eq .code "en") "/" (printf "/%s/" .code) }}
-                  <a href="{{ $url }}" class="languages-list__link" lang="{{ .code }}" hreflang="{{ .code }}">
-                    <span class="languages-list__native">{{ .name }}</span>
-                    {{ if ne .name .englishName }}
-                      <span class="languages-list__english">({{ .englishName }})</span>
-                    {{ end }}
-                  </a>
-                {{ end }}
+                {{ $url := cond (eq .code "en") "/" (printf "/%s/" .code) }}
+                <a href="{{ $url }}" class="languages-list__link" lang="{{ .code }}" hreflang="{{ .code }}">
+                  <span class="languages-list__native">{{ .name }}</span>
+                  {{ if ne .name .englishName }}
+                    <span class="languages-list__english">({{ .englishName }})</span>
+                  {{ end }}
+                </a>
               {{ else }}
                 <span class="languages-list__link languages-list__link--disabled">
                   <span class="languages-list__native" lang="{{ .code }}">{{ .name }}</span>

@@ -48,15 +48,9 @@
 
   @include focus-visible;
 
-  &:hover:not(&--disabled):not(&--current) {
+  &:hover:not(&--disabled) {
     background-color: darken($color-background-alt, 3%);
     border-color: $color-brand;
-  }
-
-  &--current {
-    background-color: $color-background;
-    border-color: $color-brand;
-    cursor: default;
   }
 
   &--disabled {

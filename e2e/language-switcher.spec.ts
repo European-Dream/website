@@ -140,42 +140,31 @@ test.describe("Languages page", () => {
     await expect(frenchLink).not.toHaveClass(/languages-list__link--disabled/);
   });
 
-  // test("should have disabled styling for unavailable languages", async ({ page }) => {
-  //   await page.goto("/languages/");
-
-  //   const germanLink = page.locator(".languages-list__link", {
-  //     hasText: "Deutsch",
-  //   });
-
-  //   await expect(germanLink).toHaveClass(/languages-list__link--disabled/);
-  // });
-
-  // test("should display translator recruitment message for unavailable languages", async ({
-  //   page,
-  // }) => {
-  //   await page.goto("/languages/");
-
-  //   const germanItem = page.locator(".languages-list__item", {
-  //     hasText: "Deutsch",
-  //   });
-  //   const helpMessage = germanItem.locator(".languages-list__help");
-
-  //   await expect(helpMessage).toBeVisible();
-  //   await expect(helpMessage).toContainText("Hallo!");
-  //   await expect(helpMessage).toContainText(
-  //     "We are looking for volunteers to help translate our content into German."
-  //   );
-  // });
-
-  test("should mark current language as current", async ({ page }) => {
+  test("should have disabled styling for unavailable languages", async ({ page }) => {
     await page.goto("/languages/");
 
-    const englishLink = page.locator(".languages-list__link--current", {
-      hasText: "English",
+    const hungarianLink = page.locator(".languages-list__link", {
+      hasText: "Magyar",
     });
 
-    await expect(englishLink).toBeVisible();
-    await expect(englishLink).toHaveAttribute("aria-current", "true");
+    await expect(hungarianLink).toHaveClass(/languages-list__link--disabled/);
+  });
+
+  test("should display translator recruitment message for unavailable languages", async ({
+    page,
+  }) => {
+    await page.goto("/languages/");
+
+    const hungarianItem = page.locator(".languages-list__item", {
+      hasText: "Magyar",
+    });
+    const helpMessage = hungarianItem.locator(".languages-list__help");
+
+    await expect(helpMessage).toBeVisible();
+    await expect(helpMessage).toContainText("Szia!");
+    await expect(helpMessage).toContainText(
+      "We are looking for volunteers to help translate our content into Hungarian."
+    );
   });
 
   test("should navigate to French version when clicking French", async ({ page }) => {
@@ -187,18 +176,6 @@ test.describe("Languages page", () => {
     await frenchLink.click();
 
     await expect(page).toHaveURL("/fr/");
-  });
-
-  test("French languages page should have correct translations", async ({ page }) => {
-    await page.goto("/fr/languages/");
-
-    const title = page.locator("h1");
-    await expect(title).toHaveText("Choisissez votre langue");
-
-    const frenchLink = page.locator(".languages-list__link--current", {
-      hasText: "Français",
-    });
-    await expect(frenchLink).toBeVisible();
   });
 
   test("should have proper semantic structure", async ({ page }) => {
