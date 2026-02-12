@@ -1,75 +1,94 @@
 ---
 title: "Nos Objectifs"
-description: "Explorer, rêver, architecturer et expérimenter — comment European Dream œuvre vers des sociétés post-transactionnelles, avec patience, humilité et espoir."
+description: "Explorer, rêver, dessiner, et expérimenter — ou comment European Dream compte ouvrir la voie vers des sociétés post-transactionnelles, avec espoir et humilité."
 date: 2026-02-04
-lastmod: 2026-02-04
+lastmod: 2026-02-12
 language: fr
 draft: false
 params:
   headerUnsplashCrop: top
   headerUnsplashId: p9_DanaJmow
   metaTitle: "Les Objectifs de European Dream"
-  type: Article
+  type: WebPage
 aliases:
   - /goals/
 ---
-**Nos objectifs partagent un espoir unique : tracer le chemin vers tout ce qui pourrait advenir au sein d'une société holomutualiste, loin du transactionnalisme, afin qu'une génération future puisse hériter de fondations solides, tangibles et éprouvées pour ce que pourrait être une telle alternative.**
+**Nos objectifs partagent le même espoir : celui de paver un chemin tangible et éprouvé vers de nouvelles sociétés que nous appelons holomutualistes, afin qu'une génération future — ou nous-mêmes — puissions ouvrir et vivre une nouvelle ère, libérée de tout transactionnalisme.**
 
-Ces alternatives sont — pour nous — indissociables de l'équilibre des écosystèmes, de la liberté individuelle, de la sagesse collective, et d'un progrès technologique enthousiaste mais réfléchi.
+Ces sociétés de demain — que nous comptons dessiner et éprouver — sont indissociables de l'équilibre des écosystèmes, de la liberté individuelle, du juste partage des bienfaits et des dépens, de la sagesse collective, et d'un progrès technologique enthousiaste mais pesé.
 
-Pour certains, cela peut sembler inaccessible. Et cette réaction même est symptomatique de combien notre monde est devenu obsolète — résistant au changement plutôt que de l'embrasser, présentant les alternatives comme des impossibilités, et habillant souvent le renoncement en réalisme. À cause de cela, il y a tant d'hypothèses que nous ne pensons jamais à remettre en question.
+Certains jugeront cette poursuite utopique ou inaccessible. Alors qu'ironiquement, cette réaction est un des symptômes d'un monde obsolète — considérant toute alternative comme une impasse, et habillant ses renoncements de réalisme.
 
-Que l'on regarde nos sociétés à travers l'empathie, en reconnaissant combien nous sommes devenus inhumains et destructeurs, ou à travers la raison, en voyant combien nous sommes inefficaces à faire des progrès significatifs et à relever les plus grands défis auxquels nous faisons face, il devient difficile de croire qu'il n'existe pas de meilleures façons de vivre nos vies.
+Tout système fait son temps avant d'être remplacé par un autre. L'actuel est mourant à l'échelle de l'histoire humaine. Et même celui que European Dream entend fonder naîtra et disparaîtra comme tous les autres. Un système qui serait le dernier sonnerait la funeste atteinte des limites de l'être humain. Nous en sommes heureusement loin.
 
-C'est ce que European Dream remet en question, avec espoir mais sans illusion.<br>
+Que l'on contemple notre monde sous l'œil de l'empathie, témoin de nos inhumanités et de nos destructions, ou sous l'œil de la raison, témoin de notre inefficacité face aux plus grands défis, il devient bien difficile de croire qu'il n'existe aucun autre modèle plus humain et efficace — rendant nos vies plus heureuses, et plus utiles.
+
+Ce sont ces modèles-là que nous forgerons, avec espoir mais sans fantasme.<br>
 Nous échouerons. Probablement de nombreuses fois. Et nous apprendrons.
 
-Ce que nous tentons demande tant de patience, de temps et de réflexion.<br>
-L'urgence n'a pas sa place au sein de European Dream. Seule l'importance compte.<br>
-Et n'importe quel rythme est acceptable.
+Ce que nous tentons ici nous oblige à une patience indulgente.<br>
+L'urgence n'importe. L'importance porte. Et tout rythme est le bon rythme.
 
 ---
 
 ## Nous explorons
 
-Chez European Dream, nous sommes tous des explorateurs. Parce que nous arrivons tous — au minimum — avec l'expérience d'une vie de, eh bien, vivre.
+Pour avoir l'énergie de penser, il faut d'abord se nourrir.<br>
+Et c'est en explorant qu'on se nourrit des autres.
 
-Certains un peu plus longtemps que d'autres. Pourtant, il y a peu de chances que nous découvrions jamais à quel point chacun de nos êtres — et donc chacun de nos parcours sociaux — est véritablement riche.
+L'exploration conjugue — pour nous — quatre poursuites :
+- l'héritage de celles et ceux qui ont pensé et expérimenté avant nous ;
+- l'écoute de celles et ceux qui ne sont pas parmi nous ;
+- la découverte des vies de celles et ceux qui sont avec nous ;
+- la compréhension de qui nous sommes, individuellement.
 
-Pour nous, l'exploration est la conjonction harmonieuse de quatre éléments : hériter de ceux qui ont pensé et expérimenté avant nous ; écouter ceux qui ne sont pas parmi nous ; nous rencontrer les uns les autres ; et approfondir notre compréhension de nous-mêmes.
+Tout cela pour (re)connaître plutôt que pour apprendre.
+
+Nous considérons la connaissance de l'être humain — par nos vies sociales et sociétales — aussi essentielle que celle de grandes théories sociales et politiques. Car c'est par cet équilibre entre théories, psychologie, expériences, et être (le verbe), que nous aurons une chance de dessiner des sociétés radicalement plus humaines qui soient concrétisables.
 
 ---
 
 ## Nous rêvons
 
-Nous sommes aussi tous des rêveurs. Non pas à cause de notre nom, mais parce qu'il serait parfaitement insensé qu'un seul de nos membres ne prenne pas part à la proposition, à la discussion et à la construction de ce que nos nouveaux mondes pourraient être.
+Il est alors temps de rêver, inspirés par toutes ces lumières.
 
-Ce que nous appelons rêver est loin d'une tentative d'échapper à la réalité. C'est le premier pas vers la fondation d'une autre — et cela commence par affronter la nôtre sans timidité ni idéalisation.
+Rêver est un temps de respiration collective : inspirant par nos imaginations, expirant par nos conversations.
 
-Rêver est l'endroit où nous respirons collectivement : inspirant autant d'imagination que nous pouvons nous permettre, et expirant autant de solutions sensées que nos sociétés peuvent contenir.
+Ce que nous appelons rêver est loin d'être une esquive. C'est au contraire le premier pas vers l'esquisse d'une nouvelle réalité — tout en bravant la nôtre, sans fard ni parure.
 
 ---
 
-## Nous architecturons
+## Nous dessinons
 
-Architecturer est, à la fois, la partie la plus cruciale, la plus impitoyable, et probablement la plus difficile de notre entreprise.
+Du rêve à la réalité, il faut la dessiner.
 
-C'est là que nous transformons des théories passionnantes en expériences que nous pouvons mener. C'est aussi là où l'idéalisme est accueilli, mais où l'idéologisme est inacceptable. Il y a peu de choses moins humaines que la perfection, et architecturer doit faire place aux aspects désordonnés de ce que nous sommes.
+C'est un temps d'inventivité, d'association, et d'abnégation.
 
-Architecturer est notre artisanat sociologique ambitieux mais humble : les contraintes nous feront lutter, échouer, apprendre — et parfois briller, en nous poussant vers des choix simples et résilients qui laissent encore de la place à la complexité humaine.
+Tels des artisans sociétaux, ambitieux mais humbles, nous devrons embrasser l'infinie complexité qu'est la réalité pour y poser les plans capables de transformer nos théories passionnantes en expériences réalistes. 
+
+L'idéalisme y est bienvenu, l'idéologisme ne l'est pas. Car il y a peu de choses moins humaines que la perfection, et donner forme à de nouvelles relations sociales doit aussi pouvoir embrasser les aspects chaotiques si humains.
 
 ---
 
 ## Nous expérimentons
 
-Le Grand Plongeon ! Et l'étape la plus exaltante de nos objectifs : vivre notre European Dream.
+À la fois l'envol et le plongeon ! Le temps le plus exaltant.<br>
+Un voyage européen vers ce pays qui n'existait pas jusqu'alors. 
 
-Nos expériences seront nombreuses, et elles pourront prendre d'innombrables formes — quelques semaines ou quelques mois quelque part en Europe, en ligne ou en personne, entre nous ou aux côtés d'autres.
+Nos expériences seront nombreuses, et elles prendront toutes les formes — quelques semaines à quelques mois, quelque part en Europe, entre nous ou avec d'autres.
 
-Vivre avec les autres — et parfois avec nous-mêmes — peut être un bouleversement émotionnel, surtout dans une société qui cherche à remplacer les transactions par l'entraide, l'équilibre et la reconnaissance spontanée. Pourtant, au-delà de ces échecs et de ces déceptions se trouve la question à laquelle European Dream tente finalement de répondre : **en tant qu'espèce, sommes-nous condamnés à une immaturité éternelle, ou pouvons-nous grandir au-delà de nous-mêmes et inaugurer un autre Âge ?**
+Vivre avec les autres et avec nous-mêmes, dans ces noyaux de société qui tenteront de transcender des piliers millénaires, sera forcément bouleversant. Et pourtant, au-delà des inévitables échecs et déceptions qui fleuriront nos périples, se trouve la plus grande question à laquelle European Dream veut répondre :
+
+**Notre espèce est-elle condamnée à l'immaturité éternelle,<br>
+ou peut-elle grandir au-delà pour faire naître un nouvel Âge ?**
 
 ---
 
-## Dans un Mouvement Vivant
+## À quatre temps
 
-Nos objectifs ne sont pas une ligne droite, mais un ensemble de boucles vivantes. Beaucoup se dérouleront en parallèle — la décentralisation est la règle. Le désaccord n'est pas une menace pour l'unité, mais une invitation à bifurquer, à diversifier, et à tester. Ce que nous cherchons n'est pas une vérité finale, mais un alignement contextuel qui tient — aussi longtemps qu'il est utile.
+Nous explorons au coucher, rêvons la nuit, dessinons à l'aube, et expérimentons à midi.<br>
+Ce sont les quatre temps d'un cycle qui n'a pas d'agenda.
+
+Il y aura autant de groupes qu'il n'y aura d'affinités, chacun d'entre eux battant à sa propre mesure. Nos objectifs ne sont donc pas une ligne droite, mais les boucles d'un ensemble atomique et vivant.
+
+Le désaccord n'est pas une menace, mais une invitation à bifurquer, à diversifier, et à essayer. Ce que nous cherchons n'est pas la lubie d'une vérité définitive, mais des brouillons de mondes vécus qui nous approcheront de celui que l'on espère.

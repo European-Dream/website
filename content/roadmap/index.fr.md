@@ -8,7 +8,7 @@ draft: false
 params:
   headerUnsplashId: a8lTjWJJgLA
   metaTitle: "Feuille de route de European Dream"
-  type: Article
+  type: WebPage
 ---
 **Cette feuille de route est un document vivant — peut-être celui qui évoluera le plus vite parmi nos textes fondateurs. Elle s'ajustera au fil de la croissance de European Dream, façonnée par les personnes qui nous rejoignent, les conversations que nous avons, et les réalités que nous rencontrons. Ce qui suit est notre meilleure perception actuelle de la direction à suivre, pas un plan rigide.**
 

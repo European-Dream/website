@@ -8,7 +8,7 @@ params:
   headerUnsplashCrop: center
   headerUnsplashId: mqz__jWUJUs
   metaTitle: "European Dream – Construire un monde post-transactionnel"
-  type: Article
+  type: WebPage
 ---
 ## La racine que jamais nous ne remettons en question
 

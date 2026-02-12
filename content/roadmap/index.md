@@ -8,7 +8,7 @@ draft: false
 params:
   headerUnsplashId: a8lTjWJJgLA
   metaTitle: "European Dream Roadmap"
-  type: Article
+  type: WebPage
 ---
 **This roadmap is a living document – perhaps the fastest to evolve among our foundational texts. It will adjust as European Dream grows, shaped by the people who join, the conversations we have, and the realities we encounter. What follows is our best current sense of direction, not a rigid plan.**
 
