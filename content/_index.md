@@ -7,7 +7,7 @@ draft: false
 params:
   headerUnsplashCrop: center
   headerUnsplashId: mqz__jWUJUs
-  metaTitle: "European Dream – Building A Post-Transactional World"
+  metaTitle: "European Dream – Dreaming and Building a Post-Transactional World"
   type: WebPage
 ---
 ## The root we never question

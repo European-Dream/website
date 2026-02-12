@@ -7,7 +7,7 @@ draft: false
 params:
   headerUnsplashCrop: center
   headerUnsplashId: mqz__jWUJUs
-  metaTitle: "European Dream – Construire un monde post-transactionnel"
+  metaTitle: "European Dream — Rêver et bâtir un monde post-transactionnel"
   type: WebPage
 ---
 ## La racine que jamais nous ne remettons en question
@@ -18,11 +18,11 @@ Pourtant, c'est un choix — pas une loi de la nature. Et ce choix a un prix : d
 
 {{< button href="/a-call-to-dream/" text="Notre Appel à Rêver" >}}
 
-## Notre voie : construire et vivre les mondes de demain
+## Notre choix : bâtir et vivre les mondes de demain
 
 Nous pourrions faire comme tant font déjà, si courageusement : tenter de changer le monde actuel. Ce qui revient à dépenser toute son énergie à convaincre et à se battre _contre_ d'innombrables forces, résistances, et à en tolérer les incessantes régressions.
 
-Mais European Dream propose un autre chemin : consacrer notre énergie à rêver, architecturer, et **expérimenter** d'autres sociétés ; pour que nous — ou d'autres — puissent en faire les leurs, sans toucher à ce que le monde actuel choisit et devient.
+Mais European Dream propose un autre chemin : consacrer notre énergie à rêver, dessiner, et **expérimenter** d'autres sociétés ; pour que nous — ou d'autres — puissent en faire les leurs, sans toucher à ce que le monde actuel choisit et devient.
 
 Cela ne veut pas dire qu'individuellement nous abandonnions nos efforts et engagements parallèles. Cela veut simplement dire que European Dream fait le choix délibéré — et suffisamment ambitieux — de ne penser qu'à demain.
 
