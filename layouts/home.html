@@ -11,9 +11,14 @@
               {{ i18n "heroDescription3" }}
             </p>
             <div class="hero__actions">
-              <a class="button button--primary" href="https://stt.gg/NfjD0BwP" rel="noopener" target="_blank">{{ i18n "heroJoinDiscussion" }}</a>
+              <a class="button button--primary" href="https://stt.gg/NfjD0BwP" rel="noopener" target="_blank" data-umami-event="CLICK_JOIN_THE_DISCUSSION">
+                {{ i18n "heroJoinDiscussion" }} <sup class="ps-1"><small>(1)</small></sup>
+              </a>
               <a class="button button--primary" href="{{ "/join-us/" | relLangURL }}">{{ i18n "heroJoinUs" }}</a>
             </div>
+            <p class="mt-3" style="color: #666; font-size: 75%;">
+              <em><sup>(1)</sup> {{ i18n "heroJoinDiscussionNote" }}</em>
+            </p>
           </div>
           <div class="hero__image">
             <div class="hero__image-wrapper">

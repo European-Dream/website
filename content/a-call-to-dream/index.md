@@ -129,16 +129,14 @@ As for the form it will take – and how we will do it – we will decide togeth
 
 ---
 
-<a class="button button--primary" href="https://stt.gg/NfjD0BwP" target="_blank" rel="noopener">
-  Join the discussion on Stoat <sup class="ps-1"><small>(1)</small></sup>
+<a class="button button--primary" href="https://stt.gg/NfjD0BwP" target="_blank" rel="noopener" data-umami-event="CLICK_JOIN_THE_DISCUSSION">
+  Join the discussion <sup class="ps-1"><small>(1)</small></sup>
 </a>
 or
 {{< button href="/join-us/" text="Join Us" >}}
 
-<p class="mt-4">
+<p class="mt-3" style="color: #666; font-size: 75%;">
   <em>
-    <small>
-      <sup>(1)</sup> Stoat is an open-source and privacy-focused online discussion platform. It is completely free, maintained by volunteers, and the server we use is hosted in Germany.
-    </small>
+    <sup>(1)</sup> Stoat is an open-source and privacy-focused online discussion platform. It is completely free, maintained by volunteers, and the server we use is hosted in Germany.
   </em>
 </p>

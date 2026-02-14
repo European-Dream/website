@@ -39,21 +39,18 @@ other = "Select your language"
 
 [heroTitle]
 other = "We are educated to put a price on everything – including each other."
-
 [heroDescription1]
 other = "There is a world beyond transactions. A world where we help — not work. Where we grow — not study. Where we provide — not produce. And where progress is measured not by what it costs, but by what it gives — to everyone."
-
 [heroDescription2]
 other = "That world does not exist yet."
-
 [heroDescription3]
 other = "Let's build it."
-
 [heroJoinDiscussion]
 other = "Join the discussion"
-
 [heroJoinUs]
 other = "or Join Us"
+[heroJoinDiscussionNote]
+other = "Stoat is an open-source and privacy-focused online discussion platform. It is completely free, and the server we use is hosted in Germany."
 
 [ourUseOfSocialMedia]
 other = "Our use of social media"
