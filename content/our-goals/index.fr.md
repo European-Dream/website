@@ -10,8 +10,6 @@ params:
   headerUnsplashId: p9_DanaJmow
   metaTitle: "Les Objectifs de European Dream"
   type: WebPage
-aliases:
-  - /goals/
 ---
 **Nos objectifs partagent le même espoir : celui de paver un chemin tangible et éprouvé vers de nouvelles sociétés que nous appelons holomutualistes, afin qu'une génération future — ou nous-mêmes — puissions ouvrir et vivre une nouvelle ère, libérée de tout transactionnalisme.**
 
