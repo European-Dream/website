@@ -129,6 +129,16 @@ As for the form it will take – and how we will do it – we will decide togeth
 
 ---
 
-{{< button href="[/a-call-to-dream/](https://stt.gg/NfjD0BwP)" text="Join the discussion" >}}
+<a class="button button--primary" href="https://stt.gg/NfjD0BwP" target="_blank" rel="noopener">
+  Join the discussion on Stoat <sup class="ps-1"><small>(1)</small></sup>
+</a>
 or
 {{< button href="/join-us/" text="Join Us" >}}
+
+<p class="mt-4">
+  <em>
+    <small>
+      <sup>(1)</sup> Stoat is an open-source and privacy-focused online discussion platform. It is completely free, maintained by volunteers, and the server we use is hosted in Germany.
+    </small>
+  </em>
+</p>

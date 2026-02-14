@@ -129,6 +129,16 @@ Quant à la forme que cela prendra — et comment nous le ferons — nous le dé
 
 ---
 
-{{< button href="https://stt.gg/NfjD0BwP" text="Rejoindre nos discussions" >}}
+<a class="button button--primary" href="https://stt.gg/NfjD0BwP" target="_blank" rel="noopener">
+  Rejoindre nos discussions sur Stoat <sup class="ps-1"><small>(1)</small></sup>
+</a>
 ou
 {{< button href="/join-us/" text="Nous rejoindre" >}}
+
+<p class="mt-4">
+  <em>
+    <small>
+      <sup>(1)</sup> Stoat est une plateforme de discussion en ligne open source et très respectueuse de la vie privée. Elle est totalement gratuite, maintenue par des bénévoles, et notre serveur est hébergé en Allemagne.
+    </small>
+  </em>
+</p>
