@@ -2,7 +2,7 @@
 title: "Roadmap"
 description: "European Dream's journey from its first foundations in 2026 to real-world experiments across Europe — a living plan shaped by those who join."
 date: 2026-01-13
-lastmod: 2026-02-01
+lastmod: 2026-02-14
 language: en
 draft: false
 params:
@@ -28,7 +28,6 @@ This is where we lay the first stones: the manifesto, the goals, and the organis
 - ✓ [Community chat](https://stt.gg/NfjD0BwP) set up (Stoat)
 - ✓ Foundational documents (Goals, Social Media Strategy)
 - ◐ French translation of the website
-- ○ Find at least one cofounder
 - ○ Register the 1901 association
 
 ### Second Quarter – Opening Doors

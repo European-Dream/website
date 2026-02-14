@@ -2,7 +2,7 @@
 title: "Feuille de route"
 description: "Le parcours de European Dream depuis ses premières fondations en 2026 jusqu'aux expériences concrètes à travers l'Europe — un plan vivant façonné par ceux qui nous rejoignent."
 date: 2026-02-04
-lastmod: 2026-02-04
+lastmod: 2026-02-14
 language: fr
 draft: false
 params:
@@ -28,7 +28,6 @@ C'est ici que nous posons les premières pierres : le manifeste, les objectifs e
 - ✓ [Chat communautaire](https://stt.gg/NfjD0BwP) mis en place (Stoat)
 - ✓ Documents fondateurs (Objectifs, Stratégie Réseaux Sociaux)
 - ◐ Traduction française du site web
-- ○ Trouver au moins un cofondateur
 - ○ Enregistrer l'association loi 1901
 
 ### Deuxième trimestre — Ouverture des portes
