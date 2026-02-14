@@ -60,3 +60,225 @@ other = "Our use of social media"
 
 [heroImageAlt]
 other = "A view of Western Tatras from a lookout tower above Zuberec in Slovakia"
+
+[preregErrorMsg]
+other = "Your subscription could not be saved. Please try again."
+
+[preregSuccessMsg]
+other = "Your subscription has been successful."
+
+[preregNameLabel]
+other = "Name, Full Name, or Pseudonym"
+
+[preregNameHelp]
+other = "You can be whoever you wish within European Dream. Use your real name(s) or anything you like."
+
+[preregEmailLabel]
+other = "Email"
+
+[preregCountryLabel]
+other = "Country"
+
+[preregCountryHelp]
+other = "If you are not from the EU, select \"Other (non-EU)\"."
+
+[preregLangLabel]
+other = "Preferred Language"
+
+[preregLangHelp]
+other = "Informational only. We mainly use English for now but plan to cover more EU languages as more volunteers can help translate."
+
+[preregMessageLabel]
+other = "Message (if you have any)"
+
+[preregAdultCert]
+other = "I certify that I am at least 18 years old."
+
+[preregPrivacyAccept]
+other = "I accept the data privacy statement."
+
+[preregPrivacyHelp]
+other = "You may ask us to forget your data and remove it entirely from our databases at any time by sending us an email to you@european-dream.eu (no questions asked)."
+
+[preregBrevoNotice]
+other = "We <strong>temporarily</strong> use Brevo as our pre-registration platform.<br>By submitting this form you agree that the personal data you provided will be transferred to Brevo for processing in accordance with <a rel=\"noopener\" target=\"_blank\" href=\"https://www.brevo.com/en/legal/privacypolicy/\">Brevo's Privacy Policy.</a>"
+
+[preregSubmit]
+other = "Pre-register"
+
+[preregInvalidMsg]
+other = "The information provided is invalid. Please review the field format and try again."
+
+[preregCountryCodeMsg]
+other = "Please choose a country code"
+
+[preregRequiredMsg]
+other = "This field cannot be left blank."
+
+[preregListSelected]
+other = "{quantity} list selected"
+
+[preregListsSelected]
+other = "{quantity} lists selected"
+
+[preregOptionSelected]
+other = "{quantity} selected"
+
+[preregOptionsSelected]
+other = "{quantity} selected"
+
+[preregCountryAT]
+other = "Austria"
+
+[preregCountryBE]
+other = "Belgium"
+
+[preregCountryBG]
+other = "Bulgaria"
+
+[preregCountryHR]
+other = "Croatia"
+
+[preregCountryCY]
+other = "Cyprus"
+
+[preregCountryCZ]
+other = "Czech Republic"
+
+[preregCountryDK]
+other = "Denmark"
+
+[preregCountryEE]
+other = "Estonia"
+
+[preregCountryFI]
+other = "Finland"
+
+[preregCountryFR]
+other = "France"
+
+[preregCountryDE]
+other = "Germany"
+
+[preregCountryGR]
+other = "Greece"
+
+[preregCountryHU]
+other = "Hungary"
+
+[preregCountryIE]
+other = "Ireland"
+
+[preregCountryIT]
+other = "Italy"
+
+[preregCountryLV]
+other = "Latvia"
+
+[preregCountryLT]
+other = "Lithuania"
+
+[preregCountryLU]
+other = "Luxembourg"
+
+[preregCountryMT]
+other = "Malta"
+
+[preregCountryNL]
+other = "Netherlands"
+
+[preregCountryPL]
+other = "Poland"
+
+[preregCountryPT]
+other = "Portugal"
+
+[preregCountryRO]
+other = "Romania"
+
+[preregCountrySK]
+other = "Slovakia"
+
+[preregCountrySI]
+other = "Slovenia"
+
+[preregCountryES]
+other = "Spain"
+
+[preregCountrySE]
+other = "Sweden"
+
+[preregCountryOther]
+other = "Other (non-EU)"
+
+[preregLangBG]
+other = "Bulgarian"
+
+[preregLangHR]
+other = "Croatian"
+
+[preregLangCS]
+other = "Czech"
+
+[preregLangDA]
+other = "Danish"
+
+[preregLangNL]
+other = "Dutch"
+
+[preregLangEN]
+other = "English"
+
+[preregLangET]
+other = "Estonian"
+
+[preregLangFI]
+other = "Finnish"
+
+[preregLangFR]
+other = "French"
+
+[preregLangDE]
+other = "German"
+
+[preregLangEL]
+other = "Greek"
+
+[preregLangHU]
+other = "Hungarian"
+
+[preregLangGA]
+other = "Irish"
+
+[preregLangIT]
+other = "Italian"
+
+[preregLangLV]
+other = "Latvian"
+
+[preregLangLT]
+other = "Lithuanian"
+
+[preregLangMT]
+other = "Maltese"
+
+[preregLangPL]
+other = "Polish"
+
+[preregLangPT]
+other = "Portuguese"
+
+[preregLangRO]
+other = "Romanian"
+
+[preregLangSK]
+other = "Slovak"
+
+[preregLangSL]
+other = "Slovene"
+
+[preregLangES]
+other = "Spanish"
+
+[preregLangSV]
+other = "Swedish"

@@ -60,3 +60,225 @@ other = "Notre utilisation des réseaux sociaux"
 
 [heroImageAlt]
 other = "Vue des Tatras occidentales depuis une tour d'observation au-dessus de Zuberec en Slovaquie"
+
+[preregErrorMsg]
+other = "Votre inscription n'a pas pu être enregistrée. Veuillez réessayer."
+
+[preregSuccessMsg]
+other = "Votre inscription a bien été enregistrée."
+
+[preregNameLabel]
+other = "Nom, nom complet ou pseudonyme"
+
+[preregNameHelp]
+other = "Au sein de European Dream, vous êtes qui vous voulez. Utilisez vos noms officiels ou tout ce qui vous plaît."
+
+[preregEmailLabel]
+other = "E-mail"
+
+[preregCountryLabel]
+other = "Pays"
+
+[preregCountryHelp]
+other = "Si vous ne venez pas de l'Union européenne, sélectionnez « Autre (hors UE) »."
+
+[preregLangLabel]
+other = "Langue préférée"
+
+[preregLangHelp]
+other = "À titre informatif uniquement. Pour des raisons pragmatiques, l'anglais britannique est à la fois notre de langue de référence et celle que nous utiliserons le plus pendant nos premiers pas. Mais nous couvrirons davantage de langues européennes au fur et à mesure que des bénévoles pourront nous aider à traduire, langues régionales incluses."
+
+[preregMessageLabel]
+other = "Message (si vous en avez un)"
+
+[preregAdultCert]
+other = "Je certifie avoir au moins 18 ans."
+
+[preregPrivacyAccept]
+other = "J'accepte la déclaration de confidentialité des données."
+
+[preregPrivacyHelp]
+other = "Vous pouvez nous demander d'effacer vos données et de les supprimer entièrement de nos bases de données à tout moment en nous envoyant un e-mail à you@european-dream.eu (sans condition)."
+
+[preregBrevoNotice]
+other = "Nous utilisons <strong>temporairement</strong> Brevo comme plateforme de pré-inscription.<br>En soumettant ce formulaire, vous acceptez que les données personnelles que vous avez fournies soient transférées à Brevo pour traitement conformément à la <a rel=\"noopener\" target=\"_blank\" href=\"https://www.brevo.com/fr/legal/privacypolicy/\">Politique de confidentialité de Brevo.</a>"
+
+[preregSubmit]
+other = "Pré-inscription"
+
+[preregInvalidMsg]
+other = "Les informations fournies sont invalides. Veuillez vérifier le format des champs et réessayer."
+
+[preregCountryCodeMsg]
+other = "Veuillez choisir un code pays"
+
+[preregRequiredMsg]
+other = "Ce champ ne peut pas être vide."
+
+[preregListSelected]
+other = "{quantity} liste sélectionnée"
+
+[preregListsSelected]
+other = "{quantity} listes sélectionnées"
+
+[preregOptionSelected]
+other = "{quantity} sélectionné"
+
+[preregOptionsSelected]
+other = "{quantity} sélectionnés"
+
+[preregCountryAT]
+other = "Autriche"
+
+[preregCountryBE]
+other = "Belgique"
+
+[preregCountryBG]
+other = "Bulgarie"
+
+[preregCountryHR]
+other = "Croatie"
+
+[preregCountryCY]
+other = "Chypre"
+
+[preregCountryCZ]
+other = "Tchéquie"
+
+[preregCountryDK]
+other = "Danemark"
+
+[preregCountryEE]
+other = "Estonie"
+
+[preregCountryFI]
+other = "Finlande"
+
+[preregCountryFR]
+other = "France"
+
+[preregCountryDE]
+other = "Allemagne"
+
+[preregCountryGR]
+other = "Grèce"
+
+[preregCountryHU]
+other = "Hongrie"
+
+[preregCountryIE]
+other = "Irlande"
+
+[preregCountryIT]
+other = "Italie"
+
+[preregCountryLV]
+other = "Lettonie"
+
+[preregCountryLT]
+other = "Lituanie"
+
+[preregCountryLU]
+other = "Luxembourg"
+
+[preregCountryMT]
+other = "Malte"
+
+[preregCountryNL]
+other = "Pays-Bas"
+
+[preregCountryPL]
+other = "Pologne"
+
+[preregCountryPT]
+other = "Portugal"
+
+[preregCountryRO]
+other = "Roumanie"
+
+[preregCountrySK]
+other = "Slovaquie"
+
+[preregCountrySI]
+other = "Slovénie"
+
+[preregCountryES]
+other = "Espagne"
+
+[preregCountrySE]
+other = "Suède"
+
+[preregCountryOther]
+other = "Autre (hors UE)"
+
+[preregLangBG]
+other = "Bulgare"
+
+[preregLangHR]
+other = "Croate"
+
+[preregLangCS]
+other = "Tchèque"
+
+[preregLangDA]
+other = "Danois"
+
+[preregLangNL]
+other = "Néerlandais"
+
+[preregLangEN]
+other = "Anglais"
+
+[preregLangET]
+other = "Estonien"
+
+[preregLangFI]
+other = "Finnois"
+
+[preregLangFR]
+other = "Français"
+
+[preregLangDE]
+other = "Allemand"
+
+[preregLangEL]
+other = "Grec"
+
+[preregLangHU]
+other = "Hongrois"
+
+[preregLangGA]
+other = "Irlandais"
+
+[preregLangIT]
+other = "Italien"
+
+[preregLangLV]
+other = "Letton"
+
+[preregLangLT]
+other = "Lituanien"
+
+[preregLangMT]
+other = "Maltais"
+
+[preregLangPL]
+other = "Polonais"
+
+[preregLangPT]
+other = "Portugais"
+
+[preregLangRO]
+other = "Roumain"
+
+[preregLangSK]
+other = "Slovaque"
+
+[preregLangSL]
+other = "Slovène"
+
+[preregLangES]
+other = "Espagnol"
+
+[preregLangSV]
+other = "Suédois"
