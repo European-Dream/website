@@ -45,7 +45,7 @@ Notre espèce est piégée par le pendule incessant des progrès et régressions
 
 Être humain est — par définition — ce que nous sommes censés faire de mieux. Être de mieux, même. Comment avons-nous fini par en faire la qualité la moins valorisée ? Pourquoi les êtres les plus humbles, altruistes et singuliers sont-ils, sont-elles, si souvent les membres les plus ignorés, sous-évalués et inaudibles de nos sociétés ?
 
-La réponse se musse dans le fait que **nous sommes fondamentalement éduqués pour rendre presque toutes nos relations — avec tout ce qui est humain et tout ce qui ne l'est pas — transactionnelles**.
+La réponse se musse dans le fait que **nous soyons fondamentalement éduqués pour rendre presque toutes nos relations — avec tout ce qui est humain et tout ce qui ne l'est pas — transactionnelles**.
 
 ---
 
